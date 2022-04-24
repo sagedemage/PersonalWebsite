@@ -3,14 +3,23 @@ import ReactDOM from "react-dom";
 import './index.css';
 
 class Navbar extends React.Component {
-  renderSquare(i) {
-    return <h1> Hello {i} </h1>;
+  para(topic, text) {
+    return (
+	    <div>
+	    	<h2> {topic} </h2>
+	    	<p> {text} </p>
+	    </div>
+    );
   }
   render() {
     return (
       <div>
         <h1> Hello </h1>
-        {this.renderSquare(10)}
+        {this.para("topic1", "description1")}
+	{this.para("topic2", "description2")}
+	{this.para("topic3", "description3")}
+	{this.para("topic4", "description4")}
+	{this.para("topic5", "description5")}
       </div>
     );
   }
