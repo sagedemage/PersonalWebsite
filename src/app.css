@@ -10,3 +10,21 @@
 .indent {
     padding-left: 2em;
 }
+
+#links {
+	padding-bottom: 40px;
+}
+
+.icon-link {
+	float: left;
+	margin-left: 0.3%;
+}
+
+#copyright {
+    text-align: center;
+}
+
+.scale_image {
+	max-width: 50%;
+	height: auto;
+}
