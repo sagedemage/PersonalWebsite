@@ -3,6 +3,8 @@ import debian from '../assets/images/debian_logo.webp';
 import gnome from '../assets/images/gnome_logo.webp';
 import desktop from '../assets/images/gnome_desktop_screenshot.webp'
 
+import "./system.css"
+
 export const System = () => {
     return ( 
     <div> 
@@ -15,7 +17,7 @@ export const System = () => {
 					<h3> The Linux Distro I Use </h3>
 					<div class="caption">
                             <figure>
-                                <a href="https://www.debian.org/"><img id="debian_logo" src={debian} alt="Debain Logo" /></a>
+								<a href="https://www.debian.org/"><img id="debian_logo" src={debian} alt="Debain Logo" /></a>
                                 <figcaption>Image credit: <a href="https://www.debian.org/">Debian Project</a></figcaption>
 							</figure>
 						<div class="caption-info">
@@ -44,8 +46,9 @@ export const System = () => {
 					</div>
 					
 					<h3> My Gnome Desktop </h3>
-					<img class="scale_image" src={desktop} alt="My Gnome Desktop" /> 
- 
+					<p>
+						<img class="scale_image" src={desktop} alt="My Gnome Desktop" />
+					</p>
     </div>
      
     );

@@ -14,10 +14,13 @@ export const Computer = () => {
 				I had this computer for 8 years as of October 2021. </p>
 					
 				<h3> Top View </h3>
-				<img class="scale_image" src={top_view} alt="desktop top view" />
+                <p>
+				    <img class="scale_image" src={top_view} alt="desktop top view" />
+                </p>
 				<h3> Front View </h3>
-				<img class="scale_image" src={front_view} alt="desktop front view" />
-				
+                <p>
+				    <img class="scale_image" src={front_view} alt="desktop front view" />
+				</p>
 				<h3 class="header_line"> Desktop Specifications </h3>
 				<ul>
 					<li> <strong>Desktop Model:</strong> XPS 8700 </li>

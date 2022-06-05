@@ -15,7 +15,6 @@ export const Home = () => {
 			are Terraria and Cave Story. My favorite anime series are Samurai Champloo, Clannad, JoJo's Bizarre Adventure, 
 			and Hunter x Hunter. 
 		</p>
- 
     </div>
      
     );

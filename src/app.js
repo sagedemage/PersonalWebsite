@@ -40,7 +40,7 @@ return (
             <Route path='system' element={<System />}> </Route>
         </Routes>
     </div>
-        <footer class="gaps">
+        <footer class="gaps" id="bottom">
 		    <div id="links">
 			    <a target="_blank" href="https://github.com/sagedemage">
 				    <img class="icon-link" src={github} alt="my github page" width="30" height="30" />
