@@ -6,15 +6,19 @@ import { Home } from "./components/home"
 import { About } from "./components/about"
 
 import 'bootstrap/dist/css/bootstrap.css'
+
+import "./app.css"
+
 import { Nav, Navbar } from 'react-bootstrap'
 
 
 function App() {
 return (
     <div>
+    <div>
         <Navbar bg="dark" variant="dark" sticky="top">
             <Navbar.Brand>
-                Salmaan Saeed
+                <span class="indent"> Salmaan Saeed </span>
             </Navbar.Brand>
             
             <Nav>
@@ -22,13 +26,14 @@ return (
                 <Nav.Link href="about"> About </Nav.Link>
             </Nav>
         </Navbar>
-
-        <br />
-
+    </div>
+    <br />
+    <div class="gaps">
         <Routes>
             <Route path='/' element={<Home />}> </Route>
             <Route path='about' element={<About />}> </Route>
         </Routes>
+    </div>
     </div>
     ) 
 }

@@ -1,0 +1,12 @@
+.bg-myRed {
+    background-color: red;
+}
+
+.gaps {
+    margin-right: 4em;
+    margin-left: 4em;
+}
+
+.indent {
+    padding-left: 2em;
+}
