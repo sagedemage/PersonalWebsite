@@ -16,7 +16,7 @@ function App() {
 return (
     <div>
     <div>
-        <Navbar bg="dark" variant="dark" sticky="top">
+        <Navbar bg="myGreen" variant="dark" sticky="top">
             <Navbar.Brand>
                 <span class="indent"> Salmaan Saeed </span>
             </Navbar.Brand>
