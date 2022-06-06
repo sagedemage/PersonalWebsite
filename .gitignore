@@ -6,3 +6,6 @@ build
 *.kra~
 *.ico~
 *.jpg
+
+# Local Netlify folder
+.netlify
