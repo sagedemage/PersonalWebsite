@@ -1,5 +1,5 @@
 # PersonalWebsiteReact
-Rewrite of my Personal website in react
+Rewrite of my Personal website in React.
 
 ## Install it
 Install these dependencies
