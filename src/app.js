@@ -13,7 +13,7 @@ import "./app.css"
 import github from './assets/icons/github.webp';
 import linkedin from './assets/icons/linkedin.webp'; 
 
-import { Nav, Navbar } from 'react-bootstrap'
+import { Nav, Navbar, Container } from 'react-bootstrap'
 
 
 function App() {
@@ -21,19 +21,20 @@ return (
     <div>
         <div>
             <Navbar bg="myGreen" variant="dark" fixed="top">
-                <Navbar.Brand>
-                    <span class="indent"> Salmaan Saeed </span>
-                </Navbar.Brand>
+                <Container>
+                    <Navbar.Brand>
+                        <span class="indent"> Salmaan Saeed </span>
+                    </Navbar.Brand>
             
-                <Navbar.Toggle />
-                <Navbar.Collapse>
-                    <Nav>
-                        <Nav.Link href="/"> Home </Nav.Link>
-                        <Nav.Link href="computer"> Computer Setup </Nav.Link>
-                        <Nav.Link href="system"> Operating System </Nav.Link>
-                    </Nav>
-                </Navbar.Collapse>
-                
+                    <Navbar.Toggle aria-controls="responsive-navbar-nav"  />
+                    <Navbar.Collapse id="responsive-navbar-nav">
+                        <Nav className="me-auto">
+                            <Nav.Link href="/"> Home </Nav.Link>
+                            <Nav.Link href="computer"> Computer Setup </Nav.Link>
+                            <Nav.Link href="system"> Operating System </Nav.Link>
+                        </Nav>
+                    </Navbar.Collapse>
+                </Container>
             </Navbar>
         </div>
         <br />
