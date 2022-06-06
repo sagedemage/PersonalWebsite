@@ -1,14 +1,11 @@
-# React-Tutorial
-
+# PersonalWebsiteReact
+Rewrite of my Personal website in react
 
 ## Install it
-
+Install these dependencies
 ```
-npm install
-npm install react-router
-npm install serve
+npm install react react-dom react-router react-router-dom react-bootstrap bootstrap serve
 ```
-
 
 ## Use it
 Test web app
