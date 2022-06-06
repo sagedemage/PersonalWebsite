@@ -11,3 +11,11 @@
 	display: block;
 	margin-right: auto;
 }
+
+/* mobile portrait layout (479px or less) */
+@media only screen and (max-width: 479px) {
+	.scale_image {
+		max-width: 100%;
+		height: auto;
+	}
+}
