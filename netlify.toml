@@ -12,10 +12,10 @@
   # a base has not been set. This sample publishes the directory 
   # located at the absolute path "root/project/build-output"
   
-  publish = "build/"
+  publish = "build"
 
   # Default build command.
-  command = "npm run build"
+  command = "CI= npm run build"
 
 # [[plugins]]
   # Installs the Lighthouse Build Plugin for all deploy contexts
@@ -27,14 +27,14 @@
 # here but we recommend using the Netlify UI for sensitive
 # values to keep them out of your source repository. 
 [context.production]
-  publish = "build/"
-  command = "npm build run"
+  publish = "build"
+  command = "CI= npm run build"
   environment = { NODE_VERSION = "14.15.3" }
 
 # Deploy Preview context: all deploys generated from
 # a pull/merge request will inherit these settings.
 [context.deploy-preview]
-  publish = "build/"
+  publish = "build"
 
 # Here is an example of how to define context-specific 
 # environment variables. Be mindful when using this 
@@ -47,20 +47,20 @@
 # a pull/merge request or from the Production branch 
 # will inherit these settings.
 [context.branch-deploy]
-  command = "npm run build"
+  command = "CI= npm run build"
 [context.branch-deploy.environment]
   NODE_ENV = "development"
 
 # Specific branch context: all deploys from 
 # this specific branch will inherit these settings.
 [context.staging] # “staging” is a branch name
-  command = "npm run build"
+  command = "CI= npm run build"
   base = "staging"
 
 # For contexts of branches with special characters, 
 # enclose the branch name with quotes.
 [context."feat/branch"]
-  command = "npm run build"
+  command = "CI= npm run build"
   base = "branch"
 
 # Redirects and headers are GLOBAL for all builds – they do not 
