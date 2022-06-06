@@ -6,6 +6,7 @@ build
 *.kra~
 *.ico~
 *.jpg
+package-lock.json
 
 # Local Netlify folder
 .netlify
