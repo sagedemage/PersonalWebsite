@@ -19,27 +19,27 @@ import { Nav, Navbar } from 'react-bootstrap'
 function App() {
 return (
     <div>
-    <div>
-        <Navbar bg="myGreen" variant="dark" sticky="top">
-            <Navbar.Brand>
-                <span class="indent"> Salmaan Saeed </span>
-            </Navbar.Brand>
+        <div>
+            <Navbar bg="myGreen" variant="dark" fixed="top">
+                <Navbar.Brand>
+                    <span class="indent"> Salmaan Saeed </span>
+                </Navbar.Brand>
             
-            <Nav>
-                <Nav.Link href="/"> Home </Nav.Link>
-                <Nav.Link href="computer"> Computer Setup </Nav.Link>
-                <Nav.Link href="system"> Operating System </Nav.Link>
-            </Nav>
-        </Navbar>
-    </div>
-    <br />
-    <div class="gaps">
-        <Routes>
-            <Route path='/' element={<Home />}> </Route>
-            <Route path='computer' element={<Computer />}> </Route>
-            <Route path='system' element={<System />}> </Route>
-        </Routes>
-    </div>
+                <Nav>
+                    <Nav.Link href="/"> Home </Nav.Link>
+                    <Nav.Link href="computer"> Computer Setup </Nav.Link>
+                    <Nav.Link href="system"> Operating System </Nav.Link>
+                </Nav>
+            </Navbar>
+        </div>
+        <br />
+        <div class="gaps" id="content">
+            <Routes>
+                <Route path='/' element={<Home />}> </Route>
+                <Route path='computer' element={<Computer />}> </Route>
+                <Route path='system' element={<System />}> </Route>
+            </Routes>
+        </div>
         <footer class="gaps" id="bottom">
 		    <div id="links">
 			    <a target="_blank" href="https://github.com/sagedemage">
@@ -52,7 +52,7 @@ return (
             <div id="copyright">
                 <p id="copyright"> &copy; 2021 Salmaan Saeed </p>
             </div>
-		</footer>
+	    </footer>
     </div>
     ) 
 }

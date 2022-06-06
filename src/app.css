@@ -2,6 +2,10 @@
     background-color: SeaGreen;
 }
 
+#content {
+    margin-top: 50px;
+}
+
 .gaps {
     margin-right: 10%;
     margin-left: 10%;
