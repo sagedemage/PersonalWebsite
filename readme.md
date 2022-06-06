@@ -7,7 +7,7 @@ Install these dependencies
 npm install react react-dom react-router react-router-dom react-bootstrap bootstrap serve
 ```
 
-## Use it
+## To Use it
 Test web app
 ```
 npm start
