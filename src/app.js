@@ -25,11 +25,15 @@ return (
                     <span class="indent"> Salmaan Saeed </span>
                 </Navbar.Brand>
             
-                <Nav>
-                    <Nav.Link href="/"> Home </Nav.Link>
-                    <Nav.Link href="computer"> Computer Setup </Nav.Link>
-                    <Nav.Link href="system"> Operating System </Nav.Link>
-                </Nav>
+                <Navbar.Toggle />
+                <Navbar.Collapse>
+                    <Nav>
+                        <Nav.Link href="/"> Home </Nav.Link>
+                        <Nav.Link href="computer"> Computer Setup </Nav.Link>
+                        <Nav.Link href="system"> Operating System </Nav.Link>
+                    </Nav>
+                </Navbar.Collapse>
+                
             </Navbar>
         </div>
         <br />
