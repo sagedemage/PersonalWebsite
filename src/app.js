@@ -20,7 +20,7 @@ function App() {
 return (
     <div>
         <div>
-            <Navbar bg="myGreen" variant="dark" fixed="top">
+            <Navbar collapseOnSelect expand="lg" bg="myGreen" variant="dark" fixed="top">
                 <Container>
                     <Navbar.Brand>
                         <span class="indent"> Salmaan Saeed </span>
