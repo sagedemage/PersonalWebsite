@@ -1,0 +1,20 @@
+#profile {
+	max-width: 30%;
+	height: auto;
+	float: right;
+	padding-left: 30px;
+}
+
+.project-title {
+	font-weight: bold;
+	font-size: 1.25em;
+}
+
+/* mobile portrait layout (479px or less) */
+@media only screen and (max-width: 479px) {
+	#profile {
+		max-width: 100%;
+		padding-left: 0px;
+		margin-bottom: 25px;
+	}
+}
