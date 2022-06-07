@@ -1,6 +1,6 @@
 
 import React from "react";
-import { Route, Routes, Link} from "react-router-dom";
+import { Route, Routes} from "react-router-dom";
 
 import { Home } from "./components/home"
 import { Computer } from "./components/computer"
@@ -14,7 +14,6 @@ import github from './assets/icons/github.webp';
 import linkedin from './assets/icons/linkedin.webp'; 
 
 import { Nav, Navbar, Container } from 'react-bootstrap'
-
 
 function App() {
 return (
@@ -55,7 +54,7 @@ return (
 			    </a>
 		    </div>
             <div id="copyright">
-                <p id="copyright"> &copy; 2021 Salmaan Saeed </p>
+                <p id="copyright"> &copy; {(new Date().getFullYear())} Salmaan Saeed </p>
             </div>
 	    </footer>
     </div>
@@ -63,3 +62,5 @@ return (
 }
 
 export default App
+
+// {new Date.getFullYear()}
