@@ -1,13 +1,13 @@
 # PersonalWebsiteReact
 Rewrite of my Personal website in React.
 
-## Install it
+## Installation
 Install these dependencies
 ```
 npm install react react-dom react-router react-router-dom react-bootstrap bootstrap serve
 ```
 
-## To Use it
+## Try it out
 Test web app
 ```
 npm start
