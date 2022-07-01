@@ -1,5 +1,8 @@
 # PersonalWebsiteReact
-Rewrite of my Personal website in React.
+[Personal Website](https://salmaansaeed.netlify.app/)
+
+## About
+My Personal website in React.
 
 ## Installation
 Install these dependencies
