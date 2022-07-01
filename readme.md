@@ -1,4 +1,4 @@
-# PersonalWebsiteReact
+# Personal Website
 [Personal Website](https://salmaansaeed.netlify.app/)
 
 ## About
