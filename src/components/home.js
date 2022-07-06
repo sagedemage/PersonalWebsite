@@ -21,21 +21,32 @@ export const Home = () => {
 			and Hunter X Hunter. 
 		</p>
 		<h3> Personal Projects </h3>
-		<p class="project-title"> Personal Website </p>
-		<ul class="tech">
-			<li> Framework: React </li>
-			<li> Languages: JavaScript and HTML/CSS </li>
-			<li> Repo: <a href="https://github.com/sagedemage/PersonalWebsiteReact"> PersonalWebsiteReact </a>
-			</li>
-		</ul>
-		<p class="project-title"> Discussion Forum </p>
-		<ul class="tech">
-			<li> Framework: Flask </li>
-			<li> Languages: Python, JavaScript and HTML/CSS </li>
-			<li> Website: <a href="https://final-flask-start-prod.herokuapp.com"> Discussion Forum </a> </li>
-			<li> Repo: <a href="https://github.com/sagedemage/final_flask_start"> final_flask_start </a>
-			</li>
-		</ul>
+		<p> <span class="project-title"> Personal Website (React, Netlify, Git, JavaScript) </span> <br />
+            Git Repository: <a href="https://github.com/sagedemage/PersonalWebsite"> PersonalWebsite </a> 
+            <ul class="tech">
+			    <li> Rewrote my personal website in React </li>
+			    <li> Deployed the web application to Netlify </li>
+			    <li> Designed the website to be responsive </li>
+                <li> Documented the process of building my web application </li>
+		    </ul>
+        </p>
+		<p> <span class="project-title"> Discussion Form (Flask, SQLite, Heroku, Git, Python, JavaScript) </span> <br />
+            Git Repository: <a href="https://github.com/sagedemage/DiscussionBoard"> DiscussionBoard </a> 
+		    <ul class="tech">
+			    <li> Designed my web application with Flask </li>
+			    <li> Deployed the web application to Heroku </li>
+			    <li> Implemented CI/CD by using GitHub workflows </li>
+			    <li> Documented the process of building my web application </li>
+		    </ul>
+        </p>
+        <p> <span class="project-title"> Calculator (Rust, GTK4, Git) </span> <br />
+            Git Repository: <a href="https://github.com/sagedemage/Calculator"> Calculator </a> 
+		    <ul class="tech">
+			    <li> Designed the UI of the calculator app with GTK4 </li>
+			    <li> Implemented the calculator functionality which includes addition, subtraction, multiplication, and division </li>
+			    <li> Documented the process of building my web application </li>
+		    </ul>
+        </p>
     </div>
     );
 }
