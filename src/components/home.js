@@ -39,12 +39,21 @@ export const Home = () => {
 			    <li> Documented the process of building my web application </li>
 		    </ul>
         </p>
-        <p> <span class="project-title"> Calculator (Rust, GTK4, Git) </span> <br />
-            Git Repository: <a href="https://github.com/sagedemage/Calculator"> Calculator </a> 
+        <p> <span class="project-title"> Calculator Desktop App (Rust, GTK4, Git) </span> <br />
+            Git Repository: <a href="https://github.com/sagedemage/CalculatorDesktopApp"> CalculatorDesktopApp </a> 
 		    <ul class="tech">
 			    <li> Designed the UI of the calculator app with GTK4 </li>
 			    <li> Implemented the calculator functionality which includes addition, subtraction, multiplication, and division </li>
 			    <li> Documented the process of building my web application </li>
+		    </ul>
+        </p>
+        <p> <span class="project-title"> Calculator Web App (Flask, Git, Python, Pandas, Nginx) </span> <br />
+            Git Repository: <a href="https://github.com/sagedemage/CalculatorWebApp"> CalculatorDesktopApp </a> 
+		    <ul class="tech">
+			    <li> Utilized Nginx as the web server </li>
+			    <li> Implemented CI/CD by using GitHub workflows </li>
+                <li> Utilized Pandas for unit tests </li>
+                <li> Documented the process of building my web application </li>
 		    </ul>
         </p>
     </div>
