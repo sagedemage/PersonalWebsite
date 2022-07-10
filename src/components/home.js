@@ -48,7 +48,7 @@ export const Home = () => {
 		    </ul>
         </p>
         <p> <span class="project-title"> Calculator Web App (Flask, Git, Python, Pandas, Nginx) </span> <br />
-            Git Repository: <a href="https://github.com/sagedemage/CalculatorWebApp"> CalculatorDesktopApp </a> 
+            Git Repository: <a href="https://github.com/sagedemage/CalculatorWebApp"> CalculatorWebApp </a> 
 		    <ul class="tech">
 			    <li> Utilized Nginx as the web server </li>
 			    <li> Implemented CI/CD by using GitHub workflows </li>
