@@ -10,27 +10,32 @@ import email from '../assets/icons/email.webp';
 export const Home = () => {
     return (
     <div id="home-content">
-		<div>
-			<h2>Salmaan Saeed </h2>
-			<p>
-				<a href="mailto: ss3994@njit.edu"> ss3994@njit.edu </a>
-			</p>
-			<p> Profiles and Contact </p>
-			<div id="links">
-				{/* Mail icons created by Freepik - Flaticon 
-				 * link: https://www.flaticon.com/free-icons/mail */}
-				<a target="_blank" href="mailto: ss3994@njit.edu">
-				    <img class="icon-link" src={email} alt="my school email" width="42" height="30" />
-			    </a>
-			    <a target="_blank" href="https://github.com/sagedemage">
-				    <img class="icon-link" src={github} alt="my github page" width="30" height="30" />
-			    </a>
-			    <a target="_blank" href="https://www.linkedin.com/in/salmaan-saeed-6a5582197/">
-				    <img class="icon-link" src={linkedin} alt="my linkedin page" width="30" height="30" />
-			    </a>
-				
-		    </div>
-			<img id="profile" src={profile} alt="profile picture" />
+		<div id="profile">
+			<div id="profile-info">
+				<h2>Salmaan Saeed </h2>
+				<p>
+					<a href="mailto: ss3994@njit.edu"> ss3994@njit.edu </a>
+				</p>
+				<p> Profiles and Contact: </p>
+				<div id="profile-links">
+					{/* Mail icons created by Freepik - Flaticon 
+				 	* link: https://www.flaticon.com/free-icons/mail */}
+					<a target="_blank" href="mailto: ss3994@njit.edu">
+				    	<img class="profile-icon-link" src={email} alt="my school email" width="42" height="30" />
+			    	</a>
+			    	<a target="_blank" href="https://github.com/sagedemage">
+				    	<img class="profile-icon-link" src={github} alt="my github page" width="30" height="30" />
+			    	</a>
+			    	<a target="_blank" href="https://www.linkedin.com/in/salmaan-saeed-6a5582197/">
+				    	<img class="profile-icon-link" src={linkedin} alt="my linkedin page" width="30" height="30" />
+			    	</a>
+		    	</div>
+			</div>
+			<div>
+				<p>
+					<img id="profile-image" src={profile} alt="profile picture" />
+				</p>
+			</div>
 		</div>
 		<p>
 			Hi, my name is Salmaan Saeed. I'm a student majoring in Information Technology

@@ -1,7 +1,18 @@
 #profile {
+	float: left;
+}
+
+#profile-info {
+	text-align: center;
+	margin-right: 0%;
+}
+
+#profile-image {
+	display: block;
 	max-width: 30%;
 	height: auto;
-	padding-left: 30px;
+	margin-left: auto;
+  	margin-right: auto;
 }
 
 .project-title {
@@ -9,11 +20,23 @@
 	font-size: 1.25em;
 }
 
+
+#profile-links {
+	padding-bottom: 40px;
+ }
+  
+.profile-icon-link {
+	float: none;
+	margin-left: 1%;
+}
+
 /* mobile portrait layout (479px or less) */
 @media only screen and (max-width: 479px) {
-	#profile {
+	#profile-image {
+		display: block;
 		max-width: 100%;
-		padding-left: 0px;
-		margin-bottom: 25px;
+		height: auto;
+		margin-left: auto;
+  		margin-right: auto;
 	}
 }
