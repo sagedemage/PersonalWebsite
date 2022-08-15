@@ -16,7 +16,7 @@
 }
 
 #links {
-	padding-bottom: 40px;
+	margin-left: 650px; /* 650px */
 }
 
 .icon-link {
@@ -37,3 +37,24 @@
     /* margin-top: 20em; */
     margin-bottom: 5em;
 }
+
+/* mobile portrait layout (479px or less) */
+@media only screen and (max-width: 479px) {
+	.icon-link {
+		float: none;
+	}
+	#links {
+		margin-left: 0px;
+	}
+}
+
+/* tablets portrait layout (801px or less)*/
+@media only screen and (max-width:801px)  { 
+	.icon-link {
+		float: none;
+	}
+	#links {
+		margin-left: 0px;
+	}
+}
+
