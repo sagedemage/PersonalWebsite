@@ -42,12 +42,16 @@
 }
 
 div.hr {
-	color: black;
-	background-color: black;
+	background-color: gray;
 	height: 2px;
 	display: block;
 	clear: both;
 	margin-bottom: 20px;
+}
+
+h3 {
+	padding-bottom: 10px;
+	border-bottom: 2px solid gray;
 }
 
 /* mobile portrait layout (479px or less) */
