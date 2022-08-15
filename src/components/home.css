@@ -1,10 +1,12 @@
 #profile {
 	float: left;
+	margin-bottom: 25px;
+	margin-right: 25%;
 }
 
 #profile-info {
 	text-align: center;
-	margin-right: 0%;
+	margin-right: 300px;
 }
 
 #profile-image {
@@ -13,6 +15,8 @@
 	height: auto;
 	margin-left: auto;
   	margin-right: auto;
+	float: right;
+	margin-top: -210px;
 }
 
 .project-title {
@@ -32,11 +36,15 @@
 
 /* mobile portrait layout (479px or less) */
 @media only screen and (max-width: 479px) {
+	#profile {
+		margin-right: 0;
+	}
+	#profile-info {
+		margin-right: 0;
+	}
 	#profile-image {
-		display: block;
 		max-width: 100%;
-		height: auto;
-		margin-left: auto;
-  		margin-right: auto;
+		float: none;
+		margin-top: 0;
 	}
 }
