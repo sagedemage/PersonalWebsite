@@ -44,7 +44,7 @@ export const Home = () => {
 			and system administration.
 		</p>
 				
-		<h3> Personal Projects </h3>
+		<h3 id="projects"> Personal Projects </h3>
 		<p> <span class="project-title"> Personal Website (React, Netlify, Git, JavaScript) </span> <br />
             Git Repository: <a href="https://github.com/sagedemage/PersonalWebsite"> PersonalWebsite </a> 
             <ul class="tech">
