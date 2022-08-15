@@ -13,10 +13,10 @@ export const Home = () => {
 		<div id="profile">
 			<div id="profile-info">
 				<h2>Salmaan Saeed </h2>
-				<p>
+				<p class="profile-text">
 					<a href="mailto: ss3994@njit.edu"> ss3994@njit.edu </a>
 				</p>
-				<p> Profiles and Contact: </p>
+				<p class="profile-text"> Profiles & Contact: </p>
 				<div id="profile-links">
 					{/* Mail icons created by Freepik - Flaticon 
 				 	* link: https://www.flaticon.com/free-icons/mail */}
@@ -37,18 +37,13 @@ export const Home = () => {
 				</p>
 			</div>
 		</div>
-		<p>
-			Hi, my name is Salmaan Saeed. I'm a student majoring in Information Technology
-			at New Jersey Institute of Technology. I expect to graduate in December 2023. I'm interested in getting into
-			web development and system administration.
+		<p id="about-me">
+			<div class="hr"><hr /></div>
+			I'm a student majoring in Information Technology at New Jersey Institute of Technology. 
+			I expect to graduate in December 2023. I'm interested in getting into web development 
+			and system administration.
 		</p>
 				
-		<h3> Hobbies and Interests </h3>
-		<p> 
-			During my free time, I like to play video games and watch anime. My favorite video games 
-			are Terraria and Cave Story. My favorite anime series are Samurai Champloo, Clannad, JoJo's Bizarre Adventure, 
-			and Hunter X Hunter. 
-		</p>
 		<h3> Personal Projects </h3>
 		<p> <span class="project-title"> Personal Website (React, Netlify, Git, JavaScript) </span> <br />
             Git Repository: <a href="https://github.com/sagedemage/PersonalWebsite"> PersonalWebsite </a> 
