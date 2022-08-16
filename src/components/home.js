@@ -16,10 +16,8 @@ export const Home = () => {
 				<p class="profile-text">
 					<a href="mailto: ss3994@njit.edu"> ss3994@njit.edu </a>
 				</p>
-				<p class="profile-text"> Profiles & Contact: </p>
+				<p class="profile-text"> Contact & Profiles: </p>
 				<div id="profile-links">
-					{/* Mail icons created by Freepik - Flaticon 
-				 	* link: https://www.flaticon.com/free-icons/mail */}
 					<a target="_blank" href="mailto: ss3994@njit.edu">
 				    	<img class="profile-icon-link" src={email} alt="my school email" width="42" height="30" />
 			    	</a>

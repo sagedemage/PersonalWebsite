@@ -41,16 +41,14 @@
 }
 
 div.hr {
-	background-color: gray;
-	height: 2px;
-	display: block;
+	background-color: white;
 	clear: both;
 	margin-bottom: 20px;
 }
 
 #projects {
 	padding-bottom: 10px;
-	border-bottom: 2px solid gray;
+	border-bottom: 2px solid #D5D5D5;
 }
 
 /* mobile portrait layout (479px or less) */
