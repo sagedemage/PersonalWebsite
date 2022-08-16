@@ -42,7 +42,7 @@ export const Home = () => {
 			and system administration.
 		</p>
 				
-		<h3 id="projects"> Personal Projects </h3>
+		<h3 id="sub-title"> Personal Projects </h3>
 		<p> <span class="project-title"> Personal Website (React, Netlify, Git, JavaScript) </span> <br />
             Git Repository: <a href="https://github.com/sagedemage/PersonalWebsite"> PersonalWebsite </a> 
             <ul class="tech">
@@ -78,6 +78,17 @@ export const Home = () => {
                 <li> Documented the process of building my web application </li>
 		    </ul>
         </p>
+		<h3 id="sub-title"> Technical Skills </h3>
+		<p class="skill"> <span class="skill-item">Languages</span>: JavaScript, PHP, Python, Bash, Java, Latex, C/C++, Rust, and HTML/CSS </p>
+		<p class="skill"> <span class="skill-item">Frameworks</span>: Flask, Bootstrap, and Yew </p>
+		<p class="skill"> <span class="skill-item">Databases</span>: MS SQL, SQLite, and MySQL </p>
+		<p class="skill"> <span class="skill-item">Libraries</span>: Pandas, SDL, GTK, jQuery, and React </p>
+		<p class="skill"> 
+			<span class="skill-item">Technologies</span>: Docker, Azure, Apache, Nginx, Git, Pylint, CMake, Clang-Tidy, Linux command line,
+			WebAssembly, and Kubernetes
+		</p>
+		<p class="skill"> <span class="skill-item">Operating Systems</span>: Windows, Linux (Red Hat, and Debian variants), and FreeBSD</p>
+
     </div>
     );
 }

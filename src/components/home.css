@@ -46,9 +46,18 @@ div.hr {
 	margin-bottom: 20px;
 }
 
-#projects {
+#sub-title {
 	padding-bottom: 10px;
 	border-bottom: 2px solid #D5D5D5;
+}
+
+.skill {
+	border-bottom: 1px solid #D5D5D5;
+	padding-bottom: 10px;
+}
+
+.skill-item {
+	font-weight: 900;
 }
 
 /* mobile portrait layout (479px or less) */
