@@ -79,8 +79,10 @@ export const Home = () => {
 		    </ul>
         </p>
 		<h3 id="sub-title"> Technical Skills </h3>
-		<p class="skill"> <span class="skill-item">Languages</span>: JavaScript, PHP, Python, Bash, Java, Latex, C/C++, Rust, and HTML/CSS </p>
-		<p class="skill"> <span class="skill-item">Frameworks</span>: Flask, Bootstrap, and Yew </p>
+		<p class="skill"> <span class="skill-item">Languages</span>: 
+			JavaScript, Python, Go, Rust, Bash, Java, Latex, C/C++, PHP, and HTML/CSS
+		</p>
+		<p class="skill"> <span class="skill-item">Frameworks</span>: Flask, Gin, Bootstrap, and Yew </p>
 		<p class="skill"> <span class="skill-item">Databases</span>: MS SQL, SQLite, and MySQL </p>
 		<p class="skill"> <span class="skill-item">Libraries</span>: Pandas, SDL, GTK, jQuery, and React </p>
 		<p class="skill"> 
