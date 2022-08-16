@@ -87,7 +87,7 @@ export const Home = () => {
 			<span class="skill-item">Technologies</span>: Docker, Azure, Apache, Nginx, Git, Pylint, CMake, Clang-Tidy, Linux command line,
 			WebAssembly, and Kubernetes
 		</p>
-		<p class="skill"> <span class="skill-item">Operating Systems</span>: Windows, Linux (Red Hat, and Debian variants), and FreeBSD</p>
+		<p class="skill"> <span class="skill-item">Operating Systems</span>: Windows, Linux, and NetBSD</p>
 
     </div>
     );
