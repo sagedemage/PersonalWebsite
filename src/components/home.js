@@ -53,7 +53,7 @@ export const Home = () => {
                 <li> Documented the process of building my web application </li>
 		    </ul>
         </p>
-		<p> <span class="project-title"> Discussion Form (Flask, SQLite, Heroku, Git, Python, JavaScript) </span> <br />
+		<p> <span class="project-title"> Discussion Form (Flask, SQLite, Heroku, Git, Python, JavaScript, Docker) </span> <br />
             Git Repository: <a href="https://github.com/sagedemage/DiscussionBoard"> DiscussionBoard </a> 
 		    <ul class="tech">
 			    <li> Designed my web application with Flask </li>
@@ -70,12 +70,11 @@ export const Home = () => {
 			    <li> Documented the process of building my web application </li>
 		    </ul>
         </p>
-        <p> <span class="project-title"> Calculator Web App (Flask, Git, Python, Pandas, Nginx) </span> <br />
-            Git Repository: <a href="https://github.com/sagedemage/CalculatorWebApp"> CalculatorWebApp </a> 
+        <p> <span class="project-title"> Notebook App (Gin, Gorm, Go, SQLite, Docker) </span> <br />
+            Git Repository: <a href="https://github.com/sagedemage/NotebookApp"> NotebookApp </a> 
 		    <ul class="tech">
-			    <li> Utilized Nginx as the web server </li>
-			    <li> Implemented CI/CD by using GitHub workflows </li>
-                <li> Utilized Pandas for unit tests </li>
+			    <li> Designed the web application with Gin </li>
+			    <li> Utilized Gorm to create, and update the SQLite database </li>
                 <li> Documented the process of building my web application </li>
 		    </ul>
         </p>
