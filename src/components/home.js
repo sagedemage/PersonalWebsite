@@ -38,7 +38,7 @@ export const Home = () => {
 		</div>
 		<p id="about-me">
 			<div class="hr"><hr /></div>
-			I'm a student majoring in Information Technology at New Jersey Institute of Technology. 
+			I'm an undergraduate student majoring in Information Technology at New Jersey Institute of Technology. 
 			I expect to graduate in December 2023. I'm interested in getting into web development 
 			and system administration.
 		</p>
