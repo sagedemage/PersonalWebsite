@@ -18,7 +18,7 @@
   	margin-right: auto;
 	margin-bottom: 20px;
 	float: right;
-	margin-top: -210px;
+	margin-top: -290px;
 }
 
 .profile-text {
@@ -74,3 +74,19 @@ div.hr {
 		margin-top: 0;
 	}
 }
+
+/* tablets portrait layout (801px or less)*/
+@media only screen and (max-width:801px)  { 
+	#profile {
+		margin-right: 0;
+	}
+	#profile-info {
+		margin-right: 0;
+	}
+	#profile-image {
+		max-width: 42%; /* 30% */
+		float: none;
+		margin-top: 0;
+	}
+}
+

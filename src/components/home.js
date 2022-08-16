@@ -13,6 +13,7 @@ export const Home = () => {
 		<div id="profile">
 			<div id="profile-info">
 				<h2>Salmaan Saeed </h2>
+				<p class="profile-text"> Undergraduate Student <br /> at NJIT </p>
 				<p class="profile-text">
 					<a href="mailto: ss3994@njit.edu"> ss3994@njit.edu </a>
 				</p>
