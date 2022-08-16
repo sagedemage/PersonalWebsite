@@ -48,13 +48,17 @@
 	}
 }
 
-/* tablets portrait layout (801px or less)*/
+/* tablet portrait layout (801px or less)*/
 @media only screen and (max-width:801px)  { 
 	.icon-link {
 		float: none;
 	}
 	#links {
 		margin-left: 0px;
+	}
+	.scale_image {
+		max-width: 100%;
+		height: auto;
 	}
 }
 

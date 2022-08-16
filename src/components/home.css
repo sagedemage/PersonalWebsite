@@ -75,7 +75,7 @@ div.hr {
 	}
 }
 
-/* tablets portrait layout (801px or less)*/
+/* tablet portrait layout (801px or less)*/
 @media only screen and (max-width:801px)  { 
 	#profile {
 		margin-right: 0;
