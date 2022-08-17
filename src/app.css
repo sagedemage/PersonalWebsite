@@ -38,7 +38,7 @@
     margin-bottom: 5em;
 }
 
-/* mobile portrait layout (479px or less) */
+/* mobile portrait layout */
 @media only screen and (max-width: 479px) {
 	.icon-link {
 		float: none;
@@ -48,8 +48,8 @@
 	}
 }
 
-/* tablet portrait layout (801px or less)*/
-@media only screen and (max-width:801px)  { 
+/* tablet portrait layout */
+@media only screen and (min-width: 481px) and (max-width: 801px)  { 
 	.icon-link {
 		float: none;
 	}
@@ -62,8 +62,8 @@
 	}
 }
 
-/* small screens and laptop layout (1024px or less)*/
-@media only screen and (max-width: 1024px) {
+/* small screens and laptop layout */
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
 	.icon-link {
 		float: none;
 	}
