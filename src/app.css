@@ -46,6 +46,10 @@
 	#links {
 		margin-left: 0px;
 	}
+	.scale_image {
+		max-width: 100%;
+		height: auto;
+	}
 }
 
 /* tablet portrait layout */
