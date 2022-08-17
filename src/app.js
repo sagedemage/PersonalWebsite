@@ -32,6 +32,14 @@ return (
                             <Nav.Link href="computer"> Computer Setup </Nav.Link>
                             <Nav.Link href="system"> Operating System </Nav.Link>
                         </Nav>
+						<Nav className="me-auto" id="links">
+							<Nav.Link href="https://github.com/sagedemage">
+				    			<img class="icon-link" src={github} alt="my github page" width="30" height="30" />
+							</Nav.Link>
+							<Nav.Link href="https://www.linkedin.com/in/salmaan-saeed-6a5582197/">
+				    			<img class="icon-link" src={linkedin} alt="my linkedin page" width="30" height="30" />
+							</Nav.Link>
+						</Nav>
                     </Navbar.Collapse>
                 </Container>
             </Navbar>
@@ -45,14 +53,6 @@ return (
             </Routes>
         </div>
         <footer class="gaps" id="bottom">
-		    <div id="links">
-			    <a target="_blank" href="https://github.com/sagedemage">
-				    <img class="icon-link" src={github} alt="my github page" width="30" height="30" />
-			    </a>
-			    <a target="_blank" href="https://www.linkedin.com/in/salmaan-saeed-6a5582197/">
-				    <img class="icon-link" src={linkedin} alt="my linkedin page" width="30" height="30" />
-			    </a>
-		    </div>
             <div id="copyright">
                 <p id="copyright"> &copy; {(new Date().getFullYear())} Salmaan Saeed </p>
             </div>

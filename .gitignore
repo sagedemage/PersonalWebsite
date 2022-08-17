@@ -3,10 +3,9 @@ build
 *.png
 *.xcf
 *.kra
-*.kra~
-*.ico~
 *.jpg
 package-lock.json
+*.*~
 
 # Local Netlify folder
 .netlify

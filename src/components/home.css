@@ -1,8 +1,28 @@
 #profile {
+	float: left;
+	margin-bottom: 25px;
+	margin-right: 25%;
+	/*border-bottom: 1px solid black;*/
+}
+
+#profile-info {
+	text-align: center;
+	margin-right: 300px;
+}
+
+#profile-image {
+	display: block;
 	max-width: 30%;
 	height: auto;
+	margin-left: auto;
+  	margin-right: auto;
+	margin-bottom: 20px;
 	float: right;
-	padding-left: 30px;
+	margin-top: -290px;
+}
+
+.profile-text {
+	font-size: 1.1em; /* 20px */
 }
 
 .project-title {
@@ -10,11 +30,81 @@
 	font-size: 1.25em;
 }
 
-/* mobile portrait layout (479px or less) */
+
+#profile-links {
+	padding-bottom: 40px;
+ }
+  
+.profile-icon-link {
+	margin-left: 2.5%;
+	margin-right: 2.5%;
+}
+
+div.hr {
+	background-color: white;
+	clear: both;
+	margin-bottom: 20px;
+}
+
+#sub-title {
+	padding-bottom: 10px;
+	border-bottom: 2px solid #D5D5D5;
+}
+
+.skill {
+	border-bottom: 1px solid #D5D5D5;
+	padding-bottom: 10px;
+}
+
+.skill-item {
+	font-weight: 900;
+}
+
+/* mobile portrait layout */
 @media only screen and (max-width: 479px) {
 	#profile {
+		margin-right: 0;
+	}
+	#profile-info {
+		margin-right: 0;
+	}
+	#profile-image {
 		max-width: 100%;
-		padding-left: 0px;
-		margin-bottom: 25px;
+		min-width: 100%;
+		float: none;
+		margin-top: 0;
 	}
 }
+
+/* tablet portrait layout */
+@media only screen and (min-width: 481px) and (max-width: 801px) {
+	#profile {
+		margin-right: 0;
+	}
+	#profile-info {
+		margin-right: 0;
+	}
+	#profile-image {
+		max-width: 80%;
+		min-width: 80%;
+		float: none;
+		margin-top: 0;
+	}
+}
+
+/* small screens and laptop layout */
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+	#profile {
+		margin-right: 0;
+	}
+	#profile-info {
+		margin-right: 0;
+	}
+	#profile-image {
+		max-width: 50%;
+		min-width: 50%;
+		float: none;
+		margin-top: 0;
+	}
+}
+
