@@ -85,8 +85,8 @@ div.hr {
 		margin-right: 0;
 	}
 	#profile-image {
-		max-width: 80%;
-		min-width: 80%;
+		max-width: 50%;
+		min-width: 50%;
 		float: none;
 		margin-top: 0;
 	}
