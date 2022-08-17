@@ -69,14 +69,15 @@ div.hr {
 		margin-right: 0;
 	}
 	#profile-image {
-		max-width: 100%;
+		max-width: 80%;
+		min-width: 80%;
 		float: none;
 		margin-top: 0;
 	}
 }
 
 /* tablet portrait layout (801px or less)*/
-@media only screen and (max-width:801px)  { 
+@media only screen and (max-width: 801px) {
 	#profile {
 		margin-right: 0;
 	}
@@ -84,7 +85,24 @@ div.hr {
 		margin-right: 0;
 	}
 	#profile-image {
-		max-width: 42%; /* 30% */
+		max-width: 80%;
+		min-width: 80%;
+		float: none;
+		margin-top: 0;
+	}
+}
+
+/* small screens and laptop layout (1024px or less)*/
+@media only screen and (max-width: 1024px) {
+	#profile {
+		margin-right: 0;
+	}
+	#profile-info {
+		margin-right: 0;
+	}
+	#profile-image {
+		max-width: 50%;
+		min-width: 50%;
 		float: none;
 		margin-top: 0;
 	}
