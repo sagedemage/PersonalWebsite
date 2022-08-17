@@ -62,3 +62,17 @@
 	}
 }
 
+/* small screens and laptop layout (1024px or less)*/
+@media only screen and (max-width: 1024px) {
+	.icon-link {
+		float: none;
+	}
+	#links {
+		margin-left: 0px;
+	}
+	.scale_image {
+		max-width: 80%;
+		height: auto;
+	}
+}
+
