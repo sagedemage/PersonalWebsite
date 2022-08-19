@@ -22,7 +22,7 @@ return (
             <Navbar collapseOnSelect expand="lg" bg="myGreen" variant="dark" fixed="top">
                 <Container>
                     <Navbar.Brand>
-                        <span class="indent"> Salmaan Saeed </span>
+                        <span className="indent"> Salmaan Saeed </span>
                     </Navbar.Brand>
             
                     <Navbar.Toggle aria-controls="responsive-navbar-nav"  />
@@ -34,10 +34,10 @@ return (
                         </Nav>
 						<Nav className="me-auto" id="links">
 							<Nav.Link href="https://github.com/sagedemage">
-				    			<img class="icon-link" src={github} alt="my github page" width="30" height="30" />
+				    			<img className="icon-link" src={github} alt="my github page" width="30" height="30" />
 							</Nav.Link>
 							<Nav.Link href="https://www.linkedin.com/in/salmaan-saeed-6a5582197/">
-				    			<img class="icon-link" src={linkedin} alt="my linkedin page" width="30" height="30" />
+				    			<img className="icon-link" src={linkedin} alt="my linkedin page" width="30" height="30" />
 							</Nav.Link>
 						</Nav>
                     </Navbar.Collapse>
@@ -45,14 +45,14 @@ return (
             </Navbar>
         </div>
         <br />
-        <div class="gaps" id="content">
+        <div className="gaps" id="content">
             <Routes>
                 <Route path='/' element={<Home />}> </Route>
                 <Route path='computer' element={<Computer />}> </Route>
                 <Route path='system' element={<System />}> </Route>
             </Routes>
         </div>
-        <footer class="gaps" id="bottom">
+        <footer className="gaps" id="bottom">
             <div id="copyright">
                 <p id="copyright"> &copy; {(new Date().getFullYear())} Salmaan Saeed </p>
             </div>
