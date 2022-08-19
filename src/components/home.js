@@ -12,7 +12,7 @@ export const Home = () => {
     <div id="home-content">
 		<div id="profile">
 			<div id="profile-info">
-				<h2>Salmaan Saeed </h2>
+				<h2> Salmaan Saeed </h2>
 				<p class="profile-text"> Undergraduate Student <br /> at NJIT </p>
 				<p class="profile-text">
 					<a href="mailto: ss3994@njit.edu"> ss3994@njit.edu </a>
@@ -31,9 +31,7 @@ export const Home = () => {
 		    	</div>
 			</div>
 			<div>
-				<p>
-					<img id="profile-image" src={profile} alt="profile picture" />
-				</p>
+				<img id="profile-image" src={profile} alt="profile picture" />
 			</div>
 		</div>
 		<p id="about-me">
