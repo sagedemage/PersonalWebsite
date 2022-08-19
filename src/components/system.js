@@ -16,12 +16,12 @@ export const System = () => {
 			</p>
 
 			<h3> The Linux Distro I Use </h3>
-			<div class="caption">
+			<div className="caption">
                 <figure>
 					<a href="https://www.debian.org/"><img id="debian_logo" src={debian} alt="Debain Logo" /></a>
                     <figcaption>Image credit: <a href="https://www.debian.org/">Debian Project</a></figcaption>
 				</figure>
-				<div class="caption-info">
+				<div className="caption-info">
 					<p> 
 						The Linux distro I use on my system is Debian. It is a stable linux distribution. 
 						Debian is easy to maintain since it does not receive updates as often. Debian get 
@@ -37,14 +37,12 @@ export const System = () => {
 			</div>
 
 			<h3> The Desktop Environment I use on Linux </h3>
-				<div class="caption">
+				<div className="caption">
 					<p>
 						<a href="https://www.gnome.org/"><img id="gnome_logo" src={gnome} alt="Gnome Logo" /></a>
-						<p>
-							Image credit: <a href="https://www.gnome.org/">Gnome Foundation</a>
-						</p>
+						Image credit: <a href="https://www.gnome.org/">Gnome Foundation</a>
 					</p>
-					<div class="caption-info">
+					<div className="caption-info">
 						<p> 
 							I have used many desktop environments and windows managers. It has taken me a few 
 							months on to decide which DE or WM I liked the best. The desktop environment I use 
@@ -56,7 +54,7 @@ export const System = () => {
 					
 				<h3> My Gnome Desktop </h3>
 				<p>
-					<img class="scale_image" src={desktop} alt="My Gnome Desktop" />
+					<img className="scale_image" src={desktop} alt="My Gnome Desktop" />
 				</p>
     	</div>
      

@@ -16,11 +16,11 @@ export const Computer = () => {
 			</p>			
 			<h3> Top View </h3>
         	<p>
-				<img class="scale_image" src={top_view} alt="desktop top view" />
+				<img className="scale_image" src={top_view} alt="desktop top view" />
         	</p>
 			<h3> Front View </h3>
         	<p>
-				<img class="scale_image" src={front_view} alt="desktop front view" />
+				<img className="scale_image" src={front_view} alt="desktop front view" />
 			</p>
     	</div>
     );
