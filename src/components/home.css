@@ -60,16 +60,10 @@ div.hr {
 /* mobile portrait layout */
 @media only screen and (max-width: 479px) {
 	#profile {
-		margin-right: 0;
-	}
-	#profile-info {
-		margin-right: 0;
+		grid-template-columns: auto;
 	}
 	#profile-image {
 		max-width: 100%;
-		min-width: 100%;
-		float: none;
-		margin-top: 0;
 	}
 }
 
