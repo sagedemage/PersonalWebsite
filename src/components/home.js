@@ -40,38 +40,41 @@ export const Home = () => {
 			I expect to graduate in December 2023. I'm interested in getting into web development 
 			and system administration.
 		</p>
-				
-		<h3 id="sub-title"> Personal Projects </h3>
-		<p> <span className="project-title"> Personal Website (React, Netlify, Git, JavaScript) </span> <br />
-            Git Repository: <a href="https://github.com/sagedemage/PersonalWebsite"> PersonalWebsite </a></p>
-        <ul className="tech">
-			<li> Rewrote my personal website in React </li>
-			<li> Deployed the web application to Netlify </li>
-			<li> Designed the website to be responsive </li>
-            <li> Documented the process of building my web application </li>
-		</ul>
+
+		<h3 id="sub-title"> Personal Projects </h3>			
 		<p> <span className="project-title"> Discussion Form (Flask, SQLite, Heroku, Git, Python, JavaScript, Docker) </span> <br />
             Git Repository: <a href="https://github.com/sagedemage/DiscussionBoard"> DiscussionBoard </a></p>
 		<ul className="tech">
-			<li> Designed my web application with Flask </li>
+			<li> Implemented user authentication </li>
 			<li> Deployed the web application to Heroku </li>
 			<li> Implemented CI/CD by using GitHub workflows </li>
-			<li> Documented the process of building my web application </li>
+			<li> Documented the purpose and build instructions of the app </li>
 		</ul>
-        <p> <span className="project-title"> Calculator Desktop App (Rust, GTK4, Git) </span> <br />
-            Git Repository: <a href="https://github.com/sagedemage/CalculatorDesktopApp"> CalculatorDesktopApp </a></p> 
-		<ul className="tech">
-			<li> Designed the UI of the calculator app with GTK4 </li>
-			<li> Implemented the calculator functionality which includes addition, subtraction, multiplication, and division </li>
-			<li> Documented the process of building my web application </li>
-		</ul>
-        <p> <span className="project-title"> Notebook App (Gin, Gorm, Go, SQLite, Docker) </span> <br />
+
+        <p> <span className="project-title"> Notebook App (Gin, SQLite, Git, Go, Docker) </span> <br />
             Git Repository: <a href="https://github.com/sagedemage/NotebookApp"> NotebookApp </a></p> 
 		<ul className="tech">
-			<li> Designed the web application with Gin </li>
-			<li> Utilized Gorm to create, and update the SQLite database </li>
-            <li> Documented the process of building my web application </li>
+			<li> Designed the REST API </li>
+			<li> Implemented user authentication </li>
+            <li> Demonstrated database design </li>
+			<li> Documented the purpose and build instructions of the app </li>
 		</ul>
+
+		<p> <span className="project-title"> Personal Website (React, Netlify, Git, JavaScript) </span> <br />
+            Git Repository: <a href="https://github.com/sagedemage/PersonalWebsite"> PersonalWebsite </a></p>
+        <ul className="tech">
+			<li> Deployed the web application to Netlify </li>
+			<li> Implemented responsive web design </li>
+            <li> Documented the build instructions of the app </li>
+		</ul>
+
+		<p> <span className="project-title"> Calculator Desktop App (Rust, GTK4, Git) </span> <br />
+            Git Repository: <a href="https://github.com/sagedemage/CalculatorDesktopApp"> CalculatorDesktopApp </a></p> 
+		<ul className="tech">
+			<li> Designed the UI with Accessibility in mind </li>
+            <li> Documented the build instructions of the app </li>
+		</ul>
+
 		<h3 id="sub-title"> Technical Skills </h3>
 		<p className="skill"> <span className="skill-item">Languages</span>: 
 			JavaScript, Python, Go, Rust, Bash, Java, Latex, C/C++, PHP, and HTML/CSS
