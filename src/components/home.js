@@ -41,31 +41,31 @@ export const Home = () => {
 			and system administration.
 		</p>
 
-		<h3 id="sub-title"> Personal Projects </h3>			
-		<p> <span className="project-title"> Discussion Form (Flask, SQLite, Heroku, Git, Python, JavaScript, Docker) </span> <br />
-            Git Repository: <a href="https://github.com/sagedemage/DiscussionBoard"> DiscussionBoard </a></p>
+		<h3 id="sub-title"> Personal Projects </h3>
+		<p> <span className="project-title">Notebook (Gin, SQLite, Git, Go, JavaScript, Docker)</span> <br />
+            Git Repository: <a href="https://github.com/sagedemage/Notebook"> Notebook </a></p> 
 		<ul className="tech">
-			<li> Implemented user authentication </li>
-			<li> Deployed the web application to Heroku </li>
-			<li> Implemented CI/CD by using GitHub workflows </li>
-			<li> Documented the purpose and build instructions of the app </li>
+			<li> Implemented CI/CD with GitHub workflows </li>
+			<li> Built user authentication </li>
+			<li> Designed password validation for user registration </li>
+			<li> Documented its purpose and build instructions </li>
 		</ul>
 
-        <p> <span className="project-title"> Notebook App (Gin, SQLite, Git, Go, Docker) </span> <br />
-            Git Repository: <a href="https://github.com/sagedemage/NotebookApp"> NotebookApp </a></p> 
+		<p> <span className="project-title">Discussion Board (Flask, SQLite, Git, Python, JavaScript, Docker)</span> <br />
+            Git Repository: <a href="https://github.com/sagedemage/DiscussionBoard"> DiscussionBoard </a></p>
 		<ul className="tech">
-			<li> Designed the REST API </li>
-			<li> Implemented user authentication </li>
-            <li> Demonstrated database design </li>
-			<li> Documented the purpose and build instructions of the app </li>
+			<li> Implemented CI/CD with GitHub workflows </li>
+			<li> Built user authentication </li>
+			<li> Designed password validation for user registration </li>
+			<li> Documented its purpose and build instructions </li>
 		</ul>
 
 		<p> <span className="project-title"> Personal Website (React, Netlify, Git, JavaScript) </span> <br />
             Git Repository: <a href="https://github.com/sagedemage/PersonalWebsite"> PersonalWebsite </a></p>
         <ul className="tech">
-			<li> Deployed the web application to Netlify </li>
+			<li> Deployed my personal website to Netlify </li>
 			<li> Implemented responsive web design </li>
-            <li> Documented the build instructions of the app </li>
+            <li> Documented its build instructions </li>
 		</ul>
 
 		<p> <span className="project-title"> Calculator Desktop App (Rust, GTK4, Git) </span> <br />
