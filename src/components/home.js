@@ -71,7 +71,7 @@ export const Home = () => {
 		<p> <span className="project-title"> Calculator Desktop App (Rust, GTK4, Git) </span> <br />
             Git Repository: <a href="https://github.com/sagedemage/CalculatorDesktopApp"> CalculatorDesktopApp </a></p> 
 		<ul className="tech">
-			<li> Designed the UI with Accessibility in mind </li>
+			<li> Designed the UI with accessibility in mind </li>
             <li> Documented the build instructions of the app </li>
 		</ul>
 
