@@ -11,7 +11,7 @@ export const Home = () => {
     <div id="home-content">
 		<div id="profile">
 			<div id="profile-info">
-				<h2> Salmaan Saeed </h2>
+				<p id="profile-title"> Salmaan Saeed </p>
 				<p className="profile-text"> Undergraduate Student <br /> at NJIT </p>
 				<p className="profile-text">
 					<a href="mailto: ss3994@njit.edu"> ss3994@njit.edu </a>
@@ -39,7 +39,7 @@ export const Home = () => {
 			I expect to graduate in December 2023. I'm interested in getting into web development.
 		</p>
 
-		<h3 id="sub-title"> Personal Projects </h3>
+		<h2 id="sub-title"> Personal Projects </h2>
 		<p> <span className="project-title">Notebook (Gin, SQLite, Git, Go, JavaScript, Docker)</span> <br />
             Git Repository: <a href="https://github.com/sagedemage/Notebook"> Notebook </a></p> 
 		<ul>
@@ -68,7 +68,7 @@ export const Home = () => {
 
 		
 
-		<h3 id="sub-title"> Technical Skills </h3>
+		<h2 id="sub-title"> Technical Skills </h2>
 		<p className="skill"> <span className="skill-item">Languages</span>: 
 			JavaScript, Python, Go, Rust, Bash, Java, C/C++, PHP, and HTML/CSS
 		</p>
