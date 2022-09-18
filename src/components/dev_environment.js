@@ -11,10 +11,11 @@ export const DevEnvironment = () => {
     	<div> 
 			<h2> My Development Environment </h2>
 			<p>
-				I do my development on Linux. Certain times, I will have to
-				use Windows to do development on. To be fair, your dev environment
-				does not matter if you want to be good developer. My dev environment
-				makes me productive when I want to do programming.
+				I usually do my development on Linux. Certain times, I will have to
+				use Windows to do development. To be honest, your dev environment
+				does not matter if you want to be good developer. I am happy with my 
+				dev environment since it makes me productive when I want to do 
+				development.
 			</p>
 			<h3> The Linux Distro I use </h3>
 			<div className="caption">
@@ -60,7 +61,7 @@ export const DevEnvironment = () => {
 					<p> 
 						Neovim is the text editor I use. Neovim does have a tough learning curve. Once I got through the 
 						learning curve of Neovim, I am satisfied with the work I can get done with it. I decided to use
-						Neovim instead of Vim since it is the improved version of Vim. I see Neovim has the modern successor 
+						Neovim instead of Vim since it is the improved version of Vim. I see Neovim as the modern successor 
 						to Vim.
 					</p>
 					<p> 
