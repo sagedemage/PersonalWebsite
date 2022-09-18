@@ -17,7 +17,7 @@ export const DevEnvironment = () => {
 				dev environment since it makes me productive when I want to do 
 				development.
 			</p>
-			<h3> The Linux Distro I use </h3>
+			<h3> The Linux Distro I Use </h3>
 			<div className="caption">
                 <figure>
 					<a href="https://www.debian.org/"><img id="debian_logo" src={debian} alt="Debain Logo" /></a>
@@ -31,7 +31,7 @@ export const DevEnvironment = () => {
 				</div>
 			</div>
 
-			<h3> The Desktop Environment I use </h3>
+			<h3> The Desktop Environment I Use </h3>
 			<div className="caption">
 				<p>
 					<a href="https://www.gnome.org/"><img className="logo" src={gnome} alt="Gnome Logo" /></a>
@@ -51,7 +51,7 @@ export const DevEnvironment = () => {
 				<img className="scale_image" src={desktop} alt="My Desktop" />
 			</p>
 
-			<h3> The Text Editor I use </h3>
+			<h3> The Text Editor I Use </h3>
 			<div className="caption">
 				<p>
 					<a href="https://neovim.io/"><img className="logo" src={neovim} alt="Neovim Logo" /></a>
