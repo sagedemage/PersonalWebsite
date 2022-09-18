@@ -7,7 +7,7 @@ export const Projects = () => {
 			<p> 
 				These are some of the other projects I have worked on. 
 				Most of these projects are experiments or prototypes. None the less, 
-				I am cool with anyone to look at these projects.
+				I am cool with anyone looking at these projects.
 			</p>
 
 			<p> <span className="project-title"> Calculator Desktop App (Rust, GTK4, Git) </span> <br />
