@@ -55,7 +55,7 @@ export const DevEnvironment = () => {
 			<div className="caption">
 				<p>
 					<a href="https://neovim.io/"><img className="logo" src={neovim} alt="Neovim Logo" /></a>
-					Image credit: <a href="https://github.com/neovim/neovim">Neovim's GitHub Repository</a>
+					Image credit: <a href="https://neovim.io/">Neovim</a>
 				</p>
 				<div className="caption-info">
 					<p> 
