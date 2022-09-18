@@ -1,4 +1,3 @@
-
 import profile from '../assets/images/salmaan_saeed.webp';
 
 import "./home.css"
@@ -37,14 +36,13 @@ export const Home = () => {
 		<div className="hr"><hr /></div>
 		<p id="about-me">
 			I'm an undergraduate student majoring in Information Technology at New Jersey Institute of Technology. 
-			I expect to graduate in December 2023. I'm interested in getting into web development 
-			and system administration.
+			I expect to graduate in December 2023. I'm interested in getting into web development.
 		</p>
 
 		<h3 id="sub-title"> Personal Projects </h3>
 		<p> <span className="project-title">Notebook (Gin, SQLite, Git, Go, JavaScript, Docker)</span> <br />
             Git Repository: <a href="https://github.com/sagedemage/Notebook"> Notebook </a></p> 
-		<ul className="tech">
+		<ul>
 			<li> Implemented CI/CD with GitHub workflows </li>
 			<li> Built user authentication </li>
 			<li> Designed password validation for user registration </li>
@@ -53,7 +51,7 @@ export const Home = () => {
 
 		<p> <span className="project-title">Discussion Board (Flask, SQLite, Git, Python, JavaScript, Docker)</span> <br />
             Git Repository: <a href="https://github.com/sagedemage/DiscussionBoard"> DiscussionBoard </a></p>
-		<ul className="tech">
+		<ul>
 			<li> Implemented CI/CD with GitHub workflows </li>
 			<li> Built user authentication </li>
 			<li> Designed password validation for user registration </li>
@@ -62,18 +60,13 @@ export const Home = () => {
 
 		<p> <span className="project-title"> Personal Website (React, Netlify, Git, JavaScript) </span> <br />
             Git Repository: <a href="https://github.com/sagedemage/PersonalWebsite"> PersonalWebsite </a></p>
-        <ul className="tech">
+        <ul>
 			<li> Deployed my personal website to Netlify </li>
 			<li> Implemented responsive web design </li>
             <li> Documented its build instructions </li>
 		</ul>
 
-		<p> <span className="project-title"> Calculator Desktop App (Rust, GTK4, Git) </span> <br />
-            Git Repository: <a href="https://github.com/sagedemage/CalculatorDesktopApp"> CalculatorDesktopApp </a></p> 
-		<ul className="tech">
-			<li> Designed the UI with accessibility in mind </li>
-            <li> Documented the build instructions of the app </li>
-		</ul>
+		
 
 		<h3 id="sub-title"> Technical Skills </h3>
 		<p className="skill"> <span className="skill-item">Languages</span>: 
