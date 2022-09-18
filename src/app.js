@@ -32,7 +32,7 @@ return (
                             <Nav.Link href="computer"> Computer Setup </Nav.Link>
                             <Nav.Link href="system"> Operating System </Nav.Link>
                         </Nav>
-						<Nav className="me-auto" id="links">
+						<Nav className="ms-auto">
 							<Nav.Link href="https://github.com/sagedemage">
 				    			<img className="icon-link" src={github} alt="my github page" width="30" height="30" />
 							</Nav.Link>
