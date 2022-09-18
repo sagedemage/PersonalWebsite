@@ -2,9 +2,9 @@
 import React from "react";
 import { Route, Routes} from "react-router-dom";
 
-import { Home } from "./components/home"
-import { Computer } from "./components/computer"
-import { System } from "./components/system"
+import { Home } from "./components/home";
+import { Projects } from "./components/projects";
+import { DevEnvironment } from "./components/dev_environment";
 
 import 'bootstrap/dist/css/bootstrap.css'
 
@@ -21,16 +21,15 @@ return (
         <div>
             <Navbar collapseOnSelect expand="lg" bg="myGreen" variant="dark" fixed="top">
                 <Container>
-                    <Navbar.Brand>
+                    <Navbar.Brand href="/">
                         <span className="indent"> Salmaan Saeed </span>
                     </Navbar.Brand>
             
                     <Navbar.Toggle aria-controls="responsive-navbar-nav"  />
                     <Navbar.Collapse id="responsive-navbar-nav">
                         <Nav className="me-auto">
-                            <Nav.Link href="/"> Home </Nav.Link>
-                            <Nav.Link href="computer"> Computer Setup </Nav.Link>
-                            <Nav.Link href="system"> Operating System </Nav.Link>
+                            <Nav.Link href="projects"> Experimental Projects </Nav.Link>
+                            <Nav.Link href="dev-environment"> My Dev Environment </Nav.Link>
                         </Nav>
 						<Nav className="ms-auto">
 							<Nav.Link href="https://github.com/sagedemage">
@@ -48,8 +47,8 @@ return (
         <div className="gaps" id="content">
             <Routes>
                 <Route path='/' element={<Home />}> </Route>
-                <Route path='computer' element={<Computer />}> </Route>
-                <Route path='system' element={<System />}> </Route>
+                <Route path='projects' element={<Projects />}> </Route>
+                <Route path='dev-environment' element={<DevEnvironment />}> </Route>
             </Routes>
         </div>
         <footer className="gaps" id="bottom">
