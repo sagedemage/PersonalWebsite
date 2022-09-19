@@ -54,7 +54,7 @@ export const DevEnvironment = () => {
 			<h2> The Text Editor I Use </h2>
 			<div className="caption">
 				<p>
-					<img className="logo" src={neovim} alt="Neovim Logo" />
+					<img className="logo scale_image" src={neovim} alt="Neovim Logo" />
 					Image credit: <a href="https://neovim.io/">Neovim</a>
 				</p>
 				<div className="caption-info">
