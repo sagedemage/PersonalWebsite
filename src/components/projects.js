@@ -3,7 +3,7 @@ import "../app.css"
 export const Projects = () => {
     return ( 
     	<div> 
-        	<h2> Experimental Projects </h2>
+        	<h1> Experimental Projects </h1>
 			<p> 
 				These are some of the other projects I have worked on. 
 				Most of these projects are experiments or prototypes. None the less, 

@@ -9,7 +9,7 @@ import "./dev_environment.css"
 export const DevEnvironment = () => {
     return ( 
     	<div> 
-			<h2> My Development Environment </h2>
+			<h1> My Development Environment </h1>
 			<p>
 				I usually do my development on Linux. Certain times, I will have to
 				use Windows to do development. To be honest, your dev environment
@@ -17,10 +17,10 @@ export const DevEnvironment = () => {
 				dev environment since it makes me productive when I want to do 
 				development.
 			</p>
-			<h3> The Linux Distro I Use </h3>
+			<h2> The Linux Distro I Use </h2>
 			<div className="caption">
-                <figure>
-					<a href="https://www.debian.org/"><img id="debian_logo" src={debian} alt="Debain Logo" /></a>
+				<figure>
+					<img id="debian_logo" src={debian} alt="Debain Logo" />
                     <figcaption>Image credit: <a href="https://www.debian.org/">Debian Project</a></figcaption>
 				</figure>
 				<div className="caption-info">
@@ -31,10 +31,10 @@ export const DevEnvironment = () => {
 				</div>
 			</div>
 
-			<h3> The Desktop Environment I Use </h3>
+			<h2> The Desktop Environment I Use </h2>
 			<div className="caption">
 				<p>
-					<a href="https://www.gnome.org/"><img className="logo" src={gnome} alt="Gnome Logo" /></a>
+					<img className="logo" src={gnome} alt="Gnome Logo" />
 					Image credit: <a href="https://www.gnome.org/">Gnome Foundation</a>
 				</p>
 				<div className="caption-info">
@@ -51,10 +51,10 @@ export const DevEnvironment = () => {
 				<img className="scale_image" src={desktop} alt="My Desktop" />
 			</p>
 
-			<h3> The Text Editor I Use </h3>
+			<h2> The Text Editor I Use </h2>
 			<div className="caption">
 				<p>
-					<a href="https://neovim.io/"><img className="logo" src={neovim} alt="Neovim Logo" /></a>
+					<img className="logo" src={neovim} alt="Neovim Logo" />
 					Image credit: <a href="https://neovim.io/">Neovim</a>
 				</p>
 				<div className="caption-info">
