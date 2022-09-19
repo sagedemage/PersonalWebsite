@@ -39,7 +39,7 @@ export const Home = () => {
 			I expect to graduate in December 2023. I'm interested in getting into web development.
 		</p>
 
-		<h2 id="sub-title"> Personal Projects </h2>
+		<p id="sub-title"> Personal Projects </p>
 		<p> <span className="project-title">Notebook (Gin, SQLite, Git, Go, JavaScript, Docker)</span> <br />
             Git Repository: <a href="https://github.com/sagedemage/Notebook"> Notebook </a></p> 
 		<ul>
@@ -68,7 +68,7 @@ export const Home = () => {
 
 		
 
-		<h2 id="sub-title"> Technical Skills </h2>
+		<p id="sub-title"> Technical Skills </p>
 		<p className="skill"> <span className="skill-item">Languages</span>: 
 			JavaScript, Python, Go, Rust, Bash, Java, C/C++, PHP, and HTML/CSS
 		</p>

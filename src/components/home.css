@@ -7,7 +7,7 @@
 }
 
 #profile-title {
-	font-size: 2.0em;
+	font-size: 2em;
 }
 
 #profile-info {
@@ -42,6 +42,7 @@ div.hr {
 }
 
 #sub-title {
+	font-size: 1.5em;
 	padding-bottom: 10px;
 	border-bottom: 2px solid #D5D5D5;
 }
