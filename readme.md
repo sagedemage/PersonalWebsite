@@ -7,7 +7,20 @@
 My Personal website in React.
 
 ## Installation
-Install these dependencies
+
+Install Node.js for Debian, Ubuntu and distros based on Debian or Ubuntu
+```
+sudo apt install nodejs
+```
+
+Install Node.js for Windows: [nodejs download page](https://nodejs.org/en/download/)
+
+Go to the root of the repository
+```
+cd PersonalWebsite
+```
+
+Install the dependencies
 ```
 npm install react react-dom react-router react-router-dom react-bootstrap bootstrap serve
 ```
