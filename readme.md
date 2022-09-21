@@ -6,7 +6,7 @@
 ## About
 My Personal website in React.
 
-## Installation
+## Setup
 
 Install Node.js for Debian, Ubuntu and distros based on Debian or Ubuntu
 ```
