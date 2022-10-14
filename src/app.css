@@ -19,22 +19,26 @@
 	margin-left: 1%;
 }
 
-#copyright {
-    text-align: center;
-}
-
 .scale_image {
 	max-width: 50%;
 	height: auto;
 }
 
-#bottom {
-    margin-bottom: 5em;
-}
-
 .project-title {
 	font-weight: bold;
 	font-size: 1.25em;
+}
+
+.footer-bottom {
+	height: 75px;
+	text-align: center;
+	margin-top: auto;
+}
+
+#body {
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
 }
 
 /* mobile portrait layout */
