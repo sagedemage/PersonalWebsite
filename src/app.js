@@ -17,7 +17,7 @@ import { Nav, Navbar, Container } from 'react-bootstrap'
 
 function App() {
 return (
-    <div>
+    <div id="body">
         <div>
             <Navbar collapseOnSelect expand="lg" bg="myGreen" variant="dark" fixed="top">
                 <Container>
@@ -51,10 +51,8 @@ return (
                 <Route path='dev-environment' element={<DevEnvironment />}> </Route>
             </Routes>
         </div>
-        <footer className="gaps" id="bottom">
-            <div id="copyright">
-                <p id="copyright"> &copy; {(new Date().getFullYear())} Salmaan Saeed </p>
-            </div>
+        <footer className="footer-bottom">
+            <p id="copyright"> &copy; {(new Date().getFullYear())} Salmaan Saeed </p>
 	    </footer>
     </div>
     ) 
