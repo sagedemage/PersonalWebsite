@@ -14,7 +14,6 @@ export const Projects = () => {
 				Git Repository: <a href="https://github.com/sagedemage/CalculatorDesktopApp"> CalculatorDesktopApp </a></p> 
 			<ul>
 				<li> Designed the UI with accessibility in mind </li>
-				<li> Documented the build instructions of the app </li>
 			</ul>
     	</div>
     );

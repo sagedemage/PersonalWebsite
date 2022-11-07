@@ -12,20 +12,42 @@ export const Home = () => {
 		<div id="profile">
 			<div id="profile-info">
 				<p id="profile-title"> Salmaan Saeed </p>
-				<p className="profile-text"> Undergraduate Student <br /> at NJIT </p>
-				<p className="profile-text">
-					<a href="mailto: ss3994@njit.edu"> ss3994@njit.edu </a>
+				<p className="profile-text"> 
+					Undergraduate Student <br /> at NJIT 
 				</p>
-				<p className="profile-text"> Contact & Profiles: </p>
+				<p className="profile-text">
+					<a href="mailto: ss3994@njit.edu"> 
+						ss3994@njit.edu 
+					</a>
+				</p>
+				<p className="profile-text"> 
+					Contact & Profiles: 
+				</p>
 				<div id="profile-links">
-					<a target="_blank" href="mailto: ss3994@njit.edu">
-				    	<img className="profile-icon-link" src={email} alt="my school email" width="42" height="30" />
+					<a target="_blank" 
+						href="mailto: ss3994@njit.edu">
+						<img className="profile-icon-link" 
+							src={email} 
+							alt="my school email" 
+							width="42" height="30" 
+						/>
 			    	</a>
-			    	<a target="_blank" href="https://github.com/sagedemage">
-				    	<img className="profile-icon-link" src={github} alt="my github page" width="30" height="30" />
+			    	<a target="_blank" 
+						href="https://github.com/sagedemage"
+					>
+				    	<img className="profile-icon-link" 
+							src={github} alt="my github page"
+							width="30" height="30" 
+						/>
 			    	</a>
-			    	<a target="_blank" href="https://www.linkedin.com/in/salmaan-saeed-6a5582197/">
-				    	<img className="profile-icon-link" src={linkedin} alt="my linkedin page" width="30" height="30" />
+			    	<a target="_blank" 
+						href="https://www.linkedin.com/in/salmaan-saeed-6a5582197/"
+					>
+				    	<img className="profile-icon-link" 
+							src={linkedin} 
+							alt="my linkedin page" 
+							width="30" height="30" 
+						/>
 			    	</a>
 		    	</div>
 			</div>
@@ -40,33 +62,30 @@ export const Home = () => {
 		</p>
 
 		<p id="sub-title"> Personal Projects </p>
-		<p> <span className="project-title">Notebook (Gin, SQLite, Git, Go, JavaScript, Docker)</span> <br />
+		<p> <span className="project-title">
+			Notebook (Gin, React, MySQL, SQLite, Git, Go, JavaScript, Docker)</span> <br />
             Git Repository: <a href="https://github.com/sagedemage/Notebook"> Notebook </a></p> 
 		<ul>
-			<li> Implemented CI/CD with GitHub workflows </li>
-			<li> Built user authentication </li>
-			<li> Designed password validation for user registration </li>
-			<li> Documented its purpose and build instructions </li>
+			<li> Utilized CI/CD with GitHub workflows to automate unit testing of the app </li>
+			<li> Implemented REST API for the backend so it can communicate with the frontend easily </li>
+			<li> Built user authentication so that the user can register, login, and logout their account </li>
+			<li> Designed password validation for user registration to check if their password is strong </li>
 		</ul>
 
 		<p> <span className="project-title">Discussion Board (Flask, SQLite, Git, Python, JavaScript, Docker)</span> <br />
             Git Repository: <a href="https://github.com/sagedemage/DiscussionBoard"> DiscussionBoard </a></p>
 		<ul>
-			<li> Implemented CI/CD with GitHub workflows </li>
-			<li> Built user authentication </li>
-			<li> Designed password validation for user registration </li>
-			<li> Documented its purpose and build instructions </li>
+			<li> Implemented CI/CD with GitHub workflows to automate unit testing of the app </li>
+			<li> Built user authentication so that the user can register, login, and logout their account </li>
+			<li> Designed password validation for user registration to check if their password is strong </li>
 		</ul>
 
 		<p> <span className="project-title"> Personal Website (React, Netlify, Git, JavaScript) </span> <br />
             Git Repository: <a href="https://github.com/sagedemage/PersonalWebsite"> PersonalWebsite </a></p>
         <ul>
+			<li> Implemented responsive web design in order for my app to render nicely on mobile and desktop </li>
 			<li> Deployed my personal website to Netlify </li>
-			<li> Implemented responsive web design </li>
-            <li> Documented its build instructions </li>
 		</ul>
-
-		
 
 		<p id="sub-title"> Technical Skills </p>
 		<p className="skill"> <span className="skill-item">Languages</span>: 
