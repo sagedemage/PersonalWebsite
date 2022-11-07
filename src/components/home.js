@@ -66,25 +66,25 @@ export const Home = () => {
 			Notebook (Gin, React, MySQL, SQLite, Git, Go, JavaScript, Docker)</span> <br />
             Git Repository: <a href="https://github.com/sagedemage/Notebook"> Notebook </a></p> 
 		<ul>
-			<li> Utilized CI/CD with GitHub workflows </li>
+			<li> Utilized CI/CD with GitHub workflows to automate unit testing of the app </li>
 			<li> Implemented REST API for the backend so it can communicate with the frontend easily </li>
-			<li> Built user authentication </li>
-			<li> Designed password validation for user registration </li>
+			<li> Built user authentication so that the user can register, login, and logout their account </li>
+			<li> Designed password validation for user registration to check if their password is strong </li>
 		</ul>
 
 		<p> <span className="project-title">Discussion Board (Flask, SQLite, Git, Python, JavaScript, Docker)</span> <br />
             Git Repository: <a href="https://github.com/sagedemage/DiscussionBoard"> DiscussionBoard </a></p>
 		<ul>
-			<li> Implemented CI/CD with GitHub workflows </li>
-			<li> Built user authentication </li>
-			<li> Designed password validation for user registration </li>
+			<li> Implemented CI/CD with GitHub workflows to automate unit testing of the app </li>
+			<li> Built user authentication so that the user can register, login, and logout their account </li>
+			<li> Designed password validation for user registration to check if their password is strong </li>
 		</ul>
 
 		<p> <span className="project-title"> Personal Website (React, Netlify, Git, JavaScript) </span> <br />
             Git Repository: <a href="https://github.com/sagedemage/PersonalWebsite"> PersonalWebsite </a></p>
         <ul>
+			<li> Implemented responsive web design in order for my app to render nicely on mobile and desktop </li>
 			<li> Deployed my personal website to Netlify </li>
-			<li> Implemented responsive web design </li>
 		</ul>
 
 		<p id="sub-title"> Technical Skills </p>
