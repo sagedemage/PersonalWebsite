@@ -1,4 +1,4 @@
-import "./navigation-bar.css"
+import "./navigation_bar.css"
 
 import github from 'assets/icons/github.webp';
 import linkedin from 'assets/icons/linkedin.webp';

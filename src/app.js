@@ -1,7 +1,7 @@
 import React from "react";
 import { Route, Routes } from "react-router-dom";
 
-import { MyNavBar } from "./components/navigation-bar/navigation-bar";
+import { MyNavBar } from "./components/navigation_bar/navigation_bar";
 import { Home } from "./components/home/home";
 import { Projects } from "./components/projects/projects";
 import { DevEnvironment } from "./components/dev_environment/dev_environment";
