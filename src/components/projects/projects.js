@@ -1,5 +1,3 @@
-import "../app.css"
-
 export const Projects = () => {
     return ( 
     	<div> 

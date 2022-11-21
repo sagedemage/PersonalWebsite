@@ -1,7 +1,7 @@
 import "./navigation-bar.css"
 
-import github from '../assets/icons/github.webp';
-import linkedin from '../assets/icons/linkedin.webp';
+import github from 'assets/icons/github.webp';
+import linkedin from 'assets/icons/linkedin.webp';
 
 import { Nav, Navbar, Container } from 'react-bootstrap'
 
