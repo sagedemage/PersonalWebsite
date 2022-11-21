@@ -1,8 +1,7 @@
-
-import debian from '../assets/images/debian_logo.webp';
-import gnome from '../assets/images/gnome_logo.webp';
-import desktop from '../assets/images/gnome_desktop_screenshot.webp'
-import neovim from '../assets/images/neovim_logo.webp'
+import debian from 'assets/images/debian_logo.webp';
+import gnome from 'assets/images/gnome_logo.webp';
+import desktop from 'assets/images/gnome_desktop_screenshot.webp';
+import neovim from 'assets/images/neovim_logo.webp';
 
 import "./dev_environment.css"
 
