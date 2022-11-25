@@ -1,12 +1,13 @@
-
 import github from 'assets/icons/github.webp';
 import linkedin from 'assets/icons/linkedin.webp';
+
+import styles from 'styles/NavigationBar.module.css'
 
 import { Nav, Navbar, Container } from 'react-bootstrap'
 
 export function MyNavBar() {
 	return (
-			<div>
+			<div className={styles.mb}>
 				<Navbar collapseOnSelect expand="lg" bg="myGreen" variant="dark" fixed="top">
 					<Container>
 						<Navbar.Brand href="/">
