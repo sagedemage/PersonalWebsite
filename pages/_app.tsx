@@ -3,8 +3,6 @@ import type { AppProps } from 'next/app'
 
 import 'bootstrap/dist/css/bootstrap.css'
 
-import styles from 'styles/Home.module.css'
-
 import './app.css'
 
 import { MyNavBar } from 'components/navigation_bar/navigation_bar';

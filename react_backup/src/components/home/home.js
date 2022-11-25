@@ -1,7 +1,6 @@
-import profile from 'assets/images/salmaan_saeed.webp';
-
 import "./home.css"
 
+import profile from 'assets/images/salmaan_saeed.webp';
 import github from 'assets/icons/github.webp';
 import linkedin from 'assets/icons/linkedin.webp';
 import email from 'assets/icons/email.webp';
