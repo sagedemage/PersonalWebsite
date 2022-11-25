@@ -1,0 +1,99 @@
+/*
+ * ATTENTION: An "eval-source-map" devtool has been used.
+ * This devtool is neither made for production nor for readable output files.
+ * It uses "eval()" calls to create a separate source file with attached SourceMaps in the browser devtools.
+ * If you are trying to read the output file, select a different devtool (https://webpack.js.org/configuration/devtool/)
+ * or disable the default devtool with "devtool: false".
+ * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
+ */
+(() => {
+var exports = {};
+exports.id = "pages/_app";
+exports.ids = ["pages/_app"];
+exports.modules = {
+
+/***/ "./components/navigation_bar/navigation_bar.tsx":
+/*!******************************************************!*\
+  !*** ./components/navigation_bar/navigation_bar.tsx ***!
+  \******************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"MyNavBar\": () => (/* binding */ MyNavBar)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"react/jsx-dev-runtime\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var react_bootstrap__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-bootstrap */ \"react-bootstrap\");\n/* harmony import */ var react_bootstrap__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__);\n\n\nfunction MyNavBar() {\n    return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n        children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__.Navbar, {\n            collapseOnSelect: true,\n            expand: \"lg\",\n            bg: \"myGreen\",\n            variant: \"dark\",\n            fixed: \"top\",\n            children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__.Container, {\n                children: [\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__.Navbar.Brand, {\n                        href: \"/\",\n                        children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"span\", {\n                            className: \"indent\",\n                            children: \" Salmaan Saeed \"\n                        }, void 0, false, {\n                            fileName: \"/home/salmaan/git/PersonalWebsite/components/navigation_bar/navigation_bar.tsx\",\n                            lineNumber: 10,\n                            columnNumber: 8\n                        }, this)\n                    }, void 0, false, {\n                        fileName: \"/home/salmaan/git/PersonalWebsite/components/navigation_bar/navigation_bar.tsx\",\n                        lineNumber: 9,\n                        columnNumber: 7\n                    }, this),\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__.Navbar.Toggle, {\n                        \"aria-controls\": \"responsive-navbar-nav\"\n                    }, void 0, false, {\n                        fileName: \"/home/salmaan/git/PersonalWebsite/components/navigation_bar/navigation_bar.tsx\",\n                        lineNumber: 12,\n                        columnNumber: 7\n                    }, this),\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__.Navbar.Collapse, {\n                        id: \"responsive-navbar-nav\",\n                        children: [\n                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__.Nav, {\n                                className: \"me-auto\",\n                                children: [\n                                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__.Nav.Link, {\n                                        href: \"about\",\n                                        children: \" About \"\n                                    }, void 0, false, {\n                                        fileName: \"/home/salmaan/git/PersonalWebsite/components/navigation_bar/navigation_bar.tsx\",\n                                        lineNumber: 15,\n                                        columnNumber: 9\n                                    }, this),\n                                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__.Nav.Link, {\n                                        href: \"dev\",\n                                        children: \" Dev \"\n                                    }, void 0, false, {\n                                        fileName: \"/home/salmaan/git/PersonalWebsite/components/navigation_bar/navigation_bar.tsx\",\n                                        lineNumber: 16,\n                                        columnNumber: 9\n                                    }, this)\n                                ]\n                            }, void 0, true, {\n                                fileName: \"/home/salmaan/git/PersonalWebsite/components/navigation_bar/navigation_bar.tsx\",\n                                lineNumber: 14,\n                                columnNumber: 8\n                            }, this),\n                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__.Nav, {\n                                className: \"ms-auto\",\n                                children: [\n                                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__.Nav.Link, {\n                                        href: \"projects\",\n                                        children: \" Projects \"\n                                    }, void 0, false, {\n                                        fileName: \"/home/salmaan/git/PersonalWebsite/components/navigation_bar/navigation_bar.tsx\",\n                                        lineNumber: 19,\n                                        columnNumber: 9\n                                    }, this),\n                                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__.Nav.Link, {\n                                        href: \"fun\",\n                                        children: \" Fun \"\n                                    }, void 0, false, {\n                                        fileName: \"/home/salmaan/git/PersonalWebsite/components/navigation_bar/navigation_bar.tsx\",\n                                        lineNumber: 20,\n                                        columnNumber: 9\n                                    }, this)\n                                ]\n                            }, void 0, true, {\n                                fileName: \"/home/salmaan/git/PersonalWebsite/components/navigation_bar/navigation_bar.tsx\",\n                                lineNumber: 18,\n                                columnNumber: 8\n                            }, this)\n                        ]\n                    }, void 0, true, {\n                        fileName: \"/home/salmaan/git/PersonalWebsite/components/navigation_bar/navigation_bar.tsx\",\n                        lineNumber: 13,\n                        columnNumber: 7\n                    }, this)\n                ]\n            }, void 0, true, {\n                fileName: \"/home/salmaan/git/PersonalWebsite/components/navigation_bar/navigation_bar.tsx\",\n                lineNumber: 8,\n                columnNumber: 6\n            }, this)\n        }, void 0, false, {\n            fileName: \"/home/salmaan/git/PersonalWebsite/components/navigation_bar/navigation_bar.tsx\",\n            lineNumber: 7,\n            columnNumber: 5\n        }, this)\n    }, void 0, false, {\n        fileName: \"/home/salmaan/git/PersonalWebsite/components/navigation_bar/navigation_bar.tsx\",\n        lineNumber: 6,\n        columnNumber: 4\n    }, this);\n}\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9jb21wb25lbnRzL25hdmlnYXRpb25fYmFyL25hdmlnYXRpb25fYmFyLnRzeC5qcyIsIm1hcHBpbmdzIjoiOzs7Ozs7OztBQUNBO0FBQXdEO0FBRWpELFNBQVNHLFdBQVc7SUFDMUIscUJBQ0UsOERBQUNDO2tCQUNBLDRFQUFDSCxtREFBTUE7WUFBQ0ksZ0JBQWdCO1lBQUNDLFFBQU87WUFBS0MsSUFBRztZQUFVQyxTQUFRO1lBQU9DLE9BQU07c0JBQ3RFLDRFQUFDUCxzREFBU0E7O2tDQUNULDhEQUFDRCx5REFBWTt3QkFBQ1UsTUFBSztrQ0FDbEIsNEVBQUNDOzRCQUFLQyxXQUFVO3NDQUFTOzs7Ozs7Ozs7OztrQ0FFMUIsOERBQUNaLDBEQUFhO3dCQUFDYyxpQkFBYzs7Ozs7O2tDQUM3Qiw4REFBQ2QsNERBQWU7d0JBQUNnQixJQUFHOzswQ0FDbkIsOERBQUNqQixnREFBR0E7Z0NBQUNhLFdBQVU7O2tEQUNkLDhEQUFDYixxREFBUTt3Q0FBQ1csTUFBSztrREFBUTs7Ozs7O2tEQUN2Qiw4REFBQ1gscURBQVE7d0NBQUNXLE1BQUs7a0RBQU07Ozs7Ozs7Ozs7OzswQ0FFdEIsOERBQUNYLGdEQUFHQTtnQ0FBQ2EsV0FBVTs7a0RBQ2QsOERBQUNiLHFEQUFRO3dDQUFDVyxNQUFLO2tEQUFXOzs7Ozs7a0RBQzFCLDhEQUFDWCxxREFBUTt3Q0FBQ1csTUFBSztrREFBTTs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7OztBQU83QixDQUFDIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vTmV4dEFwcC8uL2NvbXBvbmVudHMvbmF2aWdhdGlvbl9iYXIvbmF2aWdhdGlvbl9iYXIudHN4PzdiNDYiXSwic291cmNlc0NvbnRlbnQiOlsiXG5pbXBvcnQgeyBOYXYsIE5hdmJhciwgQ29udGFpbmVyIH0gZnJvbSAncmVhY3QtYm9vdHN0cmFwJ1xuXG5leHBvcnQgZnVuY3Rpb24gTXlOYXZCYXIoKSB7XG5cdHJldHVybiAoXG5cdFx0XHQ8ZGl2PlxuXHRcdFx0XHQ8TmF2YmFyIGNvbGxhcHNlT25TZWxlY3QgZXhwYW5kPVwibGdcIiBiZz1cIm15R3JlZW5cIiB2YXJpYW50PVwiZGFya1wiIGZpeGVkPVwidG9wXCI+XG5cdFx0XHRcdFx0PENvbnRhaW5lcj5cblx0XHRcdFx0XHRcdDxOYXZiYXIuQnJhbmQgaHJlZj1cIi9cIj5cblx0XHRcdFx0XHRcdFx0PHNwYW4gY2xhc3NOYW1lPVwiaW5kZW50XCI+IFNhbG1hYW4gU2FlZWQgPC9zcGFuPlxuXHRcdFx0XHRcdFx0PC9OYXZiYXIuQnJhbmQ+XG5cdFx0XHRcdFx0XHQ8TmF2YmFyLlRvZ2dsZSBhcmlhLWNvbnRyb2xzPVwicmVzcG9uc2l2ZS1uYXZiYXItbmF2XCIgIC8+XG5cdFx0XHRcdFx0XHQ8TmF2YmFyLkNvbGxhcHNlIGlkPVwicmVzcG9uc2l2ZS1uYXZiYXItbmF2XCI+XG5cdFx0XHRcdFx0XHRcdDxOYXYgY2xhc3NOYW1lPVwibWUtYXV0b1wiPlxuXHRcdFx0XHRcdFx0XHRcdDxOYXYuTGluayBocmVmPVwiYWJvdXRcIj4gQWJvdXQgPC9OYXYuTGluaz5cblx0XHRcdFx0XHRcdFx0XHQ8TmF2LkxpbmsgaHJlZj1cImRldlwiPiBEZXYgPC9OYXYuTGluaz5cblx0XHRcdFx0XHRcdFx0PC9OYXY+XG5cdFx0XHRcdFx0XHRcdDxOYXYgY2xhc3NOYW1lPVwibXMtYXV0b1wiPlxuXHRcdFx0XHRcdFx0XHRcdDxOYXYuTGluayBocmVmPVwicHJvamVjdHNcIj4gUHJvamVjdHMgPC9OYXYuTGluaz5cblx0XHRcdFx0XHRcdFx0XHQ8TmF2LkxpbmsgaHJlZj1cImZ1blwiPiBGdW4gPC9OYXYuTGluaz5cblx0XHRcdFx0XHRcdFx0PC9OYXY+XG5cdFx0XHRcdFx0XHQ8L05hdmJhci5Db2xsYXBzZT5cblx0XHRcdFx0XHQ8L0NvbnRhaW5lcj5cblx0XHRcdFx0PC9OYXZiYXI+XG5cdFx0XHQ8L2Rpdj5cblx0XHQgICApO1xufVxuIl0sIm5hbWVzIjpbIk5hdiIsIk5hdmJhciIsIkNvbnRhaW5lciIsIk15TmF2QmFyIiwiZGl2IiwiY29sbGFwc2VPblNlbGVjdCIsImV4cGFuZCIsImJnIiwidmFyaWFudCIsImZpeGVkIiwiQnJhbmQiLCJocmVmIiwic3BhbiIsImNsYXNzTmFtZSIsIlRvZ2dsZSIsImFyaWEtY29udHJvbHMiLCJDb2xsYXBzZSIsImlkIiwiTGluayJdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///./components/navigation_bar/navigation_bar.tsx\n");
+
+/***/ }),
+
+/***/ "./pages/_app.tsx":
+/*!************************!*\
+  !*** ./pages/_app.tsx ***!
+  \************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ App)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"react/jsx-dev-runtime\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _styles_globals_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../styles/globals.css */ \"./styles/globals.css\");\n/* harmony import */ var _styles_globals_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_styles_globals_css__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var bootstrap_dist_css_bootstrap_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! bootstrap/dist/css/bootstrap.css */ \"./node_modules/bootstrap/dist/css/bootstrap.css\");\n/* harmony import */ var bootstrap_dist_css_bootstrap_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(bootstrap_dist_css_bootstrap_css__WEBPACK_IMPORTED_MODULE_2__);\n/* harmony import */ var _app_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./app.css */ \"./pages/app.css\");\n/* harmony import */ var _app_css__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_app_css__WEBPACK_IMPORTED_MODULE_3__);\n/* harmony import */ var components_navigation_bar_navigation_bar__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! components/navigation_bar/navigation_bar */ \"./components/navigation_bar/navigation_bar.tsx\");\n\n\n\n\n\nfunction App({ Component , pageProps  }) {\n    return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n        id: \"body\",\n        children: [\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(components_navigation_bar_navigation_bar__WEBPACK_IMPORTED_MODULE_4__.MyNavBar, {}, void 0, false, {\n                fileName: \"/home/salmaan/git/PersonalWebsite/pages/_app.tsx\",\n                lineNumber: 16,\n                columnNumber: 4\n            }, this),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                id: \"content\",\n                children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(Component, {\n                    ...pageProps\n                }, void 0, false, {\n                    fileName: \"/home/salmaan/git/PersonalWebsite/pages/_app.tsx\",\n                    lineNumber: 19,\n                    columnNumber: 5\n                }, this)\n            }, void 0, false, {\n                fileName: \"/home/salmaan/git/PersonalWebsite/pages/_app.tsx\",\n                lineNumber: 18,\n                columnNumber: 4\n            }, this),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"footer\", {\n                className: \"footer\",\n                children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                    id: \"copyright\",\n                    children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"p\", {\n                        id: \"copyright\",\n                        children: [\n                            \" \\xa9 \",\n                            new Date().getFullYear(),\n                            \" Salmaan Saeed \"\n                        ]\n                    }, void 0, true, {\n                        fileName: \"/home/salmaan/git/PersonalWebsite/pages/_app.tsx\",\n                        lineNumber: 24,\n                        columnNumber: 6\n                    }, this)\n                }, void 0, false, {\n                    fileName: \"/home/salmaan/git/PersonalWebsite/pages/_app.tsx\",\n                    lineNumber: 23,\n                    columnNumber: 11\n                }, this)\n            }, void 0, false, {\n                fileName: \"/home/salmaan/git/PersonalWebsite/pages/_app.tsx\",\n                lineNumber: 22,\n                columnNumber: 4\n            }, this)\n        ]\n    }, void 0, true, {\n        fileName: \"/home/salmaan/git/PersonalWebsite/pages/_app.tsx\",\n        lineNumber: 14,\n        columnNumber: 3\n    }, this);\n}\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9wYWdlcy9fYXBwLnRzeC5qcyIsIm1hcHBpbmdzIjoiOzs7Ozs7Ozs7Ozs7O0FBQUE7QUFBOEI7QUFHVztBQUl2QjtBQUVrRDtBQUVyRCxTQUFTQyxJQUFJLEVBQUVDLFVBQVMsRUFBRUMsVUFBUyxFQUFZLEVBQUU7SUFDL0QscUJBQ0MsOERBQUNDO1FBQUlDLElBQUc7OzBCQUVQLDhEQUFDTCw4RUFBUUE7Ozs7OzBCQUVULDhEQUFDSTtnQkFBSUMsSUFBRzswQkFDUCw0RUFBQ0g7b0JBQVcsR0FBR0MsU0FBUzs7Ozs7Ozs7Ozs7MEJBR3pCLDhEQUFDRztnQkFBT0MsV0FBVTswQkFDWCw0RUFBQ0g7b0JBQUlDLElBQUc7OEJBQ2IsNEVBQUNHO3dCQUFFSCxJQUFHOzs0QkFBWTs0QkFBVSxJQUFJSSxPQUFPQyxXQUFXOzRCQUFJOzs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7OztBQUszRCxDQUFDIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vTmV4dEFwcC8uL3BhZ2VzL19hcHAudHN4PzJmYmUiXSwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0ICcuLi9zdHlsZXMvZ2xvYmFscy5jc3MnXG5pbXBvcnQgdHlwZSB7IEFwcFByb3BzIH0gZnJvbSAnbmV4dC9hcHAnXG5cbmltcG9ydCAnYm9vdHN0cmFwL2Rpc3QvY3NzL2Jvb3RzdHJhcC5jc3MnXG5cbmltcG9ydCBzdHlsZXMgZnJvbSAnc3R5bGVzL0hvbWUubW9kdWxlLmNzcydcblxuaW1wb3J0ICcuL2FwcC5jc3MnXG5cbmltcG9ydCB7IE15TmF2QmFyIH0gZnJvbSAnY29tcG9uZW50cy9uYXZpZ2F0aW9uX2Jhci9uYXZpZ2F0aW9uX2Jhcic7XG5cbmV4cG9ydCBkZWZhdWx0IGZ1bmN0aW9uIEFwcCh7IENvbXBvbmVudCwgcGFnZVByb3BzIH06IEFwcFByb3BzKSB7XG5cdHJldHVybiAoXG5cdFx0PGRpdiBpZD1cImJvZHlcIj5cblx0XHRcdHsvKiBOYXZpZ2F0aW9uIEJhciAqL31cblx0XHRcdDxNeU5hdkJhcj48L015TmF2QmFyPlxuXG5cdFx0XHQ8ZGl2IGlkPVwiY29udGVudFwiPlxuXHRcdFx0XHQ8Q29tcG9uZW50IHsuLi5wYWdlUHJvcHN9IC8+XG5cdFx0XHQ8L2Rpdj5cblxuXHRcdFx0PGZvb3RlciBjbGFzc05hbWU9XCJmb290ZXJcIj5cbiAgICAgICAgXHRcdDxkaXYgaWQ9XCJjb3B5cmlnaHRcIj5cblx0XHRcdFx0XHQ8cCBpZD1cImNvcHlyaWdodFwiPiAmY29weTsgeyhuZXcgRGF0ZSgpLmdldEZ1bGxZZWFyKCkpfSBTYWxtYWFuIFNhZWVkIDwvcD5cblx0XHRcdFx0PC9kaXY+XG4gICAgICBcdFx0PC9mb290ZXI+XG5cdFx0PC9kaXY+XG5cdFx0KTtcbn1cblxuIl0sIm5hbWVzIjpbIk15TmF2QmFyIiwiQXBwIiwiQ29tcG9uZW50IiwicGFnZVByb3BzIiwiZGl2IiwiaWQiLCJmb290ZXIiLCJjbGFzc05hbWUiLCJwIiwiRGF0ZSIsImdldEZ1bGxZZWFyIl0sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///./pages/_app.tsx\n");
+
+/***/ }),
+
+/***/ "./node_modules/bootstrap/dist/css/bootstrap.css":
+/*!*******************************************************!*\
+  !*** ./node_modules/bootstrap/dist/css/bootstrap.css ***!
+  \*******************************************************/
+/***/ (() => {
+
+
+
+/***/ }),
+
+/***/ "./pages/app.css":
+/*!***********************!*\
+  !*** ./pages/app.css ***!
+  \***********************/
+/***/ (() => {
+
+
+
+/***/ }),
+
+/***/ "./styles/globals.css":
+/*!****************************!*\
+  !*** ./styles/globals.css ***!
+  \****************************/
+/***/ (() => {
+
+
+
+/***/ }),
+
+/***/ "react-bootstrap":
+/*!**********************************!*\
+  !*** external "react-bootstrap" ***!
+  \**********************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("react-bootstrap");
+
+/***/ }),
+
+/***/ "react/jsx-dev-runtime":
+/*!****************************************!*\
+  !*** external "react/jsx-dev-runtime" ***!
+  \****************************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("react/jsx-dev-runtime");
+
+/***/ })
+
+};
+;
+
+// load runtime
+var __webpack_require__ = require("../webpack-runtime.js");
+__webpack_require__.C(exports);
+var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
+var __webpack_exports__ = (__webpack_exec__("./pages/_app.tsx"));
+module.exports = __webpack_exports__;
+
+})();
