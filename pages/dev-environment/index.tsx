@@ -10,7 +10,7 @@ export default function DevEnvironment() {
   return (
     <div>
       <Head>
-        <title>Dev Environment</title>
+        <title>My Dev Environment</title>
         <meta name="description" content="salmaan saeed's dev environment" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
