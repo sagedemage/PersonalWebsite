@@ -1,16 +1,18 @@
+
 /* css for the app */
 
 #content {
-    margin-top: 50px;
-}
-
-.gaps {
-    margin-right: 16%;
+	margin-right: 16%;
     margin-left: 16%;
 }
 
-.indent {
-    padding-left: 0em;
+#body {
+	font-family: Arial, Roboto, Helvetica, sans-serif, -apple-system, BlinkMacSystemFont;
+	-webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
 }
 
 .icon-link {
@@ -22,21 +24,27 @@
 	height: auto;
 }
 
-.project-title {
+.project_title {
 	font-weight: bold;
 	font-size: 1.25em;
 }
 
-.footer-bottom {
-	height: 75px;
+.footer {
+	height: 100px;
 	text-align: center;
 	margin-top: auto;
+	padding-top: 20px;
+  	border-top: 1px solid #eaeaea;
 }
 
 #body {
 	min-height: 100vh;
 	display: flex;
 	flex-direction: column;
+}
+
+.bg-myGreen {
+    background-color: SeaGreen;
 }
 
 /* mobile portrait layout */

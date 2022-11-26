@@ -6,15 +6,16 @@
 	margin-bottom: 25px;
 }
 
-#profile-title {
+#profile_title {
 	font-size: 2em;
+	font-weight: bold;
 }
 
-#profile-info {
+#profile_info {
 	text-align: center;
 }
 
-#profile-image {
+#profile_image {
 	display: block;
 	max-width: 100%;
 	height: auto;
@@ -22,15 +23,15 @@
   	margin-left: auto;
 }
 
-.profile-text {
+.profile_text {
 	font-size: 1.1em;
 }
 
-#profile-links {
+#profile_links {
 	padding-bottom: 40px;
  }
   
-.profile-icon-link {
+.profile_icon_link {
 	margin-left: 2.5%;
 	margin-right: 2.5%;
 }
@@ -41,8 +42,9 @@ div.hr {
 	margin-bottom: 20px;
 }
 
-#sub-title {
+#sub_title {
 	font-size: 1.5em;
+	font-weight: bold;
 	padding-bottom: 10px;
 	border-bottom: 2px solid #D5D5D5;
 }
@@ -52,7 +54,7 @@ div.hr {
 	padding-bottom: 10px;
 }
 
-.skill-item {
+.skill_item {
 	font-weight: bold;
 }
 
@@ -61,7 +63,7 @@ div.hr {
 	#profile {
 		grid-template-columns: auto;
 	}
-	#profile-image {
+	#profile_image {
 		max-width: 100%;
 	}
 }
@@ -71,7 +73,7 @@ div.hr {
 	#profile {
 		grid-template-columns: auto;
 	}
-	#profile-image {
+	#profile_image {
 		max-width: 50%;
 	}
 }
@@ -81,8 +83,38 @@ div.hr {
 	#profile {
 		grid-template-columns: auto;
 	}
-	#profile-image {
+	#profile_image {
 		max-width: 50%;
 	}
 }
 
+/* Old css */
+
+
+.code {
+  background: #fafafa;
+  border-radius: 5px;
+  padding: 0.75rem;
+  font-size: 1.1rem;
+  font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
+    Bitstream Vera Sans Mono, Courier New, monospace;
+}
+
+.grid {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 800px;
+}
+
+.logo {
+  height: 1em;
+  margin-left: 0.5rem;
+}
+
+@media (max-width: 600px) {
+}
+
+@media (prefers-color-scheme: dark) {
+}

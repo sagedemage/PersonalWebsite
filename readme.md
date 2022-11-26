@@ -28,7 +28,7 @@ npm install react react-dom react-router react-router-dom react-bootstrap bootst
 ## Try it out
 Test web app
 ```
-npm start
+npm run dev
 ```
 
 Build web app
