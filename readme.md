@@ -22,7 +22,7 @@ cd PersonalWebsite
 
 Install the dependencies
 ```
-npm install react react-dom react-router react-router-dom react-bootstrap bootstrap serve
+npm install next react react-dom next bootstrap react-bootstrap
 ```
 
 ## Try it out
@@ -36,7 +36,3 @@ Build web app
 npm run build
 ```
 
-Serve the built web app for production
-```
-serve -s build
-```
