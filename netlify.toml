@@ -16,7 +16,7 @@
   publish = "build"
 
   # Default build command.
-  command = "CI= npx next build"
+  command = "CI= npm run build"
 
 # Production context: all deploys from the Production branch 
 # set in your site’s Branches settings in the UI will inherit 
@@ -25,7 +25,7 @@
 # values to keep them out of your source repository. 
 [context.production]
   publish = "build"
-  command = "CI= npx next build"
+  command = "CI= npm run build"
   environment = { NODE_VERSION = "18.12.1" }
 
 # Deploy Preview context: all deploys generated from
@@ -44,20 +44,20 @@
 # a pull/merge request or from the Production branch 
 # will inherit these settings.
 [context.branch-deploy]
-  command = "CI= npx next build"
+  command = "CI= npm run build"
 [context.branch-deploy.environment]
   NODE_ENV = "development"
 
 # Specific branch context: all deploys from 
 # this specific branch will inherit these settings.
 [context.staging] # “staging” is a branch name
-  command = "CI= npx next build"
+  command = "CI= npm run build"
   base = "staging"
 
 # For contexts of branches with special characters, 
 # enclose the branch name with quotes.
 [context."feat/branch"]
-  command = "CI= npx next build"
+  command = "CI= npm run build"
   base = "branch"
 
 # The following redirect is intended for use with most SPAs 
