@@ -40,16 +40,14 @@ export default function Home() {
 						/>
 			    	</a>
 			    	<a target="_blank" 
-						href="https://github.com/sagedemage"
-					>
+						href="https://github.com/sagedemage">
 				    	<img className={styles.profile_icon_link} 
 							src={github.src} alt="my github page"
 							width="30" height="30" 
 						/>
 			    	</a>
 			    	<a target="_blank" 
-						href="https://www.linkedin.com/in/salmaan-saeed-6a5582197/"
-					>
+						href="https://www.linkedin.com/in/salmaan-saeed-6a5582197/">
 				    	<img className={styles.profile_icon_link} 
 							src={linkedin.src} 
 							alt="my linkedin page" 
@@ -68,9 +66,9 @@ export default function Home() {
 			I expect to graduate in December 2023. I'm interested in getting into web development.
 		</p>
 
-		<p id={styles.sub_title}> Personal Projects </p>
+		<p id={styles.sub_title}> Relevant Projects </p>
 		<p> <span className="project_title">
-			Notebook (Gin, React, MySQL, SQLite, Git, Go, JavaScript, Docker)</span> <br />
+			Notebook (Gin, React, MySQL, SQLite, Git, Go, TypeScript, Docker)</span> <br />
             Git Repository: <a href="https://github.com/sagedemage/Notebook"> Notebook </a></p> 
 		<ul>
 			<li> Utilized CI/CD with GitHub workflows to automate unit testing of the app </li>
@@ -87,7 +85,7 @@ export default function Home() {
 			<li> Designed password validation for user registration to check if their password is strong </li>
 		</ul>
 
-		<p> <span className="project_title"> Personal Website (React, Netlify, Git, JavaScript) </span> <br />
+		<p> <span className="project_title"> Personal Website (Next.js, Netlify, Git, TypeScript) </span> <br />
             Git Repository: <a href="https://github.com/sagedemage/PersonalWebsite"> PersonalWebsite </a></p>
         <ul>
 			<li> Implemented responsive web design in order for my app to render nicely on mobile and desktop </li>
@@ -96,11 +94,12 @@ export default function Home() {
 
 		<p id={styles.sub_title}> Technical Skills </p>
 		<p className={styles.skill}> <span className={styles.skill_item}>Languages</span>: 
-			JavaScript, Python, Go, Rust, Bash, Java, C/C++, PHP, and HTML/CSS
+			JavaScript/TypeScript, Python, Go, Rust, Bash, Java, C/C++, PHP, and HTML/CSS
 		</p>
-		<p className={styles.skill}> <span className={styles.skill_item}>Frameworks</span>: Flask, Gin, Bootstrap, and Yew </p>
+		<p className={styles.skill}> <span className={styles.skill_item}>Frameworks</span>: 
+			Gin, React, Flask, and Bootstrap </p>
 		<p className={styles.skill}> <span className={styles.skill_item}>Databases</span>: MS SQL, SQLite, and MySQL </p>
-		<p className={styles.skill}> <span className={styles.skill_item}>Libraries</span>: Pandas, SDL, GTK, jQuery, and React </p>
+		<p className={styles.skill}> <span className={styles.skill_item}>Libraries</span>: Pandas, SDL, GTK, and jQuery </p>
 		<p className={styles.skill}> 
 			<span className={styles.skill_item}>Technologies</span>: Docker, Azure, Apache, Nginx, Git, Pylint, CMake, Clang-Tidy, Linux command line,
 			WebAssembly, and Kubernetes
