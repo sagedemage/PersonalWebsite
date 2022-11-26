@@ -4,7 +4,7 @@
 [Personal Website](https://salmaansaeed.netlify.app/)
 
 ## About
-My Personal website in React.
+My Personal website in Next.js.
 
 ## Setup
 
