@@ -1,5 +1,8 @@
 # Settings in the [build] context are global and are applied to 
 # all contexts unless otherwise overridden by more specific contexts.
+
+build_app = "CI= npx next build"
+
 [build]
   # Directory to change to before starting a build.
   # This is where we will look for package.json/.nvmrc/etc.
@@ -15,7 +18,7 @@
   publish = "build"
 
   # Default build command.
-  command = "CI= npm run build"
+  command = "%build_app"
 
 # Production context: all deploys from the Production branch 
 # set in your site’s Branches settings in the UI will inherit 
@@ -24,8 +27,8 @@
 # values to keep them out of your source repository. 
 [context.production]
   publish = "build"
-  command = "CI= npm run build"
-  environment = { NODE_VERSION = "14.15.3" }
+  command = "%build_app"
+  environment = { NODE_VERSION = "18.12.1" }
 
 # Deploy Preview context: all deploys generated from
 # a pull/merge request will inherit these settings.
@@ -43,20 +46,20 @@
 # a pull/merge request or from the Production branch 
 # will inherit these settings.
 [context.branch-deploy]
-  command = "CI= npm run build"
+  command = "%build_app"
 [context.branch-deploy.environment]
   NODE_ENV = "development"
 
 # Specific branch context: all deploys from 
 # this specific branch will inherit these settings.
 [context.staging] # “staging” is a branch name
-  command = "CI= npm run build"
+  command = "%build_app"
   base = "staging"
 
 # For contexts of branches with special characters, 
 # enclose the branch name with quotes.
 [context."feat/branch"]
-  command = "CI= npm run build"
+  command = "%build_app"
   base = "branch"
 
 # The following redirect is intended for use with most SPAs 
