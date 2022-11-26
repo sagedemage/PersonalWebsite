@@ -1,14 +1,22 @@
+import Head from 'next/head'
+import styles from 'styles/DevEnvironment.module.css'
+
 import debian from 'assets/images/debian_logo.webp';
 import gnome from 'assets/images/gnome_logo.webp';
 import desktop from 'assets/images/gnome_desktop_screenshot.webp';
 import neovim from 'assets/images/neovim_logo.webp';
 
-import "./dev_environment.css"
+export default function DevEnvironment() {
+  return (
+    <div>
+      <Head>
+        <title>My Dev Environment</title>
+        <meta name="description" content="salmaan saeed's dev environment" />
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
 
-export const DevEnvironment = () => {
-    return ( 
-    	<div> 
-			<h1> My Development Environment </h1>
+      <main>
+        <h1> My Development Environment </h1>
 			<p>
 				I usually do my development on Linux. Certain times, I will have to
 				use Windows to do development. To be honest, your dev environment
@@ -19,7 +27,7 @@ export const DevEnvironment = () => {
 			<h2> The Linux Distro I Use </h2>
 			<div className="caption">
 				<figure>
-					<img id="debian_logo" src={debian} alt="Debain Logo" />
+					<img id={styles.debian_logo} src={debian.src} alt="Debain Logo" />
                     <figcaption>Image credit: <a href="https://www.debian.org/">Debian Project</a></figcaption>
 				</figure>
 				<div className="caption-info">
@@ -33,7 +41,7 @@ export const DevEnvironment = () => {
 			<h2> The Desktop Environment I Use </h2>
 			<div className="caption">
 				<p>
-					<img className="logo" src={gnome} alt="Gnome Logo" />
+					<img className={styles.logo} src={gnome.src} alt="Gnome Logo" />
 					Image credit: <a href="https://www.gnome.org/">Gnome Foundation</a>
 				</p>
 				<div className="caption-info">
@@ -47,13 +55,13 @@ export const DevEnvironment = () => {
 				
 			<h3> My Desktop </h3>
 			<p>
-				<img className="scale_image" src={desktop} alt="My Desktop" />
+				<img className="scale_image" src={desktop.src} alt="My Desktop" />
 			</p>
 
 			<h2> The Text Editor I Use </h2>
 			<div className="caption">
 				<p>
-					<img className="logo scale_image" src={neovim} alt="Neovim Logo" />
+					<img className={styles.logo} /*className="scale_image"*/ src={neovim.src} alt="Neovim Logo" />
 					Image credit: <a href="https://neovim.io/">Neovim</a>
 				</p>
 				<div className="caption-info">
@@ -70,6 +78,8 @@ export const DevEnvironment = () => {
 					</p>
 				</div>
 			</div>
-    	</div>
-    );
+      </main>
+    </div>
+  )
 }
+
