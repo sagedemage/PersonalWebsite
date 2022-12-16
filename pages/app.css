@@ -6,15 +6,6 @@
     margin-left: 16%;
 }
 
-#body {
-	font-family: Arial, Roboto, Helvetica, sans-serif, -apple-system, BlinkMacSystemFont;
-	-webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-	min-height: 100vh;
-	display: flex;
-	flex-direction: column;
-}
-
 .icon-link {
 	margin-left: 1%;
 }
@@ -35,12 +26,6 @@
 	margin-top: auto;
 	padding-top: 20px;
   	border-top: 1px solid #eaeaea;
-}
-
-#body {
-	min-height: 100vh;
-	display: flex;
-	flex-direction: column;
 }
 
 .bg-myGreen {

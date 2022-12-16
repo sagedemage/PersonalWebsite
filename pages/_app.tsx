@@ -9,7 +9,7 @@ import { MyNavBar } from 'components/navigation_bar/navigation_bar';
 
 export default function App({ Component, pageProps }: AppProps) {
 	return (
-		<div id="body">
+		<div>
 			{/* Navigation Bar */}
 			<MyNavBar></MyNavBar>
 
