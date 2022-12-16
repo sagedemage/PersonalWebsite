@@ -12,7 +12,6 @@ export default function DevEnvironment() {
       <Head>
         <title>My Dev Environment</title>
         <meta name="description" content="salmaan saeed's dev environment" />
-        <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main>

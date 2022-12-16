@@ -1,3 +1,4 @@
+import Head from 'next/head'
 import '../styles/globals.css'
 import type { AppProps } from 'next/app'
 
@@ -10,6 +11,9 @@ import { MyNavBar } from 'components/navigation_bar/navigation_bar';
 export default function App({ Component, pageProps }: AppProps) {
 	return (
 		<div id="body">
+			<Head>
+        		<link rel="icon" href="/favicon.ico" />
+      		</Head>
 			{/* Navigation Bar */}
 			<MyNavBar></MyNavBar>
 			<div id="content">
