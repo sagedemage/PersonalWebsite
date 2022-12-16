@@ -4,6 +4,13 @@
 #content {
 	margin-right: 16%;
     margin-left: 16%;
+	
+}
+
+#page {
+	flex-direction: column;
+	min-height: 88vh;
+    display: flex;
 }
 
 .icon-link {

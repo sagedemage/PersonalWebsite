@@ -13,15 +13,17 @@ export default function App({ Component, pageProps }: AppProps) {
 			{/* Navigation Bar */}
 			<MyNavBar></MyNavBar>
 
-			<div id="content">
-				<Component {...pageProps} />
-			</div>
-
-			<footer className="footer">
-        		<div id="copyright">
-					<p id="copyright"> &copy; {(new Date().getFullYear())} Salmaan Saeed </p>
+			<div id="page">
+				<div id="content">
+					<Component {...pageProps} />
 				</div>
-      		</footer>
+
+				<footer className="footer">
+        			<div id="copyright">
+						<p id="copyright"> &copy; {(new Date().getFullYear())} Salmaan Saeed </p>
+					</div>
+      			</footer>
+			</div>
 		</div>
 		);
 }
