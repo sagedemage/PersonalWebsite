@@ -1,4 +1,6 @@
 build
+dist
+.output
 *.png
 *.xcf
 *.kra
@@ -46,3 +48,6 @@ next-env.d.ts
 
 assets_backup
 react_backup 
+
+# vscode
+.vscode

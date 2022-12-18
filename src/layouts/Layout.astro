@@ -1,0 +1,74 @@
+---
+import { MyNavBar } from "src/components/NavigationBar";
+
+export interface Props {
+	title: string;
+}
+
+const { title } = Astro.props;
+---
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.ico" />
+		<meta name="generator" content={Astro.generator} />
+		<title>{title}</title>
+	</head>
+	<body>
+		<MyNavBar></MyNavBar>
+		<slot />
+		<footer class="footer">
+			<div id="copyright">
+				<p id="copyright"> &copy; {(new Date().getFullYear())} Salmaan Saeed </p>
+			</div>
+		  </footer>
+	</body>
+</html>
+<style is:global>
+	:root {
+		--accent: 124, 58, 237;
+		--accent-gradient: linear-gradient(45deg, rgb(var(--accent)), #da62c4 30%, white 60%);
+	}
+	html {
+		font-family: Arial, Roboto, Helvetica, Segoe UI, Oxygen, Ubuntu, Cantarell, 
+		Fira Sans, Droid Sans sans-serif, -apple-system, BlinkMacSystemFont;
+		-webkit-font-smoothing: antialiased;
+    	-moz-osx-font-smoothing: grayscale;
+		background-color: #F6F6F6;
+	}
+	body {
+		flex-direction: column;
+		min-height: 100vh;
+    	display: flex;
+	}
+	main {
+    	margin-right: 16%;
+    	margin-left: 16%;
+	}
+	.navbar {
+    	margin-bottom: 20px;
+    	padding-left: 100px;
+    	padding-right: 100px;
+	}
+	.footer {
+		height: 100px;
+		text-align: center;
+		margin-top: auto;
+		padding-top: 20px;
+ 	 	border-top: 1px solid #eaeaea;
+	}
+	.mb {
+		margin-bottom: 85px;
+	}
+	.bg-myGreen {
+    	background-color: SeaGreen;
+	}
+	h1 {
+		font-size: 3rem;
+		font-weight: 800;
+		margin: 0;
+	}
+</style>
