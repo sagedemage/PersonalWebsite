@@ -1,21 +1,193 @@
 ---
 import Layout from 'src/layouts/Layout.astro';
+
+import profile from 'assets/images/salmaan_saeed.webp';
+import github from 'assets/icons/github.webp';
+import linkedin from 'assets/icons/linkedin.webp';
+import email from 'assets/icons/email.webp';
 ---
 
-<Layout title="Home">
+<Layout title="Salmaan Saeed">
 	<main>
-		<h1> Astro App </h1>
-		<p>
-			This is an Astro App
+		<div id="profile">
+			<div id="profile_info">
+				<p id="profile_title"> Salmaan Saeed </p>
+				<p class="profile_text"> 
+					Undergraduate Student <br /> at NJIT 
+				</p>
+				<p class="profile_text">
+					<a href="mailto: ss3994@njit.edu"> 
+						ss3994@njit.edu 
+					</a>
+				</p>
+				<p class="profile_text"> 
+					Contact & Profiles: 
+				</p>
+				<div id="profile_links">
+					<a target="_blank" 
+						href="mailto: ss3994@njit.edu">
+						<img class="profile_icon_link" 
+							src={email} 
+							alt="my school email" 
+							width="42" height="30" 
+						/>
+			    	</a>
+			    	<a target="_blank" 
+						href="https://github.com/sagedemage">
+				    	<img class="profile_icon_link" 
+							src={github} alt="my github page"
+							width="30" height="30" 
+						/>
+			    	</a>
+			    	<a target="_blank" 
+						href="https://www.linkedin.com/in/salmaan-saeed-6a5582197/">
+				    	<img class="profile_icon_link" 
+							src={linkedin} 
+							alt="my linkedin page" 
+							width="30" height="30" 
+						/>
+			    	</a>
+		    	</div>
+			</div>
+			<div>
+				<img id="profile_image" src={profile} alt="profile picture" />
+			</div>
+		</div>
+		<div class="hr"><hr /></div>
+		<p id="about-me">
+			I'm an undergraduate student majoring in Information Technology at New Jersey Institute of Technology. 
+			I expect to graduate in December 2023. I'm interested in getting into web development.
 		</p>
-		<p class="green">
-			green
+
+		<p id="sub_title"> Relevant Projects </p>
+		<p> <span class="project_title">
+			Notebook (Gin, React, MySQL, SQLite, Git, Go, TypeScript, Docker)</span> <br />
+            Git Repository: <a href="https://github.com/sagedemage/Notebook"> Notebook </a></p> 
+		<ul>
+			<li> Utilized CI/CD with GitHub workflows to automate unit testing of the app </li>
+			<li> Implemented REST API for the backend so it can communicate with the frontend easily </li>
+			<li> Built user authentication so that the user can register, login, and logout their account </li>
+			<li> Designed password validation for user registration to check if their password is strong </li>
+		</ul>
+
+		<p> <span class="project_title">Discussion Board (Flask, SQLite, Git, Python, JavaScript, Docker)</span> <br />
+            Git Repository: <a href="https://github.com/sagedemage/DiscussionBoard"> DiscussionBoard </a></p>
+		<ul>
+			<li> Implemented CI/CD with GitHub workflows to automate unit testing of the app </li>
+			<li> Built user authentication so that the user can register, login, and logout their account </li>
+			<li> Designed password validation for user registration to check if their password is strong </li>
+		</ul>
+
+		<p> <span class="project_title"> Personal Website (Next.js, Netlify, Git, TypeScript) </span> <br />
+            Git Repository: <a href="https://github.com/sagedemage/PersonalWebsite"> PersonalWebsite </a></p>
+        <ul>
+			<li> Implemented responsive web design in order for my app to render nicely on mobile and desktop </li>
+			<li> Deployed my personal website to Netlify </li>
+		</ul>
+
+		<p id="sub_title"> Technical Skills </p>
+		<p class="skill"> <span class="skill_item">Languages</span>: 
+			JavaScript/TypeScript, Python, Go, Rust, Bash, Java, C/C++, PHP, and HTML/CSS
 		</p>
+		<p class="skill"> <span class="skill_item">Frameworks</span>: 
+			Gin, React, Flask, and Bootstrap </p>
+		<p class="skill"> <span class="skill_item">Databases</span>: MS SQL, SQLite, and MySQL </p>
+		<p class="skill"> <span class="skill_item">Libraries</span>: Pandas, SDL, GTK, and jQuery </p>
+		<p class="skill"> 
+			<span class="skill_item">Technologies</span>: Docker, Azure, Apache, Nginx, Git, Pylint, CMake, Clang-Tidy, Linux command line,
+			WebAssembly, and Kubernetes
+		</p>
+		<p class="skill"> <span class="skill_item">Operating Systems</span>: Windows, Linux, and BSD</p>
 	</main>
 </Layout>
 
 <style>
-	.green {
-		color: green;
+	#profile {
+		display: grid;
+		justify-content: center;
+		grid-template-columns: 23% 23%;
+		grid-column-gap: 18%;
+		margin-bottom: 25px;
+	}
+
+	#profile_title {
+		font-size: 2em;
+		font-weight: bold;
+	}
+
+	#profile_info {
+		text-align: center;
+	}
+	#profile_image {
+		display: block;
+		max-width: 100%;
+		height: auto;
+		margin-right: auto;
+		margin-left: auto;
+	}
+
+	.profile_text {
+		font-size: 1.1em;
+	}
+
+	#profile_links {
+		padding-bottom: 40px;
+	 }
+	  
+	.profile_icon_link {
+		margin-left: 2.5%;
+		margin-right: 2.5%;
+	}
+
+	div.hr {
+		background-color: white;
+		clear: both;
+		margin-bottom: 20px;
+	}
+
+	#sub_title {
+		font-size: 1.5em;
+		font-weight: bold;
+		padding-bottom: 10px;
+		border-bottom: 2px solid #D5D5D5;
+	}
+
+	.skill {
+		border-bottom: 1px solid #D5D5D5;
+		padding-bottom: 10px;
+	}
+
+	.skill_item {
+		font-weight: bold;
+	}
+
+	/* mobile portrait layout */
+	@media only screen and (max-width: 479px) {
+		#profile {
+			grid-template-columns: auto;
+		}
+		#profile_image {
+			max-width: 100%;
+		}
+	}
+
+	/* tablet portrait layout */
+	@media only screen and (min-width: 481px) and (max-width: 768px) {
+		#profile {
+			grid-template-columns: auto;
+		}
+		#profile_image {
+			max-width: 50%;
+		}
+	}
+
+	/* small screens and laptop layout */
+	@media only screen and (min-width: 769px) and (max-width: 1024px) {
+		#profile {
+			grid-template-columns: auto;
+		}
+		#profile_image {
+			max-width: 50%;
+		}
 	}
 </style>

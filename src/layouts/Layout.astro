@@ -28,16 +28,11 @@ const { title } = Astro.props;
 	</body>
 </html>
 <style is:global>
-	:root {
-		--accent: 124, 58, 237;
-		--accent-gradient: linear-gradient(45deg, rgb(var(--accent)), #da62c4 30%, white 60%);
-	}
 	html {
 		font-family: Arial, Roboto, Helvetica, Segoe UI, Oxygen, Ubuntu, Cantarell, 
 		Fira Sans, Droid Sans sans-serif, -apple-system, BlinkMacSystemFont;
 		-webkit-font-smoothing: antialiased;
     	-moz-osx-font-smoothing: grayscale;
-		background-color: #F6F6F6;
 	}
 	body {
 		flex-direction: column;
@@ -60,6 +55,17 @@ const { title } = Astro.props;
 		padding-top: 20px;
  	 	border-top: 1px solid #eaeaea;
 	}
+	.icon-link {
+		margin-left: 1%;
+	}
+	.scale_image {
+		max-width: 50%;
+		height: auto;
+	}
+	.project_title {
+		font-weight: bold;
+		font-size: 1.25em;
+	}
 	.mb {
 		margin-bottom: 85px;
 	}
@@ -67,8 +73,31 @@ const { title } = Astro.props;
     	background-color: SeaGreen;
 	}
 	h1 {
-		font-size: 3rem;
-		font-weight: 800;
+		font-size: 2.5rem;
+		font-weight: 700;
 		margin: 0;
+	}
+	/* mobile portrait layout */
+	@media only screen and (max-width: 479px) {
+		.scale_image {
+			max-width: 100%;
+			height: auto;
+		}
+	}
+
+	/* tablet portrait layout */
+	@media only screen and (min-width: 481px) and (max-width: 768px)  { 
+		.scale_image {
+			max-width: 100%;
+			height: auto;
+		}
+	}
+
+	/* small screens and laptop layout */
+	@media only screen and (min-width: 769px) and (max-width: 1024px) {
+		.scale_image {
+			max-width: 80%;
+			height: auto;
+		}
 	}
 </style>
