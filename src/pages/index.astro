@@ -25,23 +25,23 @@ import email from 'assets/icons/email.webp';
 				</p>
 				<div id="profile_links">
 					<a target="_blank" 
-						href="mailto: ss3994@njit.edu">
-						<img class="profile_icon_link" 
+						href="mailto: ss3994@njit.edu" class="icon-link">
+						<img class="profile_icon" 
 							src={email} 
 							alt="my school email" 
 							width="42" height="30" 
 						/>
 			    	</a>
 			    	<a target="_blank" 
-						href="https://github.com/sagedemage">
-				    	<img class="profile_icon_link" 
+						href="https://github.com/sagedemage" class="icon-link">
+				    	<img class="profile_icon" 
 							src={github} alt="my github page"
 							width="30" height="30" 
 						/>
 			    	</a>
 			    	<a target="_blank" 
-						href="https://www.linkedin.com/in/salmaan-saeed-6a5582197/">
-				    	<img class="profile_icon_link" 
+						href="https://www.linkedin.com/in/salmaan-saeed-6a5582197/" class="icon-link">
+				    	<img class="profile_icon" 
 							src={linkedin} 
 							alt="my linkedin page" 
 							width="30" height="30" 
@@ -134,7 +134,7 @@ import email from 'assets/icons/email.webp';
 		padding-bottom: 40px;
 	 }
 	  
-	.profile_icon_link {
+	.profile_icon {
 		margin-left: 2.5%;
 		margin-right: 2.5%;
 	}
@@ -159,6 +159,10 @@ import email from 'assets/icons/email.webp';
 
 	.skill_item {
 		font-weight: bold;
+	}
+
+	.icon-link {
+		text-decoration: none;
 	}
 
 	/* mobile portrait layout */
