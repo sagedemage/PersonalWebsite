@@ -1,6 +1,8 @@
 ---
 import { MyNavBar } from "src/components/NavigationBar";
 
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 export interface Props {
 	title: string;
 }
@@ -18,7 +20,7 @@ const { title } = Astro.props;
 		<title>{title}</title>
 	</head>
 	<body>
-		<MyNavBar></MyNavBar>
+		<MyNavBar client:load />
 		<slot />
 		<footer class="footer">
 			<div id="copyright">
@@ -33,6 +35,7 @@ const { title } = Astro.props;
 		Fira Sans, Droid Sans sans-serif, -apple-system, BlinkMacSystemFont;
 		-webkit-font-smoothing: antialiased;
     	-moz-osx-font-smoothing: grayscale;
+		font-size: 1.2em;
 	}
 	body {
 		flex-direction: column;
@@ -45,8 +48,6 @@ const { title } = Astro.props;
 	}
 	.navbar {
     	margin-bottom: 20px;
-    	padding-left: 100px;
-    	padding-right: 100px;
 	}
 	.footer {
 		height: 100px;
@@ -67,15 +68,23 @@ const { title } = Astro.props;
 		font-size: 1.25em;
 	}
 	.mb {
-		margin-bottom: 85px;
+		margin-bottom: 100px;
 	}
 	.bg-myGreen {
     	background-color: SeaGreen;
 	}
 	h1 {
-		font-size: 2.5rem;
+		font-size: 1.9em;
 		font-weight: 700;
-		margin: 0;
+	}
+	h2 {
+		font-size: 1.6em;
+		font-weight: 550;
+	}
+	h3 {
+		font-size: 1.3em;
+		font-weight: bold;
+		color: rgb(75, 75, 75);
 	}
 	/* mobile portrait layout */
 	@media only screen and (max-width: 479px) {

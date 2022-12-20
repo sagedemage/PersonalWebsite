@@ -3,8 +3,6 @@ import { Nav, Navbar, Container } from 'react-bootstrap';
 import github from 'assets/icons/github.webp';
 import linkedin from 'assets/icons/linkedin.webp';
 
-import 'bootstrap/dist/css/bootstrap.min.css';
-
 export function MyNavBar() {
 	return (
 		<div className="mb">
@@ -21,10 +19,10 @@ export function MyNavBar() {
 					</Nav>
 					<Nav className="ms-auto">
 						<Nav.Link href="https://github.com/sagedemage">
-						<img className="icon_link" src={github} alt="my github page" width="30" height="30" />
+						<img className="icon_link" src={github} alt="my github page" width="36" height="36" />
 						</Nav.Link>
 						<Nav.Link href="https://www.linkedin.com/in/salmaan-saeed-6a5582197/">
-							<img className="icon_link" src={linkedin} alt="my linkedin page" width="30" height="30" />
+							<img className="icon_link" src={linkedin} alt="my linkedin page" width="36" height="36" />
 						</Nav.Link>
 					</Nav>
 				</Navbar.Collapse>
