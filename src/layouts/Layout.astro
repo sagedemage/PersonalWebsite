@@ -1,0 +1,109 @@
+---
+import { MyNavBar } from "src/components/NavigationBar";
+
+import 'bootstrap/dist/css/bootstrap.min.css';
+
+export interface Props {
+	title: string;
+}
+
+const { title } = Astro.props;
+---
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.ico" />
+		<meta name="generator" content={Astro.generator} />
+		<title>{title}</title>
+	</head>
+	<body>
+		<MyNavBar client:load />
+		<slot />
+		<footer class="footer">
+			<div id="copyright">
+				<p id="copyright"> &copy; {(new Date().getFullYear())} Salmaan Saeed </p>
+			</div>
+		  </footer>
+	</body>
+</html>
+<style is:global>
+	html {
+		font-family: Arial, Roboto, Helvetica, Segoe UI, Oxygen, Ubuntu, Cantarell, 
+		Fira Sans, Droid Sans sans-serif, -apple-system, BlinkMacSystemFont;
+		-webkit-font-smoothing: antialiased;
+    	-moz-osx-font-smoothing: grayscale;
+		font-size: 1.2em;
+	}
+	body {
+		flex-direction: column;
+		min-height: 100vh;
+    	display: flex;
+	}
+	main {
+    	margin-right: 16%;
+    	margin-left: 16%;
+	}
+	.navbar {
+    	margin-bottom: 20px;
+	}
+	.footer {
+		height: 100px;
+		text-align: center;
+		margin-top: auto;
+		padding-top: 20px;
+ 	 	border-top: 1px solid #eaeaea;
+	}
+	.icon_link {
+		margin-left: 1%;
+	}
+	.scale_image {
+		max-width: 50%;
+		height: auto;
+	}
+	.project_title {
+		font-weight: bold;
+		font-size: 1.1em;
+	}
+	.mb {
+		margin-bottom: 100px;
+	}
+	.bg-myGreen {
+    	background-color: SeaGreen;
+	}
+	h1 {
+		font-weight: 700;
+	}
+	h2 {
+		font-weight: 550;
+	}
+	h3 {
+		font-weight: bold;
+		color: rgb(75, 75, 75);
+	}
+	/* mobile portrait layout */
+	@media only screen and (max-width: 479px) {
+		.scale_image {
+			max-width: 100%;
+			height: auto;
+		}
+	}
+
+	/* tablet portrait layout */
+	@media only screen and (min-width: 481px) and (max-width: 768px)  { 
+		.scale_image {
+			max-width: 100%;
+			height: auto;
+		}
+	}
+
+	/* small screens and laptop layout */
+	@media only screen and (min-width: 769px) and (max-width: 1024px) {
+		.scale_image {
+			max-width: 80%;
+			height: auto;
+		}
+	}
+</style>

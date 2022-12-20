@@ -1,4 +1,6 @@
 build
+dist
+.output
 *.png
 *.xcf
 *.kra
@@ -20,6 +22,7 @@ node_modules
 # next.js
 /.next/
 /out/
+next_backup/.next/
 
 # production
 /build
@@ -46,3 +49,6 @@ next-env.d.ts
 
 assets_backup
 react_backup 
+
+# vscode
+.vscode
