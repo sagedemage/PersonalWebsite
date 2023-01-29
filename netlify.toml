@@ -64,7 +64,7 @@
 # that handle routing internally.
 [[redirects]]
   from = "/*"
-  to = "/"
+  to = "/404.html"
   status = 200
 
 [[headers]]
