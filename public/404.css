@@ -1,0 +1,20 @@
+html {
+    font-family: Arial, Roboto, Helvetica, Segoe UI, Oxygen, Ubuntu, Cantarell, 
+    Fira Sans, Droid Sans sans-serif, -apple-system, BlinkMacSystemFont;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+main {
+    margin-top: 75px;
+    margin-right: 16%;
+    margin-left: 16%;
+    font-size: 1.25em;
+}
+
+/* mobile portrait layout */
+@media only screen and (max-width: 479px) {
+	main {
+		font-size: 1.0em;
+	}
+}
