@@ -15,7 +15,6 @@ export function MyNavBar() {
 				<Navbar.Collapse id="responsive-navbar-nav">
 					<Nav className="me-auto">
 						<Nav.Link href="projects"> Experimental Projects </Nav.Link>
-						<Nav.Link href="dev-environment"> My Dev Environment </Nav.Link>
 					</Nav>
 					<Nav className="ms-auto">
 						<Nav.Link href="https://github.com/sagedemage">
