@@ -7,8 +7,11 @@ import react from "@astrojs/react";
 import netlify from "@astrojs/netlify/edge-functions";
 
 // https://astro.build/config
+import compress from "astro-compress";
+
+// https://astro.build/config
 export default defineConfig({
-  integrations: [react()],
+  integrations: [react(), compress()],
   output: "server",
   adapter: netlify()
 });
