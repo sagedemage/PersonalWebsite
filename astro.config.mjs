@@ -1,14 +1,16 @@
 import { defineConfig } from 'astro/config';
-
-// https://astro.build/config
 import react from "@astrojs/react";
 
+import compress from "astro-compress";
+
 // https://astro.build/config
-import netlify from "@astrojs/netlify/edge-functions";
+import netlify from "@astrojs/netlify/functions";
+
+// https://astro.build/config
 
 // https://astro.build/config
 export default defineConfig({
-  integrations: [react()],
+  integrations: [react(), compress()],
   output: "server",
   adapter: netlify()
 });
