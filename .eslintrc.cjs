@@ -1,6 +1,7 @@
 module.exports = {
     extends: [
       "plugin:astro/recommended",
+      "plugin:astro/jsx-a11y-recommended"
     ],
     rules: {
       "eqeqeq": "error",
@@ -23,7 +24,7 @@ module.exports = {
           parser: "@typescript-eslint/parser",
           requireConfigFile: false,
           sourceType: "module",
-          ecmaVersion: 6,
+          ecmaVersion: 2022,
           extraFileExtensions: [".astro"],
         },
       },
