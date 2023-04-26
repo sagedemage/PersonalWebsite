@@ -8,7 +8,7 @@ module.exports = {
       "curly": "error",
       "quotes": ["error", "double"],
       "no-unused-vars": [
-        "warn",
+        "error",
         { "vars": "all", "args": "after-used", "ignoreRestSiblings": false }
       ]
     },
