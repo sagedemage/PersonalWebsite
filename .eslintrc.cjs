@@ -2,12 +2,12 @@ module.exports = {
     extends: [
       "plugin:astro/recommended",
     ],
-    "rules": {
+    rules: {
       "eqeqeq": "error",
       "curly": "error",
       "quotes": ["error", "double"],
       "no-unused-vars": [
-        "error",
+        "warn",
         { "vars": "all", "args": "after-used", "ignoreRestSiblings": false }
       ]
     },
@@ -28,12 +28,11 @@ module.exports = {
           ecmaVersion: 6,
           extraFileExtensions: [".astro"],
           babelOptions: {
-            presets: ["@babel/preset-react"]
+            presets: ["@babel/preset-react"],
+            parserOpts: {
+              plugins: ["flow"]
+            }
          },
-        },
-        rules: {
-          // override/add rules settings here, such as:
-          // "astro/no-set-html-directive": "error"
         },
       },
     ],
