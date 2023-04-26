@@ -20,9 +20,9 @@ module.exports = {
         // Parse the script in `.astro` as TypeScript by adding the following configuration.
         // It's the setting you need when using TypeScript.
         parserOptions: {
-          /*parser: "@typescript-eslint/parser",*/
+          parser: "@typescript-eslint/parser",
           /*parser: "babel-eslint",*/
-          parser: "@babel/eslint-parser",
+          /*parser: "@babel/eslint-parser",*/
           requireConfigFile: false,
           sourceType: "module",
           ecmaVersion: 6,
@@ -30,7 +30,7 @@ module.exports = {
           babelOptions: {
             presets: ["@babel/preset-react"],
             parserOpts: {
-              plugins: ["flow"]
+              plugins: ["typescript"]
             }
          },
         },

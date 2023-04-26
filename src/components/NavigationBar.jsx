@@ -1,5 +1,4 @@
 import { Nav, Navbar, Container } from 'react-bootstrap';
-
 import github from 'assets/icons/github.webp';
 import linkedin from 'assets/icons/linkedin.webp';
 
