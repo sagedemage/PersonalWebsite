@@ -21,6 +21,9 @@ module.exports = {
         // It's the setting you need when using TypeScript.
         parserOptions: {
           /*parser: "@typescript-eslint/parser",*/
+          /*parser: "babel-eslint",*/
+          sourceType: "module",
+          ecmaVersion: 6,
           extraFileExtensions: [".astro"],
         },
         rules: {
