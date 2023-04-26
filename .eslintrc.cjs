@@ -11,7 +11,7 @@ module.exports = {
         // Parse the script in `.astro` as TypeScript by adding the following configuration.
         // It's the setting you need when using TypeScript.
         parserOptions: {
-          parser: "@typescript-eslint/parser",
+          /*parser: "@typescript-eslint/parser",*/
           extraFileExtensions: [".astro"],
         },
         rules: {
