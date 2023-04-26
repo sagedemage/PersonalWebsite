@@ -2,6 +2,15 @@ module.exports = {
     extends: [
       "plugin:astro/recommended",
     ],
+    "rules": {
+      "eqeqeq": "error",
+      "curly": "error",
+      "quotes": ["error", "double"],
+      "no-unused-vars": [
+        "error",
+        { "vars": "all", "args": "after-used", "ignoreRestSiblings": false }
+      ]
+    },
     overrides: [
       {
         // Define the configuration for `.astro` file.
