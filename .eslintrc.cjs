@@ -22,9 +22,14 @@ module.exports = {
         parserOptions: {
           /*parser: "@typescript-eslint/parser",*/
           /*parser: "babel-eslint",*/
+          parser: "@babel/eslint-parser",
+          requireConfigFile: false,
           sourceType: "module",
           ecmaVersion: 6,
           extraFileExtensions: [".astro"],
+          babelOptions: {
+            presets: ["@babel/preset-react"]
+         },
         },
         rules: {
           // override/add rules settings here, such as:
