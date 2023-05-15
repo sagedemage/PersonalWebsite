@@ -9,6 +9,6 @@ export default defineConfig({
   integrations: [react(), compress()],
   output: "server",
   adapter: node({
-    mode: "middleware"
+    mode: "standalone"
   })
 });
