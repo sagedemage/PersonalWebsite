@@ -5,7 +5,7 @@ import linkedin from 'assets/icons/linkedin.webp';
 export function MyNavBar() {
 	return (
 		<div className="mb">
-			<Navbar collapseOnSelect expand="lg" bg="myGreen" variant="dark" fixed="top">
+			<Navbar collapseOnSelect expand="lg" bg="myGreen" variant="light" fixed="top">
 				<Container>
 				<Navbar.Brand href="/">
 					<span className="indent"> Salmaan Saeed </span>
