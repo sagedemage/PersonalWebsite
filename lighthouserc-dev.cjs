@@ -1,10 +1,13 @@
 /* Lighthouse config for Development */
+
+website_url = 'http://localhost:3000'
+
 module.exports = {
   ci: {
     collect: {
       url: [
-        'http://localhost:3000/',
-        'http://localhost:3000/projects'
+        website_url + '/',
+        website_url + '/projects'
       ],
       startServerCommand: 'npm run dev',
     },
