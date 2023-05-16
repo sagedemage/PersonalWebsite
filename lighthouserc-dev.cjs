@@ -1,3 +1,4 @@
+/* Lighthouse config for Development */
 module.exports = {
   ci: {
     collect: {

@@ -1,11 +1,13 @@
-name: Lighthouse CI
+name: Lighthouse CI (Development)
 on:
   pull_request:
     branches:
-      - 'master'
+      - 'main'
   push:
     branches:
       - "*"
+    branches-ignore:
+      - "main"
 jobs:
   lighthouseci:
     runs-on: ubuntu-latest
@@ -16,5 +18,5 @@ jobs:
           node-version: 'lts/*'
       - run: npm install && npm install -g @lhci/cli@0.11.x
       - run: npm run build
-      - run: lhci autorun
+      - run: lhci autorun --config lighthouserc-dev.cjs
 
