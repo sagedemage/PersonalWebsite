@@ -11,11 +11,11 @@
     "astro": "astro"
   },
   "dependencies": {
-    "@astrojs/netlify": "2.2.1",
+    "@astrojs/netlify": "^2.2.2",
     "@astrojs/react": "2.1.1",
     "@types/react": "^18.0.33",
     "@types/react-dom": "^18.0.11",
-    "astro": "^2.2.1",
+    "astro": "^2.4.5",
     "astro-compress": "^1.1.35",
     "bootstrap": "^5.2.3",
     "react": "^18.2.0",

@@ -5,6 +5,7 @@ dist
 *.xcf
 *.kra
 *.jpg
+*.svg
 package-lock.json
 *.*~
 
