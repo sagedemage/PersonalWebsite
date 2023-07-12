@@ -1,6 +1,6 @@
 /* Lighthouse config for Production */
 
-website_url = 'https://salmaansaeed.netlify.app'
+website_url = 'https://sagedemage.github.io/PersonalWebsite/'
 
 module.exports = {
   ci: {
