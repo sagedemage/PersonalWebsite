@@ -1,6 +1,6 @@
 /* Lighthouse config for Development */
 
-website_url = 'http://localhost:3000'
+website_url = 'http://localhost:3000/PersonalWebsite'
 
 module.exports = {
   ci: {
