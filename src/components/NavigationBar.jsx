@@ -7,7 +7,7 @@ export function MyNavBar() {
 		<div className="mb">
 			<Navbar collapseOnSelect expand="lg" bg="myGreen" variant="light" fixed="top">
 				<Container>
-				<Navbar.Brand href="/">
+				<Navbar.Brand href="/PersonalWebsite/">
 					<span className="indent"> Salmaan Saeed </span>
 				</Navbar.Brand>
 				<Navbar.Toggle aria-controls="responsive-navbar-nav"  />
