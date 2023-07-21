@@ -24,7 +24,9 @@ import Navbar from 'src/components/Navbar.astro';
 	<body>
 		<!-- Navbar -->
 		<Navbar />
-		<slot />
+		<div class="mt-24">
+			<slot />
+		</div>
 		<footer class="h-28 mt-auto pt-5 border-t border-gray-200 text-center">
 			<p> &copy; {(new Date().getFullYear())} Salmaan Saeed </p>
 		</footer>
@@ -50,9 +52,6 @@ import Navbar from 'src/components/Navbar.astro';
 	main {
     	margin-right: 16%;
     	margin-left: 16%;
-	}
-	.navbar {
-    	margin-bottom: 20px;
 	}
 	.icon_link {
 		margin-left: 1%;
