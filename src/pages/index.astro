@@ -1,6 +1,7 @@
 ---
 import Layout from "src/layouts/Layout.astro";
 
+// images
 import profile from "assets/images/salmaan_saeed.webp";
 import github from "assets/icons/github.webp";
 import linkedin from "assets/icons/linkedin.webp";
@@ -8,202 +9,189 @@ import email from "assets/icons/email.webp";
 ---
 
 <Layout title="Salmaan Saeed">
-	<main>
-		<div id="profile">
-			<div id="profile_info">
-				<p id="profile_title"> Salmaan Saeed </p>
-				<p class="profile_text"> 
-					Undergraduate Student <br /> at NJIT 
-				</p>
-				<p class="profile_text">
-					<a href="mailto: ss3994@njit.edu"> 
-						ss3994@njit.edu 
-					</a>
-				</p>
-				<p class="profile_text"> 
-					Contact & Profiles: 
-				</p>
-				<div id="profile_links">
-					<a target="_blank" 
-						href="mailto: ss3994@njit.edu" class="icon-link">
-						<img class="profile_icon" 
-							src={email}
-							alt="my school email"
-							width="36" height="36"
-						/>
-			    	</a>
-			    	<a target="_blank" 
-						href="https://github.com/sagedemage" class="icon-link">
-				    	<img class="profile_icon" 
-							src={github} alt="my github page"
-							width="36" height="36"
-						/>
-			    	</a>
-			    	<a target="_blank" 
-						href="https://www.linkedin.com/in/salmaan-saeed-6a5582197/" class="icon-link">
-				    	<img class="profile_icon" 
-							src={linkedin} 
-							alt="my linkedin page" 
-							width="36" height="36" 
-						/>
-			    	</a>
-		    	</div>
-			</div>
-			<div>
-				<!-- 405px by 539px -->
-				<img id="profile_image" 
-					src={profile} 
-					alt="profile"
-					width="300" height="400"
-					/>
-			</div>
-		</div>
-		<div class="hr"><hr /></div>
-		<p id="about-me">
-			I'm an undergraduate student majoring in Information Technology at New Jersey Institute of Technology. 
-			I expect to graduate in December 2023. I'm interested in web development.
-		</p>
+  <div
+    class="grid grid-cols-2 max-sm:grid-cols-1 max-lg:grid-cols-1 gap-4 mb-6 justify-center w-3/4 mx-auto"
+  >
+    <div class="mx-auto text-center">
+      <p class="text-2xl font-bold">Salmaan Saeed</p>
+      <p class="text-lg mb-2 mt-2">
+        Undergraduate Student <br /> at NJIT
+      </p>
+      <p class="text-lg mb-2 mt-2">
+        <a
+          href="mailto: ss3994@njit.edu"
+          class="text-blue hover:text-blue-dark"
+        >
+          ss3994@njit.edu
+        </a>
+      </p>
+      <p class="text-lg mb-2 mt-2">Contact & Profiles:</p>
+      <div class="mx-auto w-28 block">
+        <a target="_blank" href="mailto: ss3994@njit.edu">
+          <img
+            class="ml-0.5 mr-0.5 float-left"
+            src={email}
+            alt="my school email"
+            width="35"
+            height="35"
+          />
+        </a>
+        <a target="_blank" href="https://github.com/sagedemage">
+          <img
+            class="ml-0.5 mr-0.5 float-left"
+            src={github}
+            alt="my github page"
+            width="35"
+            height="35"
+          />
+        </a>
+        <a
+          target="_blank"
+          href="https://www.linkedin.com/in/salmaan-saeed-6a5582197/"
+        >
+          <img
+            class="ml-0.5 mr-0.5 float-left"
+            src={linkedin}
+            alt="my linkedin page"
+            width="35"
+            height="35"
+          />
+        </a>
+      </div>
+    </div>
+    <div>
+      <!-- 405px by 539px -->
+      <img
+        class="mx-auto max-w-full h-auto block"
+        src={profile}
+        alt="profile"
+        width="225"
+        height="300"
+      />
+    </div>
+  </div>
+  <div class="mb-4"><hr /></div>
+  <p id="about-me">
+    I'm an undergraduate student majoring in Information Technology at New
+    Jersey Institute of Technology. I expect to graduate in December 2023. I'm
+    interested in web development.
+  </p>
 
-		<p id="sub_title"> Work Experience </p>
-		<p> <span class="project_title"> Senior Frontend Engineer </span> <span class="right_info">Jan 2023 &#8211 May 2023</span><br />
-            <i>Jabil</i> <span class="right_info"><i>Newark, NJ</i></span>
-        <ul class="tasks_done">
-			<li> Redesigned the front-end with React and Bootstrap to improve the maintainability of the project </li>
-			<li> Utilized components to comply with separation of concerns, and code reusability </li>
-			<li> Documented the GUI architecture so that new front-end developers can understand how it works </li>
-			<li> Utilized the Kanban board to maximize efficiency in developing features with the team </li>
-			<li> Went to SCRUM meetings to aid team coordination </li>
-		</ul>
+  <p class="font-bold text-2xl border-b-2 border-gray mb-2 mt-2 pb-2">
+    Work Experience
+  </p>
+  <p>
+    <b class="text-lg"> Senior Frontend Engineer</b>
+    <span class="right_info float-right">Jan 2023 &#8211 May 2023</span><br />
+    <i>Jabil</i>
+    <span class="float-right"><i>Newark, NJ</i></span>
+    <ul class="list-disc list-inside ml-4">
+      <li>
+        Redesigned the front-end with React and Bootstrap to improve the
+        maintainability of the project
+      </li>
+      <li>
+        Utilized components to comply with separation of concerns, and code
+        reusability
+      </li>
+      <li>
+        Documented the GUI architecture so that new front-end developers can
+        understand how it works
+      </li>
+      <li>
+        Utilized the Kanban board to maximize efficiency in developing features
+        with the team
+      </li>
+      <li>Went to SCRUM meetings to aid team coordination</li>
+    </ul>
 
-		<p id="sub_title"> Relevant Projects </p>
-		<p> <span class="project_title">
-			Notebook (Gin, React, MySQL, SQLite, Git, Go, TypeScript, Docker)</span> <span class="right_info">July 2022 &#8211 March 2023</span> <br />
-            Git Repository: <a href="https://github.com/sagedemage/Notebook"> Notebook </a></p> 
-		<ul class="tasks_done">
-			<li> Utilized CI/CD with GitHub workflows to automate unit testing of the app </li>
-			<li> Implemented REST API for the backend so it can communicate with the frontend easily </li>
-			<li> Built user authentication so that users can register, login, and logout their account </li>
-			<li> Designed password validation for user registration to check if the password is strong </li>
-		</ul>
+    <p class="font-bold text-2xl border-b-2 border-gray mb-2 mt-2 pb-2">
+      Relevant Projects
+    </p>
+    <p>
+      <b class="text-lg">
+        Notebook (Gin, React, MySQL, SQLite, Git, Go, TypeScript, Docker)</b
+      >
+      <span class="right_info float-right">July 2022 &#8211 March 2023</span>
+      <br />
+      Git Repository: <a
+        class="text-blue hover:text-blue-dark"
+        href="https://github.com/sagedemage/Notebook"
+      >
+        Notebook
+      </a>
+    </p>
+    <ul class="list-disc list-inside ml-4">
+      <li>
+        Utilized CI/CD with GitHub workflows to automate unit testing of the app
+      </li>
+      <li>
+        Implemented REST API for the backend so it can communicate with the
+        frontend easily
+      </li>
+      <li>
+        Built user authentication so that users can register, login, and logout
+        their account
+      </li>
+      <li>
+        Designed password validation for user registration to check if the
+        password is strong
+      </li>
+    </ul>
 
-		<p> <span class="project_title">Discussion Board (Flask, SQLite, Git, Python, JavaScript, Docker)</span> <span class="right_info">April 2022 &#8211 July 2022</span> <br />
-            Git Repository: <a href="https://github.com/sagedemage/DiscussionBoard"> DiscussionBoard </a></p>
-		<ul class="tasks_done">
-			<li> Implemented CI/CD with GitHub workflows to automate unit testing of the app </li>
-			<li> Built user authentication so that users can register, login, and logout their account </li>
-			<li> Designed password validation for user registration to check if the password is strong </li>
-		</ul>
+    <p>
+      <b class="text-lg"
+        >Discussion Board (Flask, SQLite, Git, Python, JavaScript, Docker)</b
+      >
+      <span class="right_info float-right">April 2022 &#8211 July 2022</span>
+      <br />
+      Git Repository: <a
+        class="text-blue hover:text-blue-dark"
+        href="https://github.com/sagedemage/DiscussionBoard"
+      >
+        DiscussionBoard
+      </a>
+    </p>
+    <ul class="list-disc list-inside ml-4">
+      <li>
+        Implemented CI/CD with GitHub workflows to automate unit testing of the
+        app
+      </li>
+      <li>
+        Built user authentication so that users can register, login, and logout
+        their account
+      </li>
+      <li>
+        Designed password validation for user registration to check if the
+        password is strong
+      </li>
+    </ul>
 
-		<p id="sub_title"> Technical Skills </p>
-		<p class="skill"> <span class="skill_item">Languages</span>:
-			JavaScript/TypeScript, Python, Go, HTML/CSS, Rust, Bash, Java, and PHP
-		</p>
-		<p class="skill"> <span class="skill_item">Frameworks</span>: 
-			Angular, Django, Flask, Gin, Next.js, Astro, and Bootstrap </p>
-		<p class="skill"> <span class="skill_item">Databases</span>: MySQL, MS SQL, and SQLite </p>
-		<p class="skill"> <span class="skill_item">Libraries</span>: React, Pandas, and jQuery </p>
-		<p class="skill"> <span class="skill_item">Version Control</span>: Git, GitHub, and GitLab </p>
-		<p class="skill"> <span class="skill_item">Container Orchestration</span>: Docker, and Kubernetes </p>
-		<p class="skill"> <span class="skill_item">Cloud Providers</span>: Azure, and AWS</p>
-	</main>
+    <p class="font-bold text-2xl border-b-2 border-gray mb-2 mt-2 pb-2">
+      Technical Skills
+    </p>
+    <p class="border-b border-gray pb-2 mb-2">
+      <b>Languages</b>: JavaScript/TypeScript, Python, Go, HTML/CSS, Rust, Bash,
+      Java, and PHP
+    </p>
+    <p class="border-b border-gray pb-2 mb-2">
+      <b>Frameworks</b>: Angular, Django, Flask, Gin, Next.js, Astro, and
+      Bootstrap
+    </p>
+    <p class="border-b border-gray pb-2 mb-2">
+      <b>Databases</b>: MySQL, MS SQL, and SQLite
+    </p>
+    <p class="border-b border-gray pb-2 mb-2">
+      <b>Libraries</b>: React, Pandas, and jQuery
+    </p>
+    <p class="border-b border-gray pb-2 mb-2">
+      <b>Version Control</b>: Git, GitHub, and GitLab
+    </p>
+    <p class="border-b border-gray pb-2 mb-2">
+      <b>Container Orchestration</b>: Docker, and Kubernetes
+    </p>
+    <p class="border-b border-gray pb-2 mb-2">
+      <b>Cloud Providers</b>: Azure, and AWS
+    </p>
+  </p>
 </Layout>
-
-<style>
-	#profile {
-		display: grid;
-		justify-content: center;
-		grid-template-columns: 23% 23%;
-		grid-column-gap: 18%;
-		margin-bottom: 25px;
-	}
-
-	#profile_title {
-		font-size: 1.75em;
-		font-weight: bold;
-	}
-
-	#profile_info {
-		text-align: center;
-	}
-	#profile_image {
-		display: block;
-		max-width: 100%;
-		height: auto;
-		margin-right: auto;
-		margin-left: auto;
-	}
-
-	.profile_text {
-		font-size: 1.1em;
-	}
-
-	#profile_links {
-		padding-bottom: 40px;
-	 }
-	  
-	.profile_icon {
-		margin-left: 2px;
-		margin-right: 2px;
-	}
-
-	div.hr {
-		background-color: white;
-		clear: both;
-		margin-bottom: 20px;
-	}
-
-	#sub_title {
-		font-size: 1.5em;
-		font-weight: bold;
-		padding-bottom: 10px;
-		border-bottom: 2px solid #D5D5D5;
-	}
-
-	.skill {
-		border-bottom: 1px solid #D5D5D5;
-		padding-bottom: 10px;
-	}
-
-	.skill_item {
-		font-weight: bold;
-	}
-
-	.icon-link {
-		text-decoration: none;
-	}
-
-	.right_info {
-		float: right;
-	}
-
-	/* mobile portrait layout */
-	@media only screen and (max-width: 479px) {
-		#profile {
-			grid-template-columns: auto;
-		}
-		#profile_image {
-			max-width: 100%;
-		}
-	}
-
-	/* tablet portrait layout */
-	@media only screen and (min-width: 481px) and (max-width: 768px) {
-		#profile {
-			grid-template-columns: auto;
-		}
-		#profile_image {
-			max-width: 100%;
-		}
-	}
-
-	/* small screens and laptop layout */
-	@media only screen and (min-width: 769px) and (max-width: 1024px) {
-		#profile {
-			grid-template-columns: auto;
-		}
-		#profile_image {
-			max-width: 100%;
-		}
-	}
-</style>
-
