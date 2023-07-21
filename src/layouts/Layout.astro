@@ -1,11 +1,12 @@
 ---
-import { MyNavBar } from "src/components/NavigationBar";
-
 export interface Props {
 	title: string;
 }
 
 const { title } = Astro.props;
+
+import github from 'assets/icons/github.webp';
+import linkedin from 'assets/icons/linkedin.webp';
 ---
 
 <!DOCTYPE html>
@@ -22,7 +23,29 @@ const { title } = Astro.props;
 		<title>{title}</title>
 	</head>
 	<body>
-		<MyNavBar client:load />
+		<!-- Navbar -->
+		<div class="navbar bg-green text-green-content">
+			<div class="navbar-start">
+			  <div class="dropdown">
+				<label tabindex="0" class="btn btn-ghost btn-circle">
+				  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h7" /></svg>
+				</label>
+				<a href="/PersonalWebsite/" class="btn btn-ghost normal-case text-lg max-sm:w-20">Salmaan Saeed</a>
+				<ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-green rounded-box w-52">
+				  <li><a href="projects">Experimental Projects</a></li>
+				</ul>
+			  </div>
+			</div>
+			<div class="navbar-end">
+				<a class="btn btn-ghost btn-circle" href="https://github.com/sagedemage">
+					<img class="icon_link" src={github} alt="my github page" width="36" height="36" />
+				</a>
+				<a class="btn btn-ghost btn-circle" href="https://www.linkedin.com/in/salmaan-saeed-6a5582197/">
+					<img class="icon_link" src={linkedin} alt="my linkedin page" width="36" height="36" />
+				</a>
+			</div>
+		  </div>
+		  <!-- End of Navbar -->
 		<slot />
 		<footer class="h-28 mt-auto pt-5 border-t border-gray-200 text-center">
 			<p> &copy; {(new Date().getFullYear())} Salmaan Saeed </p>
