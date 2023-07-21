@@ -9,8 +9,8 @@ import email from "assets/icons/email.webp";
 
 <Layout title="Salmaan Saeed">
 	<main>
-		<div id="profile">
-			<div id="profile_info">
+		<div class="grid grid-cols-2 max-sm:grid-cols-1 max-lg:grid-cols-1 gap-4 mb-6 justify-center w-3/4 mx-auto">
+			<div class="mx-auto text-center">
 				<p id="profile_title"> Salmaan Saeed </p>
 				<p class="text-lg mb-2 mt-2"> 
 					Undergraduate Student <br /> at NJIT 
@@ -23,38 +23,38 @@ import email from "assets/icons/email.webp";
 				<p class="text-lg mb-2 mt-2"> 
 					Contact & Profiles: 
 				</p>
-				<div id="profile_links">
+				<div class="mx-auto w-28 block">
 					<a target="_blank" 
-						href="mailto: ss3994@njit.edu" class="icon-link">
-						<img class="profile_icon" 
+						href="mailto: ss3994@njit.edu">
+						<img class="ml-0.5 mr-0.5 float-left" 
 							src={email}
 							alt="my school email"
-							width="36" height="36"
+							width="35" height="35"
 						/>
 			    	</a>
 			    	<a target="_blank" 
-						href="https://github.com/sagedemage" class="icon-link">
-				    	<img class="profile_icon" 
+						href="https://github.com/sagedemage">
+				    	<img class="ml-0.5 mr-0.5 float-left" 
 							src={github} alt="my github page"
-							width="36" height="36"
+							width="35" height="35"
 						/>
 			    	</a>
 			    	<a target="_blank" 
-						href="https://www.linkedin.com/in/salmaan-saeed-6a5582197/" class="icon-link">
-				    	<img class="profile_icon" 
+						href="https://www.linkedin.com/in/salmaan-saeed-6a5582197/">
+				    	<img class="ml-0.5 mr-0.5 float-left" 
 							src={linkedin} 
 							alt="my linkedin page" 
-							width="36" height="36" 
+							width="35" height="35" 
 						/>
 			    	</a>
 		    	</div>
 			</div>
 			<div>
 				<!-- 405px by 539px -->
-				<img id="profile_image" 
+				<img class="mx-auto max-w-full h-auto block"
 					src={profile} 
 					alt="profile"
-					width="300" height="400"
+					width="225" height="300"
 					/>
 			</div>
 		</div>
@@ -109,71 +109,9 @@ import email from "assets/icons/email.webp";
 </Layout>
 
 <style>
-	#profile {
-		display: grid;
-		justify-content: center;
-		grid-template-columns: 23% 23%;
-		grid-column-gap: 18%;
-		margin-bottom: 25px;
-	}
-
 	#profile_title {
 		font-size: 1.75em;
 		font-weight: bold;
-	}
-
-	#profile_info {
-		text-align: center;
-	}
-	#profile_image {
-		display: block;
-		max-width: 100%;
-		height: auto;
-		margin-right: auto;
-		margin-left: auto;
-	}
-
-	#profile_links {
-		padding-bottom: 40px;
-	 }
-	  
-	.profile_icon {
-		margin-left: 2px;
-		margin-right: 2px;
-	}
-
-	.icon-link {
-		text-decoration: none;
-	}
-
-	/* mobile portrait layout */
-	@media only screen and (max-width: 479px) {
-		#profile {
-			grid-template-columns: auto;
-		}
-		#profile_image {
-			max-width: 100%;
-		}
-	}
-
-	/* tablet portrait layout */
-	@media only screen and (min-width: 481px) and (max-width: 768px) {
-		#profile {
-			grid-template-columns: auto;
-		}
-		#profile_image {
-			max-width: 100%;
-		}
-	}
-
-	/* small screens and laptop layout */
-	@media only screen and (min-width: 769px) and (max-width: 1024px) {
-		#profile {
-			grid-template-columns: auto;
-		}
-		#profile_image {
-			max-width: 100%;
-		}
 	}
 </style>
 
