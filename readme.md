@@ -3,7 +3,7 @@
 [![Lighthouse Production Workflow](https://github.com/sagedemage/PersonalWebsite/actions/workflows/lighthouse-prod.yml/badge.svg)](https://github.com/sagedemage/PersonalWebsite/actions/workflows/lighthouse-prod.yml)
 [![Lighthouse Development Workflow](https://github.com/sagedemage/PersonalWebsite/actions/workflows/lighthouse-dev.yml/badge.svg)](https://github.com/sagedemage/PersonalWebsite/actions/workflows/lighthouse-dev.yml)
 
-[Personal Website](https://salmaansaeed.netlify.app/)
+[Personal Website](https://sagedemage.github.io/PersonalWebsite/)
 
 ## About
 My Personal website in Next.js.
