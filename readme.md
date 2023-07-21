@@ -24,7 +24,7 @@ cd PersonalWebsite
 
 Install the dependencies
 ```
-npm install next react react-dom next bootstrap react-bootstrap
+npm install
 ```
 
 ## Try it out
