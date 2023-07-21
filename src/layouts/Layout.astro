@@ -24,11 +24,9 @@ const { title } = Astro.props;
 	<body>
 		<MyNavBar client:load />
 		<slot />
-		<footer class="footer">
-			<div id="copyright">
-				<p id="copyright"> &copy; {(new Date().getFullYear())} Salmaan Saeed </p>
-			</div>
-		  </footer>
+		<footer class="h-28 mt-auto pt-5 border-t border-gray-200 text-center">
+			<p> &copy; {(new Date().getFullYear())} Salmaan Saeed </p>
+		</footer>
 	</body>
 </html>
 <style is:global>
@@ -54,13 +52,6 @@ const { title } = Astro.props;
 	}
 	.navbar {
     	margin-bottom: 20px;
-	}
-	.footer {
-		height: 100px;
-		text-align: center;
-		margin-top: auto;
-		padding-top: 20px;
- 	 	border-top: 1px solid #eaeaea;
 	}
 	.icon_link {
 		margin-left: 1%;
