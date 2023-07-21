@@ -21,7 +21,7 @@ import Navbar from "src/components/Navbar.astro";
 	<body>
 		<!-- Navbar -->
 		<Navbar />
-		<main class="mt-24">
+		<main class="mt-24 mx-[16%]">
 			<slot />
 		</main>
 		<footer class="h-28 mt-auto pt-5 border-t border-gray-light text-center">
@@ -45,9 +45,5 @@ import Navbar from "src/components/Navbar.astro";
 		flex-direction: column;
 		min-height: 100vh;
     	display: flex;
-	}
-	main {
-    	margin-right: 16%;
-    	margin-left: 16%;
 	}
 </style>
