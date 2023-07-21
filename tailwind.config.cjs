@@ -1,7 +1,7 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-	content: ['./src/**/*.{astro,html,js,jsx,md,mdx,svelte,ts,tsx,vue}'],
-	daisyui: {
+  content: ['./src/**/*.{astro,html,js,jsx,md,mdx,svelte,ts,tsx,vue}'],
+  daisyui: {
     darkTheme: "light",
   },
   theme: {
@@ -27,7 +27,7 @@ module.exports = {
       sans: ['Graphik', 'sans-serif'],
       serif: ['Merriweather', 'serif'],
     },
-		extend: {},
-	},
-	plugins: [require("daisyui")],
+    extend: {},
+  },
+  plugins: [require("daisyui")],
 }
