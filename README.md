@@ -6,7 +6,7 @@
 [Personal Website](https://sagedemage.github.io/PersonalWebsite/)
 
 ## About
-My Personal website in Next.js.
+My Personal website in Astro.
 
 ## Setup
 
