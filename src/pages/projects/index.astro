@@ -2,12 +2,12 @@
 import Layout from "src/layouts/Layout.astro";
 ---
 
-<Layout title="Experimental Projects">
-  <h1 class="mb-2 font-bold text-3xl">Experimental Projects</h1>
+<Layout title="Other Projects">
+  <h1 class="mb-2 font-bold text-3xl">Other Projects</h1>
   <p>
-    These are some of the other projects I have worked on. Most of these
-    projects are experiments or prototypes. None the less, I am cool with anyone
-    looking at these projects.
+    These are some of the other projects I have worked on. Some of these
+    projects are old projects and the rest of them are experimental projects.
+    None the less, I am cool with anyone looking at these projects.
   </p>
 
   <div class="mt-4 mb-4"><hr /></div>
@@ -42,7 +42,9 @@ import Layout from "src/layouts/Layout.astro";
       http-server
     </a>
     <ul class="tasks_done list-disc list-inside ml-4">
-      <li>Developed an algorithm to find the html page the user is requesting</li>
+      <li>
+        Developed an algorithm to find the html page the user is requesting
+      </li>
       <li>Programmed serving html content via a socket</li>
     </ul>
   </p>
@@ -82,7 +84,9 @@ import Layout from "src/layouts/Layout.astro";
   <!-- Venture 2D Game -->
   <p class="mt-3">
     <b class="project_title text-lg"> Venture (SDL2, Rust)</b>
-    <span class="right_info float-right">June 18, 2023 &#8211 June 19, 2023</span>
+    <span class="right_info float-right"
+      >June 18, 2023 &#8211 June 19, 2023</span
+    >
     <br />
     <b>Git Repository</b>: <a
       class="text-blue hover:text-blue-dark"
@@ -113,8 +117,8 @@ import Layout from "src/layouts/Layout.astro";
     </ul>
   </p>
 
-   <!-- Text Editor -->
-   <p class="mt-3">
+  <!-- Text Editor -->
+  <p class="mt-3">
     <b class="project_title text-lg"> Text Editor (QT, C++, CMake)</b>
     <span class="right_info float-right">March 2023 &#8211 April 2023</span>
     <br />
@@ -127,6 +131,39 @@ import Layout from "src/layouts/Layout.astro";
     <ul class="tasks_done list-disc list-inside ml-4">
       <li>Implemented basic file operations</li>
       <li>Designed the user interface of the GUI program</li>
+    </ul>
+  </p>
+
+  <!-- Notebook -->
+  <p class="mt-3">
+    <b class="text-lg"
+      >Notebook (Django, React, MySQL, SQLite, Python, JavaScript)</b
+    >
+    <span class="right_info float-right">Aug 2022 &#8211 Sep 2023</span>
+    <br />
+    <b>Git Repository</b>: <a
+      class="text-blue hover:text-blue-dark"
+      href="https://github.com/sagedemage/Notebook"
+    >
+      Notebook
+    </a>
+    <ul class="list-disc list-inside ml-4">
+      <li>
+        Utilized CI/CD with GitHub workflows to automate unit testing and
+        linting of the code base
+      </li>
+      <li>
+        Implemented REST API for the backend so it can communicate with the
+        frontend easily
+      </li>
+      <li>
+        Programmed user authentication where users can register, login, and
+        logout their account
+      </li>
+      <li>
+        Composed unit tests for the REST APIs to ensure that the APIs are stable
+        and work properly
+      </li>
     </ul>
   </p>
 </Layout>
