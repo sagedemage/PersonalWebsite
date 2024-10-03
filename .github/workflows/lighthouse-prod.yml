@@ -12,7 +12,7 @@ jobs:
         with:
           node-version: 'lts/*'
       - name: Install Dependencies
-        run: npm install && npm install -g @lhci/cli@0.11.x
+        run: npm install && npm install -g @lhci/cli@0.14.x
       - name: Run Lighthouse test
         run: lhci autorun --config lighthouserc-prod.cjs
 
