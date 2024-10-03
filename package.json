@@ -13,8 +13,10 @@
   },
   "dependencies": {
     "@astrojs/tailwind": "^5.1.1",
+    "@playform/compress": "^0.1.1",
     "astro": "^4.15.11",
-    "astro-compress": "^2.3.1"
+    "astro-better-image-service": "^2.0.36",
+    "astro-compressor": "^0.4.1"
   },
   "devDependencies": {
     "@typescript-eslint/parser": "^8.8.0",

@@ -30,3 +30,14 @@ Build web app
 npm run build
 ```
 
+## Run lighthouse locally
+Install lighthouse npm package
+```
+npm install -g lighthouse
+```
+
+Run lighthouse the website
+```
+lighthouse http://localhost:4321/PersonalWebsite/
+```
+
