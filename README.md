@@ -10,17 +10,9 @@ My Personal website in Astro.
 
 ## Setup
 
-Install Node.js for Debian, Ubuntu and distros based on Debian or Ubuntu
-```
-sudo apt install nodejs
-```
+Install Node.js for Debian, and Ubuntu based distributions: [Installation Instructions (DEB) - NodeSource N|Solid & Node.js Binary Distributions](https://github.com/nodesource/distributions?tab=readme-ov-file#installation-instructions-deb)
 
-Install Node.js for Windows: [nodejs download page](https://nodejs.org/en/download/)
-
-Go to the root of the repository
-```
-cd PersonalWebsite
-```
+Install Node.js for Windows: [nodejs download page](https://nodejs.org/en/download/prebuilt-installer)
 
 Install the dependencies
 ```
