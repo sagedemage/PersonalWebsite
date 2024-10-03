@@ -31,7 +31,7 @@ npm run build
 ```
 
 ## Run lighthouse locally
-Install lighthouse npm package
+Install the lighthouse npm package
 ```
 npm install -g lighthouse
 ```
