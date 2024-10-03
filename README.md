@@ -31,13 +31,25 @@ npm run build
 ```
 
 ## Run lighthouse locally
-Install the lighthouse npm package
+
+### lighthouse-cli
+Install the lighthouse-ci npm package
+```
+npm install -g @lhci/cli@0.14.x
+```
+
+Run lighthouse-ci for the website
+```
+lhci autorun --config lighthouserc-dev.cjs
+```
+
+### lighthouse
+Install lighthouse npm package
 ```
 npm install -g lighthouse
 ```
 
-Run lighthouse on the website
+Run lighthouse for the website
 ```
-lighthouse http://localhost:4321/PersonalWebsite/
+lighthouse http://localhost:4321/PersonalWebsite
 ```
-
