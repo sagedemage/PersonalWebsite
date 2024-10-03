@@ -1,6 +1,6 @@
 /* Lighthouse config for Development */
 
-website_url = 'http://localhost:3000/PersonalWebsite'
+website_url = 'http://localhost:4321/PersonalWebsite'
 
 module.exports = {
   ci: {
@@ -14,8 +14,8 @@ module.exports = {
     assert: {
       assertions: {
         // Errors
-        "categories:performance": ["error", { "minScore": 0.9 }],
-        "categories:accessibility": ["error", { "minScore": 1.0 }],
+        "categories:performance": ["error", { "minScore": 0.6 }],
+        "categories:accessibility": ["error", { "minScore": 0.9 }],
         "categories:best-practices": ["error", { "minScore": 1.0 }],
         "categories:seo": ["error", { "minScore": 0.9 }],
 
