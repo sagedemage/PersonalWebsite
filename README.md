@@ -36,7 +36,7 @@ Install lighthouse npm package
 npm install -g lighthouse
 ```
 
-Run lighthouse the website
+Run lighthouse on the website
 ```
 lighthouse http://localhost:4321/PersonalWebsite/
 ```
