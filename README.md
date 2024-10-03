@@ -32,7 +32,7 @@ npm run build
 
 ## Run lighthouse locally
 
-### lighthouse-cli
+### lighthouse-ci
 Install the lighthouse-ci npm package
 ```
 npm install -g @lhci/cli@0.14.x
