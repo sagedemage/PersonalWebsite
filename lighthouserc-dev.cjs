@@ -9,15 +9,15 @@ module.exports = {
         website_url + '/',
         website_url + '/projects'
       ],
-      startServerCommand: 'npm run dev',
+      startServerCommand: 'npx astro preferences disable devToolbar && npm run dev',
     },
     assert: {
       assertions: {
         // Errors
         "categories:performance": ["error", { "minScore": 0.6 }],
-        "categories:accessibility": ["error", { "minScore": 0.9 }],
+        "categories:accessibility": ["error", { "minScore": 1.0 }],
         "categories:best-practices": ["error", { "minScore": 1.0 }],
-        "categories:seo": ["error", { "minScore": 0.9 }],
+        "categories:seo": ["error", { "minScore": 1.0 }],
 
         // Warnings
         "categories:performance": ["warn", { "minScore": 0.95 }],
