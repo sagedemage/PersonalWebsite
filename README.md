@@ -53,3 +53,14 @@ Run lighthouse for the website
 ```
 lighthouse http://localhost:4321/PersonalWebsite
 ```
+
+## Dev Toolbar
+To disable the dev toolbar for a specific project on your PC:
+```
+astro preferences disable devToolbar
+```
+
+To enable back the dev toolbar
+```
+astro preferences enable devToolbar
+```
