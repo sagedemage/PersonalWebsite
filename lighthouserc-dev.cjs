@@ -9,7 +9,7 @@ module.exports = {
         website_url + '/',
         website_url + '/projects'
       ],
-      startServerCommand: 'npx astro preferences disable devToolbar && pnpm dev',
+      startServerCommand: 'npx astro preferences disable devToolbar && npm run dev',
     },
     assert: {
       assertions: {
