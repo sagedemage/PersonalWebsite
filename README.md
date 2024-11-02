@@ -33,25 +33,9 @@ pnpm build
 ## Run lighthouse locally
 
 ### lighthouse-ci
-Install the lighthouse-ci npm package
-```
-npm install -g @lhci/cli@0.14.x
-```
-
 Run lighthouse-ci for the website
 ```
-lhci autorun --config lighthouserc-dev.cjs
-```
-
-### lighthouse
-Install lighthouse npm package
-```
-npm install -g lighthouse
-```
-
-Run lighthouse for the website
-```
-lighthouse http://localhost:4321/PersonalWebsite
+npx lhci autorun --config lighthouserc-dev.cjs
 ```
 
 ## Dev Toolbar
