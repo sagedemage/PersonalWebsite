@@ -22,12 +22,12 @@ pnpm install
 ## Try it out
 Test web app
 ```
-pnpm run dev
+pnpm dev
 ```
 
 Build web app
 ```
-pnpm run build
+pnpm build
 ```
 
 ## Run lighthouse locally
