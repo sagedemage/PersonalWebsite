@@ -15,8 +15,11 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version: 'lts/*'
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 9
       - name: Install Dependencies
-        run: npm install && npm install -g @lhci/cli@0.14.x
+        run: pnpm install
       - name: Run Lighthouse test
-        run: lhci autorun --config lighthouserc-dev.cjs
+        run: npx lhci autorun --config lighthouserc-dev.cjs
 
