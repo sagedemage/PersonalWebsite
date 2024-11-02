@@ -4,7 +4,6 @@
 *.kra
 *.jpg
 *.svg
-package-lock.json
 *.*~
 
 # astro
