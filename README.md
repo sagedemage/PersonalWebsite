@@ -16,18 +16,18 @@ Install Node.js for Windows: [nodejs download page](https://nodejs.org/en/downlo
 
 Install the dependencies
 ```
-npm install
+pnpm install
 ```
 
 ## Try it out
 Test web app
 ```
-npm run dev
+pnpm dev
 ```
 
 Build web app
 ```
-npm run build
+pnpm build
 ```
 
 ## Run lighthouse locally
@@ -64,3 +64,7 @@ To enable back the dev toolbar
 ```
 astro preferences enable devToolbar
 ```
+
+## Why use pnpm?
+1. Save disk space
+2. Boost installation speed
