@@ -1,4 +1,4 @@
-name: Lighthouse CI (Development)
+name: Lighthouse CI
 on:
   pull_request:
     branches:
