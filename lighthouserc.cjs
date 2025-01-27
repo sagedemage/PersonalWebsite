@@ -7,7 +7,6 @@ module.exports = {
     collect: {
       url: [
         website_url + '/',
-        website_url + '/projects'
       ],
       startServerCommand: 'npx astro preferences disable devToolbar && npm run dev',
     },
