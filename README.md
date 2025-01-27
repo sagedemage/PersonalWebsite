@@ -1,6 +1,6 @@
 # Personal Website
 [![GitHub Pages Status](https://github.com/sagedemage/PersonalWebsite/actions/workflows/deploy.yml/badge.svg)](https://github.com/sagedemage/PersonalWebsite/actions/workflows/deploy.yml)
-[![Lighthouse Workflow](https://github.com/sagedemage/PersonalWebsite/actions/workflows/lighthouse.yml/badge.svg)](https://github.com/sagedemage/PersonalWebsite/actions/workflows/lighthouse-prod.yml)
+[![Lighthouse Workflow](https://github.com/sagedemage/PersonalWebsite/actions/workflows/lighthouse.yml/badge.svg)](https://github.com/sagedemage/PersonalWebsite/actions/workflows/lighthouse.yml)
 
 [Personal Website](https://sagedemage.github.io/PersonalWebsite/)
 
