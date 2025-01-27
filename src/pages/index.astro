@@ -1,35 +1,17 @@
 ---
 import Layout from "src/layouts/Layout.astro";
-
-// images
-import profile from "assets/images/salmaan_saeed.webp";
-import github from "assets/icons/github.webp";
-import linkedin from "assets/icons/linkedin.webp";
-import email from "assets/icons/email.webp";
 ---
 
 <Layout title="Salmaan Saeed">
-  <div
-    class="grid grid-cols-2 max-sm:grid-cols-1 max-lg:grid-cols-1 gap-4 mb-6 justify-center w-3/4 mx-auto"
-  >
-    <div class="lg:mt-10 mx-auto text-center">
+    <div class="mx-auto text-center">
       <p class="text-2xl font-bold">Salmaan Saeed</p>
       <p class="text-lg mb-2 mt-2">Alumni of NJIT</p>
       <p class="text-lg mb-2 mt-2">Contact & Profiles:</p>
-      <div class="mx-auto w-28 block">
-        <a target="_blank" href="mailto:salsaeed999@gmail.com">
-          <img
-            class="ml-0.5 mr-0.5 float-left"
-            src={email.src}
-            alt="my school email"
-            width="35"
-            height="35"
-          />
-        </a>
+      <div class="flex item-center justify-center">
         <a target="_blank" href="https://github.com/sagedemage">
           <img
             class="ml-0.5 mr-0.5 float-left"
-            src={github.src}
+            src="icons/github.webp"
             alt="my github page"
             width="35"
             height="35"
@@ -40,8 +22,8 @@ import email from "assets/icons/email.webp";
           href="https://www.linkedin.com/in/salmaan-saeed-6a5582197/"
         >
           <img
-            class="ml-0.5 mr-0.5 float-left"
-            src={linkedin.src}
+            class="ml-0.5 mr-0.5 float-left "
+            src="icons/linkedin.webp"
             alt="my linkedin page"
             width="35"
             height="35"
@@ -52,152 +34,34 @@ import email from "assets/icons/email.webp";
     <div>
       <!-- 405px by 539px -->
       <img
-        class="mx-auto max-w-full h-auto block"
-        src={profile.src}
+        class="mx-auto max-w-full h-auto block mt-6"
+        src="images/salmaan_saeed.webp"
         alt="profile"
         width="225"
         height="300"
       />
     </div>
-  </div>
-  <div class="mb-4"><hr /></div>
+
+
+  <div class="mt-6 mb-4"><hr /></div>
   <p id="about-me">
-    I'm an alumni of <b>New Jersey Institute of Technology</b> who majored in Information
-    Technology. I'm interested in desktop support and technical support.
+    Hi, my name is Salmaan Saeed. I'm an alumni of <b>New Jersey Institute of Technology</b>. I have a Bachelor of Science in <b>Information Technology</b>. 
+    I have desktop support and front-end experience from my internships with Shoptaki and Jabil. I have experience maintaining 
+    a Raspberry Pi LDAP server. I wanted to learn how to utilize an OpenLDAP server in order to use a directory service like Active
+    Directory. I used my time to learn about Active Directory and its network topology. My goal is to become a Desktop Support Technician. 
   </p>
 
   <!-- Work Experience -->
   <p class="font-bold text-2xl border-b-2 border-gray mb-2 mt-2 pb-2">
-    Work Experience
+    My Values
   </p>
-
-  <!-- Shoptaki -->
-  <p class="mt-3">
-    <b class="text-lg">Desktop Support and Front-end Developer</b>
-    <span class="right_info float-right">May 2023 &#8211 Aug 2023</span><br />
-    <i>Shoptaki</i>
-    <span class="float-right"><i>New York City, NY</i></span>
-    <ul class="list-disc list-inside ml-4">
-      <li>
-        Provided desktop support for my coworker to fix her setup of the
-        front-end project
-      </li>
-      <li>
-        Utilized my knowledge of HTTP to perform requests for the UI to interact
-        with the APIs
-      </li>
-      <li>
-        Implemented UI features that use GET, POST, DELETE, and PATCH in order
-        to interact with the APIs
-      </li>
-      <li>
-        Documented the front-end to help developers understand the architecture
-        of the application
-      </li>
-      <li>
-        Collaborated with my team members to solve issues, plan out project
-        tasks, and review pull requests
-      </li>
-    </ul>
-  </p>
-
-  <!-- Capstone Project (Jabil) -->
-  <p class="mt-3">
-    <b class="text-lg"> Technical Support and Senior Front-end Developer</b>
-    <span class="right_info float-right">Jan 2023 &#8211 May 2023</span><br />
-    <i>Jabil</i>
-    <span class="float-right"><i>Newark, NJ</i></span>
-    <ul class="list-disc list-inside ml-4">
-      <li>
-        Provided technical support for my team to enable them to work on their
-        features
-      </li>
-      <li>
-        Utilized my knowledge of HTTP to perform requests for the GUI to
-        interact with the APIs
-      </li>
-      <li>
-        Implemented GUI features that use GET, POST, DELETE, and PATCH in order
-        to interact with the APIs
-      </li>
-      <li>
-        Documented the GUI architecture to help with onboarding new front-end
-        developers
-      </li>
-      <li>
-        Collaborated in SCRUM meetings to aid team coordination, and improve
-        developer productivity
-      </li>
-    </ul>
-  </p>
-
-  <!-- Relevant Projects -->
-  <p class="font-bold text-2xl border-b-2 border-gray mb-2 mt-2 pb-2">
-    Relevant Projects
-  </p>
-
-  <!-- Raspberry Pi LDAP Server (OpenLDAP) -->
-  <p class="mt-3">
-    <b class="text-lg">Raspberry Pi LDAP Server (OpenLDAP)</b>
-    <span class="right_info float-right">Dec 2024 &#8211 Present</span>
-    <br />
-    <b>Documentation</b>: <a
-      class="text-blue hover:text-blue-dark underline"
-      href="https://sagedemage.github.io/make_raspberry_pi_into_ldap_server/"
-      title=""
-    >
-      Make a Raspberry Pi Into a LDAP Server
-    </a>
-    <ul class="list-disc list-inside ml-4">
-      <li>
-        Setup a LDAP server to learn how to use a directory service like Active
-        Directory
-      </li>
-      <li>
-        Learned to reset user passwords, add users to a group, and create user
-        accounts
-      </li>
-      <li>Wrote documentation to setup the LDAP server.</li>
-      <li>
-        Studied the network topology of Active Directory in an enterprise
-        environment.
-      </li>
-    </ul>
-  </p>
-
-  <!-- Steam Game Review -->
-  <p class="mt-3">
-    <b class="text-lg">Steam Game Review (Systems Integration Class)</b>
-    <span class="right_info float-right">Sep 2023 &#8211 Dec 2023</span>
-    <br />
-    <b>Git Repository</b>: <a
-      class="text-blue hover:text-blue-dark underline"
-      href="https://github.com/sagedemage/steam_game_review"
-      title="Steam Game Review GitHub repository"
-    >
-      Steam Game Review
-    </a>
-    <ul class="list-disc list-inside ml-4">
-      <li>
-        Communicated and coordinated with my team members with finishing the
-        deliverables for the project
-      </li>
-      <li>
-        Documented the technical parts of the project to aid my team members
-        with development and configuration
-      </li>
-      <li>
-        Practiced with my team members in order to prepare for the demonstration
-        of the system to my professor
-      </li>
-      <li>
-        Programmed user authentication where users can register, login, and
-        logout their account
-      </li>
-      <li>
-        Setup HTTPS in order to improve the security of the website by
-        encrypting web traffic
-      </li>
-    </ul>
-  </p>
+  <p>Unlike most Americans, I value collectivism more so than individualism.</p>
+  <br>
+  Here are my <b>values</b>:
+  <ul class="list-disc list-inside ml-4">
+    <li>Respect your elders and take care of them.</li>
+    <li>Sometimes, you have to sacrifice your freedom in order to improve the wellbeing of your family.</li>
+    <li>Make sure to maintain a strong bond with your family.</li>
+    <li>Stay in touch with your family during hardtimes and struggles.</li>
+  </ul>
 </Layout>
