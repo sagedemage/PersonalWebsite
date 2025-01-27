@@ -4,8 +4,6 @@ export interface Props {
 }
 
 const { title } = Astro.props;
-
-import Navbar from "src/components/Navbar.astro";
 ---
 
 <!DOCTYPE html>
@@ -20,11 +18,15 @@ import Navbar from "src/components/Navbar.astro";
   </head>
   <body>
     <!-- Navbar -->
-    <Navbar />
-    <main class="mt-24 mx-[16%]">
+    <div class="p-4 bg-sea-green mb-10">
+      <span class="normal-case text-lg font-bold ml-4">
+        Salmaan Saeed
+      </span>
+    </div>
+    <main class="mx-[16%]">
       <slot />
     </main>
-    <footer class="h-28 mt-auto pt-5 border-t border-gray-light text-center">
+    <footer class="h-28 mt-8 pt-5 border-t border-gray-light text-center">
       <p>&copy; {new Date().getFullYear()} Salmaan Saeed</p>
     </footer>
   </body>
