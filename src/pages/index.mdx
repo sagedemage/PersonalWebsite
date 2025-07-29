@@ -1,5 +1,4 @@
 ---
-layout: ../layouts/Layout.astro
 title: 'Salmaan Saeed'
 author: 'Houston'
 description: 'help me'
@@ -10,7 +9,9 @@ import { Image } from 'astro:assets';
 import salmaan from '../assets/images/salmaan_saeed.webp';
 import linkedin from '../assets/icons/linkedin.webp';
 import github from '../assets/icons/github.webp';
+import Layout from "../layouts/Layout.astro"
 
+<Layout title={frontmatter.title}>
 <div class="mx-auto text-center">
 <p class="text-2xl font-bold mt-0"> {frontmatter.title} </p>
 
@@ -24,6 +25,7 @@ import github from '../assets/icons/github.webp';
     class='ml-0.5 mr-0.5 float-left'
     src={github}
     alt='my github profile'
+    srcset="../assets/icons/github.webp 2x"
     width='35px'
     height='35px'
   />
@@ -34,6 +36,7 @@ import github from '../assets/icons/github.webp';
   class='ml-0.5 mr-0.5 float-left'
   src={linkedin}
   alt='my linkedin profile'
+  srcset="../assets/icons/linkedin.webp 2x"
   width='35px'
   height='35px'
 />
@@ -45,6 +48,7 @@ import github from '../assets/icons/github.webp';
   class='mx-auto max-w-full h-auto block mt-6'
   src={salmaan}
   alt='Salmaan Saeed'
+  srcset="../assets/images/salmaan_saeed.webp 2x"
   width='225px'
   height='300px'
 />
@@ -74,3 +78,4 @@ Unlike most Americans, I value collectivism more than individualism.
   wellbeing of your family.
 - Make sure to maintain a strong bond with your family.
 - Stay in touch with your family during hardtimes and struggles.
+</Layout>

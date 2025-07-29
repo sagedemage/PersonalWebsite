@@ -1,11 +1,13 @@
 ---
-layout: ../layouts/Layout.astro
 title: 'Projects'
 author: 'Houston'
 description: 'help me'
 pubDate: '10/10/2023'
 ---
 
+import Layout from "../layouts/Layout.astro"
+
+<Layout title={frontmatter.title}>
 # {frontmatter.title}
 
 **Setup Kubernetes Cluster** <span class="float-right">June 2025 - July 2025</span>
@@ -44,3 +46,4 @@ Mongo Express, Prometheus, and Grafana
 - Learned to reset user passwords, add users to a group, and create user accounts 
 - Utilized a Raspberry Pi as a LDAP server with OpenLDAP 
 - Wrote documentation to setup the LDAP server.
+</Layout>

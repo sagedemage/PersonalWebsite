@@ -1,9 +1,5 @@
 ---
-export interface Props {
-  title: string;
-}
-
-const { frontmatter } = Astro.props;
+const { title } = Astro.props;
 
 import '../assets/app.css';
 ---
@@ -16,7 +12,7 @@ import '../assets/app.css';
     <link rel='icon' type='image/x-icon' href='/PersonalWebsite/favicon.ico' />
     <meta name='description' content="Salmaan's Personal Website" />
     <meta name='generator' content={Astro.generator} />
-    <title>{frontmatter.title}</title>
+    <title>{title}</title>
   </head>
   <body>
     <!-- Navbar -->
