@@ -1,14 +1,15 @@
 /* Lighthouse config for Development */
 
-website_url = 'http://localhost:4321/PersonalWebsite'
+website_url = "http://localhost:4321/PersonalWebsite"
 
 module.exports = {
   ci: {
     collect: {
       url: [
-        website_url + '/',
+        website_url + "/",
+        website_url + "/projects"
       ],
-      startServerCommand: 'npx astro preferences disable devToolbar && npm run dev',
+      startServerCommand: "npx astro preferences disable devToolbar && npm run dev",
     },
     assert: {
       assertions: {
