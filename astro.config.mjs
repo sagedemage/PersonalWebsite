@@ -1,5 +1,5 @@
 import { defineConfig } from 'astro/config';
-import tailwind from "@astrojs/tailwind";
+import tailwindcss from '@tailwindcss/vite';
 import betterImageService from 'astro-better-image-service';
 import compressor from 'astro-compressor';
 import playformCompress from '@playform/compress';
@@ -11,7 +11,6 @@ import rehypePresetMinify from 'rehype-preset-minify';
 // https://astro.build/config
 export default defineConfig({
   integrations: [
-    tailwind(),
     betterImageService(),
     compressor(),
     playformCompress(),
@@ -27,5 +26,10 @@ export default defineConfig({
     )
   ],
   site: 'https://sagedemage.github.io',
-  base: '/PersonalWebsite'
+  base: '/PersonalWebsite',
+  vite: {
+    plugins: [
+      tailwindcss()
+    ]
+  }
 });

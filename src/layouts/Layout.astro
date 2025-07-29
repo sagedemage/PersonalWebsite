@@ -4,10 +4,12 @@ export interface Props {
 }
 
 const { title } = Astro.props;
+
+import '../assets/app.css';
 ---
 
 <!doctype html>
-<html lang='en'>
+<html lang='en' data-theme='light'>
   <head>
     <meta charset='UTF-8' />
     <meta name='viewport' content='width=device-width' />
@@ -18,13 +20,43 @@ const { title } = Astro.props;
   </head>
   <body>
     <!-- Navbar -->
-    <div class='p-4 bg-sea-green mb-10'>
-      <span class='normal-case text-lg font-bold ml-4 mr-2'> Salmaan Saeed </span>
-      <a href='/PersonalWebsite' class="ml-2">Home</a>
-      <a href='/PersonalWebsite/projects' class="ml-2">Projects</a>
+    <div class='navbar bg-base-100 shadow-sm bg-sea-green'>
+      <div class='navbar-start'>
+        <div class='dropdown'>
+          <div tabindex='0' role='button' class='btn btn-ghost btn-circle'>
+            <svg
+              xmlns='http://www.w3.org/2000/svg'
+              class='h-5 w-5'
+              fill='none'
+              viewBox='0 0 24 24'
+              stroke='currentColor'
+            >
+              <path
+                stroke-linecap='round'
+                stroke-linejoin='round'
+                stroke-width='2'
+                d='M4 6h16M4 12h16M4 18h7'></path>
+            </svg>
+          </div>
+          <ul
+            tabindex='0'
+            class='menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow bg-sea-green'
+          >
+            <li><a href="/PersonalWebsite">Home</a></li>
+            <li><a href="/PersonalWebsite/projects">Projects</a></li>
+          </ul>
+        </div>
+        <a class='btn btn-ghost text-xl' href="/PersonalWebsite">Salmaan Saeed</a>
+      </div>
+      <div class='navbar-center'>
+      </div>
+      <div class='navbar-end'>
+      </div>
     </div>
-    <!-- !max-w-none mx-[16%] -->
-    <main class='prose mx-[16%]'>
+
+    <!-- Navbar Ends -->
+
+    <main class='prose mx-[16%] max-w-none mt-8'>
       <slot />
     </main>
     <footer class='h-28 mt-8 pt-5 border-t border-gray-light text-center'>
@@ -32,32 +64,3 @@ const { title } = Astro.props;
     </footer>
   </body>
 </html>
-<style is:global>
-  @tailwind base;
-  @tailwind components;
-  @tailwind utilities;
-  @plugin "daisyui";
-
-  html {
-    font-family:
-      Arial,
-      Roboto,
-      Helvetica,
-      Segoe UI,
-      Oxygen,
-      Ubuntu,
-      Cantarell,
-      Fira Sans,
-      Droid Sans sans-serif,
-      -apple-system,
-      BlinkMacSystemFont;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    font-size: 1.1em;
-  }
-  body {
-    flex-direction: column;
-    min-height: 100vh;
-    display: flex;
-  }
-</style>
