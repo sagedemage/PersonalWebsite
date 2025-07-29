@@ -4,8 +4,6 @@
    themes: light --default, dark --prefersdark;
  }
 
-@custom-variant dark (&:where(.dark, .dark *));
-
 @theme {
   --color-*: initial;
   --color-white: #fff;
