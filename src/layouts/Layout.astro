@@ -6,27 +6,28 @@ export interface Props {
 const { title } = Astro.props;
 ---
 
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang='en'>
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width" />
-    <link rel="icon" type="image/x-icon" href="/PersonalWebsite/favicon.ico" />
-    <meta name="description" content="Salmaan's Personal Website" />
-    <meta name="generator" content={Astro.generator} />
+    <meta charset='UTF-8' />
+    <meta name='viewport' content='width=device-width' />
+    <link rel='icon' type='image/x-icon' href='/PersonalWebsite/favicon.ico' />
+    <meta name='description' content="Salmaan's Personal Website" />
+    <meta name='generator' content={Astro.generator} />
     <title>{title}</title>
   </head>
   <body>
     <!-- Navbar -->
-    <div class="p-4 bg-sea-green mb-10">
-      <span class="normal-case text-lg font-bold ml-4">
-        Salmaan Saeed
-      </span>
+    <div class='p-4 bg-sea-green mb-10'>
+      <span class='normal-case text-lg font-bold ml-4 mr-2'> Salmaan Saeed </span>
+      <a href='/PersonalWebsite' class="ml-2">Home</a>
+      <a href='/PersonalWebsite/projects' class="ml-2">Projects</a>
     </div>
-    <main class="mx-[16%]">
+    <!-- !max-w-none mx-[16%] -->
+    <main class='prose mx-[16%]'>
       <slot />
     </main>
-    <footer class="h-28 mt-8 pt-5 border-t border-gray-light text-center">
+    <footer class='h-28 mt-8 pt-5 border-t border-gray-light text-center'>
       <p>&copy; {new Date().getFullYear()} Salmaan Saeed</p>
     </footer>
   </body>
@@ -35,10 +36,21 @@ const { title } = Astro.props;
   @tailwind base;
   @tailwind components;
   @tailwind utilities;
+  @plugin "daisyui";
 
   html {
-    font-family: Arial, Roboto, Helvetica, Segoe UI, Oxygen, Ubuntu, Cantarell,
-      Fira Sans, Droid Sans sans-serif, -apple-system, BlinkMacSystemFont;
+    font-family:
+      Arial,
+      Roboto,
+      Helvetica,
+      Segoe UI,
+      Oxygen,
+      Ubuntu,
+      Cantarell,
+      Fira Sans,
+      Droid Sans sans-serif,
+      -apple-system,
+      BlinkMacSystemFont;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     font-size: 1.1em;
