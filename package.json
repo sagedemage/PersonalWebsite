@@ -9,21 +9,35 @@
     "build": "astro build",
     "preview": "astro preview",
     "astro": "astro",
-    "lint": "npx eslint --ext .astro src/"
+    "lint": "npx eslint --ext .astro src/",
+    "format-check": "npx prettier . --check",
+    "format": "npx prettier . --write"
   },
   "dependencies": {
-    "@astrojs/tailwind": "^5.1.1",
-    "@playform/compress": "^0.1.1",
-    "astro": "^4.15.11",
-    "astro-better-image-service": "^2.0.36",
-    "astro-compressor": "^0.4.1"
+    "@astrojs/mdx": "^4.3.1",
+    "@playform/compress": "^0.1.9",
+    "@tailwindcss/postcss": "^4.1.11",
+    "@tailwindcss/typography": "^0.5.16",
+    "@tailwindcss/vite": "^4.1.11",
+    "astro": "^5.12.4",
+    "astro-better-image-service": "^2.1.8",
+    "astro-compressor": "^0.4.1",
+    "astro-eslint-parser": "^1.2.2",
+    "daisyui": "^5.0.49",
+    "rehype-preset-minify": "^7.0.1",
+    "remark-toc": "^9.0.0"
   },
   "devDependencies": {
-    "@typescript-eslint/parser": "^8.8.0",
-    "eslint": "^9.11.1",
-    "eslint-plugin-astro": "^1.2.4",
-    "eslint-plugin-jsx-a11y": "^6.7.1",
-    "tailwindcss": "^3.3.3",
-    "@lhci/cli": "0.14.0"
+    "@lhci/cli": "0.14.0",
+    "@stylistic/eslint-plugin": "^5.2.2",
+    "@typescript-eslint/parser": "^8.38.0",
+    "autoprefixer": "^10.4.21",
+    "eslint": "^9.32.0",
+    "eslint-plugin-astro": "^1.3.1",
+    "eslint-plugin-jsx-a11y": "^6.10.2",
+    "postcss": "^8.5.6",
+    "prettier": "3.6.2",
+    "prettier-plugin-astro": "^0.14.1",
+    "tailwindcss": "^4.1.11"
   }
 }

@@ -1,0 +1,80 @@
+@import 'tailwindcss';
+@plugin "@tailwindcss/typography";
+@plugin "daisyui" {
+  themes:
+    light --default,
+    dark --prefersdark;
+}
+
+@theme {
+  --color-white: #fff;
+  --color-purple: #7e5bef;
+  --color-midnight: #121063;
+  --color-tahiti: #3ab7bf;
+  --color-bermuda: #78dcca;
+  --color-blue: #005ce6;
+  --color-blue-dark: #0047b3;
+  --color-pink: #ff49db;
+  --color-orange: #ff7849;
+  --color-green: #13ce66;
+  --color-sea-green: #40bf77;
+  --color-yellow: #ffc82c;
+  --color-gray-dark: #273444;
+  --color-gray: #8492a6;
+  --color-gray-light: #d3dce6;
+
+  --font-display: 'Oswald', 'sans-serif';
+  --font-display--font-feature-settings: 'cv02', 'cv03', 'cv04', 'cv11';
+  --font-display--font-variation-settings: 'opsz' 32;
+}
+
+html {
+  font-family:
+    Arial,
+    Roboto,
+    Helvetica,
+    Segoe UI,
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    Fira Sans,
+    Droid Sans sans-serif,
+    -apple-system,
+    BlinkMacSystemFont;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 1.1em;
+}
+
+body {
+  flex-direction: column;
+  min-height: 100vh;
+  display: flex;
+}
+
+ul {
+  margin-top: 0;
+}
+
+a {
+  color: rgb(0, 86, 216);
+}
+
+a:visited {
+  color: rgb(93, 0, 199);
+}
+
+a:active {
+  color: rgb(0, 132, 255);
+}
+
+li {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+li > p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+

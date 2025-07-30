@@ -1,0 +1,16 @@
+*.mjs
+*.js
+*.cjs
+*.json
+*.yml
+*.yaml
+*.ts
+*.md
+*.css
+*.ico
+*.webp
+.prettierignore
+.prettierrc
+.editorconfig
+.gitignore
+LICENSE

@@ -1,0 +1,24 @@
+name: ESLint CI
+on:
+  pull_request:
+    branches:
+      - "main"
+  push:
+    branches:
+      - "*"
+      - "!main"
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+    - uses: actions/setup-node@v3
+      with:
+        node-version: 'lts/*'
+    - uses: pnpm/action-setup@v4
+      with:
+        version: 9
+    - name: Install modules
+      run: pnpm install
+    - name: Run ESLint
+      run: npx eslint --ext .astro src/
