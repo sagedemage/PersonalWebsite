@@ -9,7 +9,9 @@
     "build": "astro build",
     "preview": "astro preview",
     "astro": "astro",
-    "lint": "npx eslint --ext .astro src/"
+    "lint": "npx eslint --ext .astro src/",
+    "format-check": "npx prettier . --check",
+    "format": "npx prettier . --write"
   },
   "dependencies": {
     "@astrojs/mdx": "^4.3.1",
