@@ -11,20 +11,14 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-    - name: Checkout
-      uses: actions/checkout@v4
-    - name: Node
-      uses: actions/setup-node@v3
+    - uses: actions/checkout@v3
+    - uses: actions/setup-node@v3
       with:
         node-version: 'lts/*'
-    - name: pnpm
-      uses: pnpm/action-setup@v4
+    - uses: pnpm/action-setup@v4
       with:
         version: 9
-    - name: Install Dependencies
+    - name: Install modules
       run: pnpm install
-    - name: Prettify code
-      uses: creyD/prettier_action@v4.6
-      with:
-        # This part is also where you can pass other options, for example:
-        prettier_options: --write **/*.{js,mdx,astro}
+    - name: Run Prettier
+      run: npx prettier . --check
