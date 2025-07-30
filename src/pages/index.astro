@@ -1,17 +1,16 @@
 ---
-title: "Salmaan Saeed"
-author: "Salmaan Saeed"
-description: "This is the home page of my website. It is an introduction about myself."
-pubDate: "7/29/2025"
+import { Image } from "astro:assets"
+import salmaan from "../assets/images/salmaan_saeed.webp"
+import linkedin from "../assets/icons/linkedin.webp"
+import github from "../assets/icons/github.webp"
+import Layout from "../layouts/Layout.astro"
+
+const title = "Salmaan Saeed"
 ---
 
-import {Image} from "astro:assets"; import salmaan from "../assets/images/salmaan_saeed.webp";
-import linkedin from "../assets/icons/linkedin.webp"; import github from "../assets/icons/github.webp";
-import Layout from "../layouts/Layout.astro";
-
-<Layout title={frontmatter.title}>
+<Layout title={title}>
   <div class="mx-auto text-center">
-    <p class="text-2xl font-bold mt-0">{frontmatter.title}</p>
+    <p class="text-2xl font-bold mt-0">{title}</p>
 
     <p class="text-lg mb-2 mt-2">Alumni of NJIT</p>
 
@@ -46,7 +45,7 @@ import Layout from "../layouts/Layout.astro";
   </div>
 
   <Image
-    class="mx-auto max-w-full h-auto block mt-6"
+    class="mx-auto max-w-full h-auto block mt-2"
     src={salmaan}
     alt="Salmaan Saeed"
     layout="constrained"
@@ -54,7 +53,7 @@ import Layout from "../layouts/Layout.astro";
     height={270}
   />
 
-  ---
+  <hr class="h-px my-8 bg-gray-300 border-0" />
 
   <p>
     Hi, my name is Salmaan Saeed. I'm an alumni of **New Jersey Institute of
@@ -72,7 +71,7 @@ import Layout from "../layouts/Layout.astro";
     Values Unlike most Americans, I value collectivism more than individualism.
   </p>
 
-  <span class="my-0">Here are my **values**:</span>
+  <span class="my-0">Here are my <b>values</b>:</span>
   <ul>
     <li>Respect your elders and take care of them</li>
     <li>

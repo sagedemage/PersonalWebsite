@@ -13,7 +13,7 @@ export default defineConfig([
     rules: {
         "eqeqeq": "error",
         "curly": "error",
-        "@stylistic/indent": ['error', 2],
+        "@stylistic/indent": ['warn', 2],
         "@stylistic/max-len": ["warn", { "code": 80 }],
         "@stylistic/quotes": ["error", "double"],
         "@stylistic/no-tabs": "error",
