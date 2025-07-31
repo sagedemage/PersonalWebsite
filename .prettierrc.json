@@ -1,0 +1,44 @@
+{
+  "jsxSingleQuote": false,
+  "printWidth": 80,
+  "proseWrap": "preserve",
+  "singleQuote": false,
+  "tabWidth": 2,
+  "useTabs": false,
+  "trailingComma": "es5",
+  "semi": true,
+  "endOfLine": "lf",
+  "plugins": ["prettier-plugin-astro"],
+  "overrides": [
+  {
+    "files": "*.astro",
+    "options": {
+      "parser": "astro"
+    }
+  },
+  {
+    "files": "*.css",
+    "options": {
+      "parser": "css"
+    }
+  },
+  {
+    "files": "*.html",
+    "options": {
+      "parser": "html"
+    }
+  },
+  {
+    "files": "*.json",
+    "options": {
+      "parser": "json"
+    }
+  },
+  {
+    "files": "*.js,*.mjs,*.cjs",
+    "options": {
+      "parser": "babel"
+    }
+  }
+]
+}

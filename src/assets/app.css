@@ -1,4 +1,4 @@
-@import 'tailwindcss';
+@import "tailwindcss";
 @plugin "@tailwindcss/typography";
 @plugin "daisyui" {
   themes:
@@ -23,9 +23,9 @@
   --color-gray: #8492a6;
   --color-gray-light: #d3dce6;
 
-  --font-display: 'Oswald', 'sans-serif';
-  --font-display--font-feature-settings: 'cv02', 'cv03', 'cv04', 'cv11';
-  --font-display--font-variation-settings: 'opsz' 32;
+  --font-display: "Oswald", "sans-serif";
+  --font-display--font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+  --font-display--font-variation-settings: "opsz" 32;
 }
 
 html {
@@ -77,4 +77,3 @@ li > p {
   margin-top: 0;
   margin-bottom: 0;
 }
-
