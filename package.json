@@ -25,6 +25,7 @@
     "sharp": "^0.34.3"
   },
   "devDependencies": {
+    "@babel/parser": "^7.28.0",
     "@lhci/cli": "0.14.0",
     "@stylistic/eslint-plugin": "^5.2.2",
     "@typescript-eslint/parser": "^8.38.0",

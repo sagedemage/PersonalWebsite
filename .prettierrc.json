@@ -27,6 +27,18 @@
     "options": {
       "parser": "html"
     }
+  },
+  {
+    "files": "*.json",
+    "options": {
+      "parser": "json"
+    }
+  },
+  {
+    "files": "*.js,*.mjs,*.cjs",
+    "options": {
+      "parser": "babel"
+    }
   }
 ]
 }

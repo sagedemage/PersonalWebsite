@@ -1,13 +1,11 @@
-*.mjs
-*.js
-*.cjs
-*.json
 *.yml
 *.yaml
 *.ts
 *.md
 *.ico
 *.webp
+package.json
+.prettierrc.json
 .prettierignore
 .prettierrc
 .editorconfig
