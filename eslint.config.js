@@ -13,11 +13,9 @@ export default defineConfig([
     rules: {
         "eqeqeq": "error",
         "curly": "error",
-        "@stylistic/indent": ['warn', 2],
-        "@stylistic/max-len": ["warn", { "code": 80 }],
         "@stylistic/quotes": ["error", "double"],
         "@stylistic/no-tabs": "error",
-        "@stylistic/semi": ["error", "never"],
+        "@stylistic/semi": ["error", "always"],
         "no-unused-vars": ["error", {
             "vars": "all",
             "args": "after-used",
