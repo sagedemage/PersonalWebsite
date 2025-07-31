@@ -6,7 +6,6 @@
 *.yaml
 *.ts
 *.md
-*.css
 *.ico
 *.webp
 .prettierignore

@@ -4,8 +4,18 @@
   "proseWrap": "preserve",
   "singleQuote": false,
   "tabWidth": 2,
+  "useTabs": false,
   "trailingComma": "es5",
   "parser": "astro",
-  "semi": false,
-  "plugins": ["prettier-plugin-astro"]
+  "semi": true,
+  "endOfLine": "lf",
+  "plugins": ["prettier-plugin-astro"],
+  "overrides": [
+  {
+    "files": "*.css",
+    "options": {
+      "parser": "css"
+    }
+  }
+]
 }
