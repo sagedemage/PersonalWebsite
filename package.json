@@ -18,6 +18,7 @@
     "@tailwindcss/postcss": "^4.1.11",
     "@tailwindcss/typography": "^0.5.16",
     "@tailwindcss/vite": "^4.1.11",
+    "angular-html-parser": "^9.2.0",
     "astro": "^5.12.4",
     "astro-eslint-parser": "^1.2.2",
     "daisyui": "^5.0.49",

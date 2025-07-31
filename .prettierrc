@@ -6,15 +6,26 @@
   "tabWidth": 2,
   "useTabs": false,
   "trailingComma": "es5",
-  "parser": "astro",
   "semi": true,
   "endOfLine": "lf",
   "plugins": ["prettier-plugin-astro"],
   "overrides": [
   {
+    "files": "*.astro",
+    "options": {
+      "parser": "astro"
+    }
+  },
+  {
     "files": "*.css",
     "options": {
       "parser": "css"
+    }
+  },
+  {
+    "files": "*.html",
+    "options": {
+      "parser": "html"
     }
   }
 ]
