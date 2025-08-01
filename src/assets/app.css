@@ -28,6 +28,18 @@
   --font-display--font-variation-settings: "opsz" 32;
 }
 
+@layer base {
+  h1 {
+    font-size: var(--text-2xl) !important;
+  }
+  h2 {
+    font-size: var(--text-xl) !important;
+  }
+  h3 {
+    font-size: var(--text-lg) !important;
+  }
+}
+
 html {
   font-family:
     Arial,
