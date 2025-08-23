@@ -32,10 +32,25 @@ const steam_game_review_tasks = [
   "Assisted my team to connect the virtual machines in a network",
   "Upgraded the website to HTTPS to improve the security of user authentication and secure users' data",
 ];
+
+const wave_data_system_tasks = [
+  "Utilized AWS and DynamoDB to store the logs for login error messages",
+  "Managed Docker for the containerization of SQL Server and Apache Cassandra",
+  "Programmed user authentication for the program with cookies",
+  "Wrote documentation to setup the hybrid cloud based system",
+]
 ---
 
 <Layout title={title}>
   <h1>{title}</h1>
+  <Project
+    project_name="Wave Data System"
+    dates="Aug 4, 2025 - Aug 23, 2025"
+    link_name="wave_data_system"
+    link="https://github.com/sagedemage/wave_data_system"
+    repo_link={true}
+    tasks={wave_data_system_tasks}
+  />
   <Project
     project_name="Setup Kubernetes Cluster"
     dates="June 2025 - July 2025"
