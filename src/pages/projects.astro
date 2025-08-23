@@ -1,111 +1,91 @@
 ---
 import Layout from "../layouts/Layout.astro";
 
+import Project from "src/components/Project.astro";
+
 const title = "Projects";
+
+const setup_kubernetes_cluster_tasks = [
+  "Automated the deployment, management, scaling, and networking of containers via container orchestration",
+  "Monitored the resources of the Kubernetes cluster with Prometheus and Grafana",
+  "Developed technical documentation for setting up the Kubernetes cluster",
+  "Harden the pods and networking of the cluster to ensure that it is safe and secure from cyber security threats",
+  "Utilized Docker for the containerization of applications like Nginx, MongoDB, and Prometheus",
+];
+
+const setup_linux_servers_ansible_tasks = [
+  "Automated Linux Server processes via Ansible playbooks",
+  "Setup SSH for Ansible to connect to the virtual machines of Linux servers",
+  "Accessed the Apache and Nginx servers on my host computer via port forwarding",
+];
+
+const setup_ldap_server_tasks = [
+  "Setup a LDAP server to learn how to use a directory service like Active Directory",
+  "Learned to reset user passwords, add users to a group, and create user accounts",
+  "Utilized a virtual machine as a LDAP server via VirtualBox",
+  "Wrote documentation to setup the LDAP server",
+];
+
+const steam_game_review_tasks = [
+  "Produced documentation on the project to aid my team members with development and configuration",
+  "Coordinated with my team members to prepare for the demonstration of the system to my professor",
+  "Assisted my team to connect the virtual machines in a network",
+  "Upgraded the website to HTTPS to improve the security of user authentication and secure users' data",
+];
+
+const wave_data_system_tasks = [
+  "Utilized AWS and DynamoDB to store the logs for login error messages",
+  "Managed Docker for the containerization of SQL Server and Apache Cassandra",
+  "Programmed user authentication for the program with cookies",
+  "Wrote documentation to setup the hybrid cloud based system",
+];
 ---
 
 <Layout title={title}>
   <h1>{title}</h1>
-
-  <b>Setup Kubernetes Cluster</b>
-  <span class="float-right"> June 2025 - July 2025 </span>
-
-  <span class="block">
-    GitHub Repository:
-    <a href="https://github.com/sagedemage/setup_kubernetes_cluster"
-      >setup_kubernetes_cluster</a
-    >
-  </span>
-  <span class="my-0">Tasks:</span>
-  <ul>
-    <li>
-      Automated the deployment, management, scaling, and networking of
-      containers via container orchestration
-    </li>
-    <li>
-      Monitored the resources of the Kubernetes cluster with Prometheus and
-      Grafana
-    </li>
-    <li>
-      Developed technical documentation for setting up the Kubernetes cluster
-    </li>
-    <li>
-      Harden the pods and networking of the cluster to ensure that it is safe
-      and secure from cyber security threats
-    </li>
-    <li>
-      Utilized Docker for the containerization of applications like Nginx,
-      MongoDB, and Prometheus
-    </li>
-  </ul>
-
-  <b>Setup Linux Servers Ansible</b>
-  <span class="float-right">June 8, 2025 - June 17, 2025</span>
-
-  <span class="block">
-    GitHub Repository:
-    <a href="https://github.com/sagedemage/setup_linux_servers_ansible"
-      >setup_linux_servers_ansible</a
-    >
-  </span>
-  <span class="my-0">Tasks:</span>
-  <ul>
-    <li>Automated Linux Server processes via Ansible playbooks</li>
-    <li>
-      Setup SSH for Ansible to connect to the virtual machines of Linux servers
-    </li>
-    <li>
-      Accessed the Apache and Nginx servers on my host computer via port
-      forwarding
-    </li>
-  </ul>
-
-  <b>Setup LDAP Server (OpenLDAP)</b>
-  <span class="float-right"> Dec 2024 - Aug 2025</span>
-
-  <span class="block">
-    Documentation:
-    <a href="https://sagedemage.github.io/setup_ldap_server/"
-      >Setup a LDAP Server (OpenLDAP)</a
-    >
-  </span>
-  <span class="my-0">Tasks:</span>
-  <ul>
-    <li>
-      Setup a LDAP server to learn how to use a directory service like Active
-      Directory
-    </li>
-    <li>
-      Learned to reset user passwords, add users to a group, and create user
-      accounts
-    </li>
-    <li>Utilized a virtual machine as a LDAP server via VirtualBox</li>
-    <li>Wrote documentation to setup the LDAP server</li>
-  </ul>
-
-  <b>Steam Game Review (Systems Integration Class)</b>
-  <span class="float-right">Sep 2023 - Dec 2023</span>
-
-  <span class="block">
-    GitHub Repository:
-    <a href="https://github.com/sagedemage/steam_game_review"
-      >steam_game_review</a
-    >
-  </span>
-  <span class="my-0">Tasks:</span>
-  <ul>
-    <li>
-      Produced documentation on the project to aid my team members with
-      development and configuration
-    </li>
-    <li>
-      Coordinated with my team members to prepare for the demonstration of the
-      system to my professor
-    </li>
-    <li>Assisted my team to connect the virtual machines in a network</li>
-    <li>
-      Upgraded the website to HTTPS to improve the security of user
-      authentication and secure users' data
-    </li>
-  </ul>
+  <Project
+    project_name="Wave Data System"
+    dates="Aug 4, 2025 - Aug 23, 2025"
+    link_name="wave_data_system"
+    link="https://github.com/sagedemage/wave_data_system"
+    repo_link={true}
+    doc_link={false}
+    tasks={wave_data_system_tasks}
+  />
+  <Project
+    project_name="Setup Kubernetes Cluster"
+    dates="June 2025 - July 2025"
+    link_name="setup_kubernetes_cluster"
+    link="https://github.com/sagedemage/setup_kubernetes_cluster"
+    repo_link={true}
+    doc_link={false}
+    tasks={setup_kubernetes_cluster_tasks}
+  />
+  <Project
+    project_name="Setup Linux Servers Ansible"
+    dates="June 8, 2025 - June 17, 2025"
+    link_name="setup_linux_servers_ansible"
+    link="https://github.com/sagedemage/setup_linux_servers_ansible"
+    repo_link={true}
+    doc_link={false}
+    tasks={setup_linux_servers_ansible_tasks}
+  />
+  <Project
+    project_name="Setup LDAP Server (OpenLDAP)"
+    dates="Dec 2024 - Aug 2025"
+    link_name="Setup a LDAP Server (OpenLDAP)"
+    link="https://sagedemage.github.io/setup_ldap_server/"
+    doc_link={true}
+    repo_link={false}
+    tasks={setup_ldap_server_tasks}
+  />
+  <Project
+    project_name="Steam Game Review (Systems Integration Class)"
+    dates="Sep 2023 - Dec 2023"
+    link_name="steam_game_review"
+    link="https://github.com/sagedemage/steam_game_review"
+    repo_link={true}
+    doc_link={false}
+    tasks={steam_game_review_tasks}
+  />
 </Layout>
