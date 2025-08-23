@@ -1,0 +1,22 @@
+---
+const { project_name, dates, link_name, link, repo_link, doc_link, tasks } = Astro.props;
+---
+
+<div>
+  <b>{project_name}</b>
+  <span class="float-right"> {dates} </span>
+
+  <span class="block">
+    {repo_link === true &&
+    <span>GitHub Repository:</span>
+    }
+    {doc_link === true &&
+    <span>Documentation:</span>
+    }
+    <a href={link}>{link_name}</a>
+  </span>
+  <span class="my-0">Tasks:</span>
+  <ul>
+    {tasks.map((task) => <li>{task}</li>)}
+  </ul>
+</div>
