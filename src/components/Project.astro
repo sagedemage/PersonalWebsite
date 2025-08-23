@@ -1,4 +1,13 @@
 ---
+interface Props {
+  project_name: string;
+  dates: string;
+  link_name: string;
+  link: string;
+  repo_link: boolean;
+  doc_link: boolean;
+  tasks: Array<string>;
+}
 const { project_name, dates, link_name, link, repo_link, doc_link, tasks } =
   Astro.props;
 ---
