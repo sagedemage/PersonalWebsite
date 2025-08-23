@@ -1,5 +1,6 @@
 ---
-const { project_name, dates, link_name, link, repo_link, doc_link, tasks } = Astro.props;
+const { project_name, dates, link_name, link, repo_link, doc_link, tasks } =
+  Astro.props;
 ---
 
 <div>
@@ -7,12 +8,8 @@ const { project_name, dates, link_name, link, repo_link, doc_link, tasks } = Ast
   <span class="float-right"> {dates} </span>
 
   <span class="block">
-    {repo_link === true &&
-    <span>GitHub Repository:</span>
-    }
-    {doc_link === true &&
-    <span>Documentation:</span>
-    }
+    {repo_link === true && <span>GitHub Repository:</span>}
+    {doc_link === true && <span>Documentation:</span>}
     <a href={link}>{link_name}</a>
   </span>
   <span class="my-0">Tasks:</span>
