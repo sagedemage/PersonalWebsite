@@ -3,6 +3,7 @@ import { Image } from "astro:assets";
 import salmaan from "../assets/images/salmaan_saeed.webp";
 import linkedin from "../assets/icons/linkedin.webp";
 import github from "../assets/icons/github.webp";
+import wan_network from "../assets/images/wan_network_cisco_packet_tracer.webp";
 import Layout from "../layouts/Layout.astro";
 
 const title = "Salmaan Saeed";
@@ -58,29 +59,26 @@ const title = "Salmaan Saeed";
   <p>
     Hi, my name is Salmaan Saeed. I'm an alumni of <b
       >New Jersey Institute of Technology</b
-    >. I have a Bachelor of Science in <b>Information Technology</b>. I have
-    desktop support and front-end experience from my internships with Shoptaki
-    and Jabil. I have experience maintaining a Raspberry Pi LDAP server. I
-    wanted to learn how to utilize an OpenLDAP server in order to use a
-    directory service like Active Directory. I used my time to learn about
-    Active Directory and its network topology. I have experience setting up a
-    Kubernetes cluster with Docker. I learned about container orchestration and
-    how it helps DevOps Engineers automate the process of deployment,
+    >. I have a Bachelor of Science in <b>Information Technology</b>. I am
+    interested in computer networking because I find it fascinating how
+    computers and routers communicate with each other in a WAN. I have
+    experience setting up a Kubernetes cluster with Docker. I learned about
+    container orchestration and how it helps with the automation of deployment,
     management, and networking of containers. I took my time to learn about the
-    architecture of a Kubernetes cluster. My goal is to become a Desktop Support
-    Technician. My long term goal is to become a System Administrator.
+    architecture of a Kubernetes cluster. I have experience setting up the
+    automation of Linux servers on virtual machines via Ansible. This project
+    required me to setup port forwarding in order to access the virtual machines
+    via SSH. I used my time to understand the networking of VirtualBox. My goal
+    is to become a Desktop Support Technician. My long term goal is to become a
+    Network Engineer.
   </p>
 
-  <h2>My Values</h2>
-  <p>Unlike most Americans, I value collectivism more than individualism.</p>
-  <span class="my-0">Here are my <b>values</b>:</span>
-  <ul>
-    <li>Respect your elders and take care of them</li>
-    <li>
-      You have to focus on unity in order to improve the wellbeing of your
-      family and community
-    </li>
-    <li>Make sure to maintain a strong bond with your family</li>
-    <li>Stay in touch with your family during hardtimes and struggles</li>
-  </ul>
+  <Image
+    class="max-w-full h-auto"
+    src={wan_network}
+    alt="Salmaan Saeed WAN Network Cisco Packet Tracer"
+    layout="constrained"
+    width={950}
+    height={576}
+  />
 </Layout>
