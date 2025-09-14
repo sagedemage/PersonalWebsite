@@ -5,6 +5,13 @@ import Project from "src/components/Project.astro";
 
 const title = "Projects";
 
+const wan_network_simulation_tasks = [
+  "Designed a WAN network where PCs can communicate with each other in different LANs",
+  "Configured the routing and IP addresses for routers to handle the forwarding of data packets",
+  "Designed the WAN network with the cabling of copper straight through and serial cables",
+  "Setup the IP addresses for the PCs to enable the communication between them"
+];
+
 const setup_kubernetes_cluster_tasks = [
   "Automated the deployment, management, scaling, and networking of containers via container orchestration",
   "Monitored the resources of the Kubernetes cluster with Prometheus and Grafana",
@@ -43,6 +50,15 @@ const wave_data_system_tasks = [
 
 <Layout title={title}>
   <h1>{title}</h1>
+  <Project
+    project_name="WAN Network Simulation"
+    dates="Sep 10, 2025 - Current"
+    link_name="WAN Network Tutorial - Cisco Packet Tracer"
+    link="https://sagedemage.github.io/wan_network_tutorial_cisco_packet_tracer/"
+    repo_link={false}
+    doc_link={true}
+    tasks={wan_network_simulation_tasks}
+  />
   <Project
     project_name="Wave Data System"
     dates="Aug 4, 2025 - Aug 23, 2025"
