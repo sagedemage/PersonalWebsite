@@ -1,11 +1,5 @@
 @import "tailwindcss";
 @plugin "@tailwindcss/typography";
-@plugin "daisyui" {
-  themes:
-    light --default,
-    dark --prefersdark;
-}
-
 @theme {
   --color-white: #fff;
   --color-purple: #7e5bef;
@@ -23,6 +17,7 @@
   --color-gray-dark: #273444;
   --color-gray: #8492a6;
   --color-gray-light: #d3dce6;
+  --color-black: #000000;
 
   --font-display: "Oswald", "sans-serif";
   --font-display--font-feature-settings: "cv02", "cv03", "cv04", "cv11";
@@ -89,4 +84,43 @@ li {
 li > p {
   margin-top: 0;
   margin-bottom: 0;
+}
+
+.dropdown-btn {
+  color: black;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  min-width: 160px;
+  z-index: 1;
+  padding: 10px;
+}
+
+.dropdown-content > a {
+  color: black;
+  /* top/bottom and right/left*/
+  padding: 3px 8px;
+  text-decoration: none;
+  display: block;
+  font-size: 14px;
+  border-radius: 4px;
+}
+
+.dropdown-content > a:hover {
+  background-color: rgba(22, 22, 22, 0.1);
+}
+
+.navbar-left {
+  float: left;
+}
+
+.navbar-right {
+  float: right;
+}
+
+.navbar {
+  width: 100%;
+  padding: 10px;
 }
