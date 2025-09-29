@@ -6,48 +6,32 @@ import github from "../assets/icons/github.webp";
 
 <!-- Navbar -->
 <div class="navbar bg-base-100 shadow-sm bg-cornflower-blue fixed">
-  <div class="navbar-start">
-    <div class="dropdown">
+  <div class="navbar-left">
+    <div class="dropdown inline-block">
+      <button
+        class="dropdown-btn px-[14px] py-[8px] btn rounded-full hover:bg-gray-200 bg-transparent border-transparent shadow-none hover:shadow-sm shadow-white"
+      >
+      <i class="dropdown-btn fa fa-bars"></i>
+      </button>
       <div
-        tabindex="0"
-        role="button"
-        class="btn btn-ghost btn-circle"
-        aria-label="hamburger-menu"
+        id="dropdown-menu"
+        class="dropdown-content bg-cornflower-blue rounded-md shadow-sm"
       >
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          class="h-5 w-5"
-          fill="none"
-          viewBox="0 0 24 24"
-          stroke="currentColor"
-        >
-          <path
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            stroke-width="2"
-            d="M4 6h16M4 12h16M4 18h7"></path>
-        </svg>
+        <a class="!text-gray-900" href="/PersonalWebsite"> Home </a>
+        <a class="!text-gray-900" href="/PersonalWebsite/projects">
+          Projects
+        </a>
       </div>
-      <ul
-        tabindex="0"
-        class="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow bg-cornflower-blue"
-      >
-        <li>
-          <a class="!text-gray-900" href="/PersonalWebsite"> Home </a>
-        </li>
-        <li>
-          <a class="!text-gray-900" href="/PersonalWebsite/projects">
-            Projects
-          </a>
-        </li>
-      </ul>
     </div>
-    <a class="btn btn-ghost text-xl !text-gray-900" href="/PersonalWebsite">
+    <a
+      class="!text-black font-bold text-xl btn rounded-md hover:bg-gray-200 bg-transparent border-transparent shadow-none hover:shadow-sm shadow-white p-2"
+      href="/PersonalWebsite"
+    >
       Salmaan Saeed
     </a>
   </div>
   <div class="navbar-center"></div>
-  <div class="navbar-end">
+  <div class="navbar-right">
     <a target="_blank" href="https://github.com/sagedemage">
       <Image
         class="ml-0.5 mr-0.5 float-left"
@@ -73,4 +57,18 @@ import github from "../assets/icons/github.webp";
       />
     </a>
   </div>
+  <script>
+    let dropdown_button = document.querySelector(".dropdown-btn");
+    dropdown_button.addEventListener("click", () => {
+      let dropdown_menu = document.getElementById("dropdown-menu");
+      dropdown_menu.style.display = "block";
+    });
+
+    window.onclick = function (event) {
+      if (!event.target.matches(".dropdown-btn")) {
+        let dropdown_menu = document.getElementById("dropdown-menu");
+        dropdown_menu.style.display = "none";
+      }
+    };
+  </script>
 </div>
