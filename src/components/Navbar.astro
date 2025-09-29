@@ -1,5 +1,11 @@
+---
+import { Image } from "astro:assets";
+import linkedin from "../assets/icons/linkedin.webp";
+import github from "../assets/icons/github.webp";
+---
+
 <!-- Navbar -->
-<div class="navbar bg-base-100 shadow-sm bg-sea-green fixed">
+<div class="navbar bg-base-100 shadow-sm bg-cornflower-blue fixed">
   <div class="navbar-start">
     <div class="dropdown">
       <div
@@ -24,7 +30,7 @@
       </div>
       <ul
         tabindex="0"
-        class="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow bg-sea-green"
+        class="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow bg-cornflower-blue"
       >
         <li>
           <a class="!text-gray-900" href="/PersonalWebsite"> Home </a>
@@ -41,5 +47,30 @@
     </a>
   </div>
   <div class="navbar-center"></div>
-  <div class="navbar-end"></div>
+  <div class="navbar-end">
+    <a target="_blank" href="https://github.com/sagedemage">
+      <Image
+        class="ml-0.5 mr-0.5 float-left"
+        src={github}
+        alt="my github profile"
+        layout="constrained"
+        width={35}
+        height={35}
+      />
+    </a>
+
+    <a
+      target="_blank"
+      href="https://www.linkedin.com/in/salmaan-saeed-6a5582197/"
+    >
+      <Image
+        class="ml-0.5 mr-0.5 float-left"
+        src={linkedin}
+        alt="my linkedin profile"
+        layout="constrained"
+        width={35}
+        height={35}
+      />
+    </a>
+  </div>
 </div>
