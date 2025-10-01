@@ -4,7 +4,7 @@ interface Props {
 }
 const { title } = Astro.props;
 
-import "../assets/app.css";
+import "../styles/global.css";
 import Navbar from "../components/Navbar.astro";
 ---
 
@@ -21,6 +21,57 @@ import Navbar from "../components/Navbar.astro";
     <meta name="description" content="Salmaan's Personal Website" />
     <meta name="generator" content={Astro.generator} />
     <title>{title}</title>
+    <style>
+      html {
+        font-family:
+          Arial,
+          Roboto,
+          Helvetica,
+          Segoe UI,
+          Oxygen,
+          Ubuntu,
+          Cantarell,
+          Fira Sans,
+          Droid Sans sans-serif,
+          -apple-system,
+          BlinkMacSystemFont;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        font-size: 1.1em;
+      }
+
+      body {
+        flex-direction: column;
+        min-height: 100vh;
+        display: flex;
+      }
+
+      ul {
+        margin-top: 0;
+      }
+
+      a {
+        color: rgb(0, 86, 216);
+      }
+
+      a:visited {
+        color: rgb(93, 0, 199);
+      }
+
+      a:active {
+        color: rgb(0, 132, 255);
+      }
+
+      li {
+        margin-top: 0;
+        margin-bottom: 0;
+      }
+
+      li > p {
+        margin-top: 0;
+        margin-bottom: 0;
+      }
+    </style>
   </head>
   <body>
     <!-- Navbar -->
