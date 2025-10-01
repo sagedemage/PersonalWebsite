@@ -5,6 +5,46 @@ import github from "../assets/icons/github.webp";
 ---
 
 <!-- Navbar -->
+<style>
+  .navbar-left {
+    float: left;
+  }
+
+  .navbar-right {
+    float: right;
+  }
+
+  .navbar {
+    width: 100%;
+    padding: 10px;
+  }
+
+  .dropdown-btn {
+    color: black;
+  }
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    z-index: 1;
+    padding: 10px;
+  }
+
+  .dropdown-content > a {
+    color: black;
+    /* top/bottom and right/left*/
+    padding: 3px 8px;
+    text-decoration: none;
+    display: block;
+    font-size: 14px;
+    border-radius: 4px;
+  }
+
+  .dropdown-content > a:hover {
+    background-color: rgba(22, 22, 22, 0.1);
+  }
+</style>
 <div class="navbar bg-base-100 shadow-sm bg-cornflower-blue fixed">
   <div class="navbar-left">
     <div class="dropdown inline-block">
@@ -60,15 +100,15 @@ import github from "../assets/icons/github.webp";
   </div>
   <script>
     let dropdown_button = document.querySelector(".dropdown-btn");
-    dropdown_button.addEventListener("click", () => {
+    dropdown_button!.addEventListener("click", () => {
       let dropdown_menu = document.getElementById("dropdown-menu");
-      dropdown_menu.style.display = "block";
+      dropdown_menu!.style.display = "block";
     });
 
     window.onclick = function (event) {
-      if (!event.target.matches(".dropdown-btn")) {
+      if (!(event.target as HTMLButtonElement).matches(".dropdown-btn")) {
         let dropdown_menu = document.getElementById("dropdown-menu");
-        dropdown_menu.style.display = "none";
+        dropdown_menu!.style.display = "none";
       }
     };
   </script>

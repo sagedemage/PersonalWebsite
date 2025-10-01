@@ -1,5 +1,6 @@
 @import "tailwindcss";
 @plugin "@tailwindcss/typography";
+
 @theme {
   --color-white: #fff;
   --color-purple: #7e5bef;
@@ -28,40 +29,14 @@
   h1 {
     font-size: var(--text-2xl) !important;
   }
+
   h2 {
     font-size: var(--text-xl) !important;
   }
+
   h3 {
     font-size: var(--text-lg) !important;
   }
-}
-
-html {
-  font-family:
-    Arial,
-    Roboto,
-    Helvetica,
-    Segoe UI,
-    Oxygen,
-    Ubuntu,
-    Cantarell,
-    Fira Sans,
-    Droid Sans sans-serif,
-    -apple-system,
-    BlinkMacSystemFont;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  font-size: 1.1em;
-}
-
-body {
-  flex-direction: column;
-  min-height: 100vh;
-  display: flex;
-}
-
-ul {
-  margin-top: 0;
 }
 
 a {
@@ -76,6 +51,10 @@ a:active {
   color: rgb(0, 132, 255);
 }
 
+ul {
+  margin-top: 0;
+}
+
 li {
   margin-top: 0;
   margin-bottom: 0;
@@ -84,43 +63,4 @@ li {
 li > p {
   margin-top: 0;
   margin-bottom: 0;
-}
-
-.dropdown-btn {
-  color: black;
-}
-
-.dropdown-content {
-  display: none;
-  position: absolute;
-  min-width: 160px;
-  z-index: 1;
-  padding: 10px;
-}
-
-.dropdown-content > a {
-  color: black;
-  /* top/bottom and right/left*/
-  padding: 3px 8px;
-  text-decoration: none;
-  display: block;
-  font-size: 14px;
-  border-radius: 4px;
-}
-
-.dropdown-content > a:hover {
-  background-color: rgba(22, 22, 22, 0.1);
-}
-
-.navbar-left {
-  float: left;
-}
-
-.navbar-right {
-  float: right;
-}
-
-.navbar {
-  width: 100%;
-  padding: 10px;
 }
