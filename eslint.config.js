@@ -11,8 +11,8 @@ export default defineConfig([
     },
 
     rules: {
-      "eqeqeq": "error",
-      "curly": "error",
+      eqeqeq: "error",
+      curly: "error",
       "@stylistic/quotes": ["error", "double"],
       "@stylistic/no-tabs": "error",
       "@stylistic/semi": ["error", "always"],
@@ -24,7 +24,7 @@ export default defineConfig([
           ignoreRestSiblings: false,
         },
       ],
-      "prefer-const": "error"
+      "prefer-const": "error",
     },
   },
   {
