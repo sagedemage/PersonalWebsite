@@ -24,6 +24,7 @@ export default defineConfig([
           ignoreRestSiblings: false,
         },
       ],
+      "prefer-const": "error",
     },
   },
   {
