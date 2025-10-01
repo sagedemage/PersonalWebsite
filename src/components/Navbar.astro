@@ -99,15 +99,15 @@ import github from "../assets/icons/github.webp";
     </a>
   </div>
   <script>
-    let dropdown_button = document.querySelector(".dropdown-btn");
+    const dropdown_button = document.querySelector(".dropdown-btn");
     dropdown_button!.addEventListener("click", () => {
-      let dropdown_menu = document.getElementById("dropdown-menu");
+      const dropdown_menu = document.getElementById("dropdown-menu");
       dropdown_menu!.style.display = "block";
     });
 
     window.onclick = function (event) {
       if (!(event.target as HTMLButtonElement).matches(".dropdown-btn")) {
-        let dropdown_menu = document.getElementById("dropdown-menu");
+        const dropdown_menu = document.getElementById("dropdown-menu");
         dropdown_menu!.style.display = "none";
       }
     };
