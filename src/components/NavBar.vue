@@ -24,7 +24,7 @@ const open_and_close_nav_menu = () => {
           aria-label="Dropdown Button"
           @click="open_and_close_nav_menu"
         >
-          <i class="dropdown-btn fa fa-bars"></i>
+          <i class="dropdown-btn fa fa-bars" />
         </button>
         <div
           id="dropdown-menu"
@@ -44,7 +44,7 @@ const open_and_close_nav_menu = () => {
         Salmaan Saeed
       </a>
     </div>
-    <div class="navbar-center"></div>
+    <div class="navbar-center" />
     <div class="navbar-right">
       <a target="_blank" href="https://github.com/sagedemage">
         <img
@@ -53,7 +53,7 @@ const open_and_close_nav_menu = () => {
           alt="my github profile"
           width="35"
           height="35"
-        />
+        >
       </a>
 
       <a
@@ -66,7 +66,7 @@ const open_and_close_nav_menu = () => {
           alt="my linkedin profile"
           width="35"
           height="35"
-        />
+        >
       </a>
     </div>
   </div>

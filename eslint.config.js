@@ -18,6 +18,7 @@ export default defineConfig([
       "@stylistic/quotes": ["error", "double"],
       "@stylistic/no-tabs": "error",
       "@stylistic/semi": ["error", "always"],
+      "vue/max-attributes-per-line": "off",
       "no-unused-vars": [
         "error",
         {
