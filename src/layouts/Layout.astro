@@ -1,11 +1,17 @@
 ---
-interface Props {
+import type { MDXLayoutProps } from "astro";
+
+type Props = MDXLayoutProps<{
   title: string;
-}
-const { title } = Astro.props;
+  description?: string;
+}>;
+
+const { frontmatter } = Astro.props as Props;
 
 import "../styles/global.css";
 import Navbar from "../components/Navbar.astro";
+
+const page_title = frontmatter.title || "Salmaan Saeed";
 ---
 
 <!doctype html>
@@ -20,7 +26,7 @@ import Navbar from "../components/Navbar.astro";
     />
     <meta name="description" content="Salmaan's Personal Website" />
     <meta name="generator" content={Astro.generator} />
-    <title>{title}</title>
+    <title>{page_title}</title>
     <style>
       html {
         font-family:

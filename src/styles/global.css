@@ -64,3 +64,12 @@ li > p {
   margin-top: 0;
   margin-bottom: 0;
 }
+
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+strong {
+  color: rgb(54, 65, 83);
+}
