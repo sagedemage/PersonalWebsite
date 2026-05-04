@@ -53,7 +53,7 @@ const open_and_close_nav_menu = () => {
           alt="my github profile"
           width="35"
           height="35"
-        />
+        >
       </a>
 
       <a
@@ -66,7 +66,7 @@ const open_and_close_nav_menu = () => {
           alt="my linkedin profile"
           width="35"
           height="35"
-        />
+        >
       </a>
     </div>
   </div>
