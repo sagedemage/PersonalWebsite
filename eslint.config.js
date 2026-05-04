@@ -2,9 +2,11 @@ import { defineConfig } from "eslint/config";
 import parser from "astro-eslint-parser";
 import eslintPluginAstro from "eslint-plugin-astro";
 import stylistic from "@stylistic/eslint-plugin";
+import pluginVue from "eslint-plugin-vue";
 
 export default defineConfig([
   ...eslintPluginAstro.configs.recommended,
+  ...pluginVue.configs["flat/recommended"],
   {
     plugins: {
       "@stylistic": stylistic,

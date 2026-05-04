@@ -29,6 +29,12 @@
     }
   },
   {
+    "files": "*.vue",
+    "options": {
+      "parser": "vue"
+    }
+  },
+  {
     "files": "*.json",
     "options": {
       "parser": "json"
