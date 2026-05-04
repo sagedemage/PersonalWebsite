@@ -34,7 +34,7 @@ pnpm build
 ### lighthouse-ci
 Run lighthouse-ci for the website
 ```
-npx lhci autorun --config lighthouserc.cjs
+pnpm lhci autorun --config lighthouserc.cjs
 ```
 
 ## Dev Toolbar
