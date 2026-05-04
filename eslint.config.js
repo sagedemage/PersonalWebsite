@@ -19,6 +19,7 @@ export default defineConfig([
       "@stylistic/no-tabs": "error",
       "@stylistic/semi": ["error", "always"],
       "vue/max-attributes-per-line": "off",
+      "vue/html-self-closing": "off",
       "no-unused-vars": [
         "error",
         {
