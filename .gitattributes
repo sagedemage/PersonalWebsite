@@ -1,0 +1,6 @@
+# Force LF for all text files
+* text eol=lf
+
+# Binary files still excluded
+*.png binary
+*.jpg binary
