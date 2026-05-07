@@ -21,4 +21,4 @@ jobs:
     - name: Install modules
       run: pnpm install
     - name: Run ESLint
-      run: npx eslint --ext .astro src/
+      run: pnpm lint
