@@ -7,7 +7,7 @@
   "useTabs": false,
   "trailingComma": "es5",
   "semi": true,
-  "endOfLine": "lf",
+  "endOfLine": "crlf",
   "plugins": ["prettier-plugin-astro"],
   "overrides": [
   {
