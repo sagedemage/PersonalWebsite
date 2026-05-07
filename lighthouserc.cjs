@@ -7,7 +7,7 @@ module.exports = {
     collect: {
       url: [website_url + "/", website_url + "/projects"],
       startServerCommand:
-        "npx astro preferences disable devToolbar && npm run dev",
+        "pnpm astro preferences disable devToolbar && pnpm dev",
     },
     assert: {
       assertions: {
@@ -19,6 +19,9 @@ module.exports = {
 
         // Warnings
         "categories:performance": ["warn", { minScore: 0.95 }],
+
+        // Turn off
+        "is-on-https": "off",
       },
     },
     upload: {

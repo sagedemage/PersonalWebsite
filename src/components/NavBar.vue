@@ -2,6 +2,7 @@
 import linkedin from "../assets/icons/linkedin.webp";
 import github from "../assets/icons/github.webp";
 import { ref } from "vue";
+import { Image } from "@unpic/vue";
 
 const nav_menu_display = ref("none");
 
@@ -47,12 +48,14 @@ const open_and_close_nav_menu = () => {
     <div class="navbar-center" />
     <div class="navbar-right">
       <a target="_blank" href="https://github.com/sagedemage">
-        <img
+        <Image
           class="ml-0.5 mr-0.5 float-left"
           :src="github.src"
+          layout="constrained"
           alt="my github profile"
           width="35"
           height="35"
+          priority
         />
       </a>
 
@@ -60,12 +63,14 @@ const open_and_close_nav_menu = () => {
         target="_blank"
         href="https://www.linkedin.com/in/salmaan-saeed-6a5582197/"
       >
-        <img
+        <Image
           class="ml-0.5 mr-0.5 float-left"
           :src="linkedin.src"
+          layout="constrained"
           alt="my linkedin profile"
           width="35"
           height="35"
+          priority
         />
       </a>
     </div>
