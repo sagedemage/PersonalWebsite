@@ -21,7 +21,7 @@ module.exports = {
         "categories:performance": ["warn", { minScore: 0.95 }],
 
         // Turn off
-        "is-on-https": "off"
+        "is-on-https": "off",
       },
     },
     upload: {
