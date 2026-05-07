@@ -19,6 +19,7 @@
     "@playform/compress": "^0.1.9",
     "@tailwindcss/typography": "^0.5.16",
     "@tailwindcss/vite": "^4.1.13",
+    "@unpic/vue": "^1.0.0",
     "astro": "^5.14.1",
     "eslint-plugin-vue": "^10.9.0",
     "prettier-plugin-vue": "^1.1.6",
