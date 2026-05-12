@@ -1,6 +1,4 @@
 .output
-*.png
-*.PNG
 *.xcf
 *.kra
 *.jpg
