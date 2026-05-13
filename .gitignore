@@ -3,6 +3,7 @@
 *.kra
 *.jpg
 *.svg
+*.webp
 *.*~
 
 # astro
