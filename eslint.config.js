@@ -20,6 +20,7 @@ export default defineConfig([
       "@stylistic/semi": ["error", "always"],
       "vue/max-attributes-per-line": "off",
       "vue/html-self-closing": "off",
+      "astro/missing-client-only-directive-value": "off",
       "no-unused-vars": [
         "error",
         {
