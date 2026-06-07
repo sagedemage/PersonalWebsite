@@ -11,12 +11,12 @@ const open_and_close_nav_menu = () => {
   }
 };
 
-const dropdown_button_element = useTemplateRef("dropdown-button")
+const dropdown_button_element = useTemplateRef("dropdown-button");
 document.body.addEventListener("click", function(event) {
   if (dropdown_button_element.value.contains(event.target) === false) {
     nav_menu_display.value = "none";
   }
-})
+});
 </script>
 
 <template>
