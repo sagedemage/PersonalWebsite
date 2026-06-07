@@ -1,8 +1,5 @@
 <script setup>
-import linkedin from "../assets/icons/linkedin.png";
-import github from "../assets/icons/github.png";
 import { ref } from "vue";
-import { Image } from "@unpic/vue";
 
 const nav_menu_display = ref("none");
 
@@ -46,34 +43,7 @@ const open_and_close_nav_menu = () => {
       </a>
     </div>
     <div class="navbar-center" />
-    <div class="navbar-right">
-      <a target="_blank" href="https://github.com/sagedemage">
-        <Image
-          class="ml-0.5 mr-0.5 float-left"
-          :src="github.src"
-          layout="constrained"
-          alt="my github profile"
-          width="35"
-          height="35"
-          priority
-        />
-      </a>
-
-      <a
-        target="_blank"
-        href="https://www.linkedin.com/in/salmaan-saeed-6a5582197/"
-      >
-        <Image
-          class="ml-0.5 mr-0.5 float-left"
-          :src="linkedin.src"
-          layout="constrained"
-          alt="my linkedin profile"
-          width="35"
-          height="35"
-          priority
-        />
-      </a>
-    </div>
+    <div class="navbar-right" />
   </div>
 </template>
 
