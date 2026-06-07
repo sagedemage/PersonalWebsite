@@ -55,7 +55,7 @@ const page_title = frontmatter.title || "Salmaan Saeed";
   </head>
   <body>
     <!-- Navbar -->
-    <NavBar client:load />
+    <NavBar client:only />
     <main class="prose mx-[16%] sm:mx-[12%] max-w-none mt-24">
       <slot />
     </main>

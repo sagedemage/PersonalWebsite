@@ -1,5 +1,5 @@
 <script setup>
-import { ref } from "vue";
+import { ref, useTemplateRef } from "vue";
 
 const nav_menu_display = ref("none");
 
@@ -10,6 +10,13 @@ const open_and_close_nav_menu = () => {
     nav_menu_display.value = "none";
   }
 };
+
+const dropdown_button_element = useTemplateRef("dropdown-button");
+document.body.addEventListener("click", function (event) {
+  if (dropdown_button_element.value.contains(event.target) === false) {
+    nav_menu_display.value = "none";
+  }
+});
 </script>
 
 <template>
@@ -18,6 +25,8 @@ const open_and_close_nav_menu = () => {
     <div class="navbar-left">
       <div class="dropdown inline-block">
         <button
+          id="dropdown-button"
+          ref="dropdown-button"
           class="dropdown-btn px-[14px] py-[8px] btn rounded-full hover:bg-gray-200 bg-transparent border-transparent shadow-none hover:shadow-sm shadow-white"
           aria-label="Dropdown Button"
           @click="open_and_close_nav_menu"
