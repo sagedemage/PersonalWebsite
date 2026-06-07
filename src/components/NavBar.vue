@@ -1,8 +1,5 @@
 <script setup>
-import linkedin from "../assets/icons/linkedin.png";
-import github from "../assets/icons/github.png";
 import { ref } from "vue";
-import { Image } from "@unpic/vue";
 
 const nav_menu_display = ref("none");
 
