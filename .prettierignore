@@ -1,7 +1,8 @@
 *.yml
 *.yaml
 *.ts
-*.md
+README.md
+.github/ISSUE_TEMPLATE/*.md
 *.ico
 *.webp
 package.json
