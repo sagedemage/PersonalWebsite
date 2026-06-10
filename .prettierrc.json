@@ -17,6 +17,18 @@
     }
   },
   {
+    "files": "*.mdx",
+    "options": {
+      "parser": "mdx"
+    }
+  },
+  {
+    "files": "*.md",
+    "options": {
+      "parser": "markdown"
+    }
+  },
+  {
     "files": "*.css",
     "options": {
       "parser": "css"

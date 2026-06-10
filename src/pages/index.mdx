@@ -10,45 +10,48 @@ import github from "../assets/icons/github.png";
 import salmaan from "../assets/images/salmaan_saeed.png";
 import wan_network from "../assets/images/wan_network_cisco_packet_tracer.png";
 
-<div class="mx-auto text-center">
-  <p class="text-2xl font-bold mt-0">{frontmatter.title}</p>
-  <p class="text-lg mb-2 mt-2">Alumni of NJIT</p>
-  <p class="text-lg mb-2 mt-2">Contact & Profiles:</p>
-  <div class="flex item-center justify-center">
-    <a target="_blank" href="https://github.com/sagedemage">
-      <Image
-        class="ml-0.5 mr-0.5 float-left"
-        src={github}
-        alt="my github profile"
-        layout="constrained"
-        width={35}
-        height={35}
-      />
-    </a>
-    <a
-      target="_blank"
-      href="https://www.linkedin.com/in/salmaan-saeed-6a5582197/"
-    >
-      <Image
-        class="ml-0.5 mr-0.5 float-left"
-        src={linkedin}
-        alt="my linkedin profile"
-        layout="constrained"
-        width={35}
-        height={35}
-      />
-    </a>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-4 lg:max-w-[50%] mx-auto">
+  <div class="text-center">
+    <p class="text-2xl font-bold mt-0">{frontmatter.title}</p>
+    <p class="text-lg mb-2 mt-2">Alumni of NJIT</p>
+    <p class="text-lg mb-2 mt-2">Contact & Profiles:</p>
+    <div class="flex item-center justify-center">
+      <a target="_blank" href="https://github.com/sagedemage">
+        <Image
+          class="ml-0.5 mr-0.5 float-left"
+          src={github}
+          alt="my github profile"
+          layout="constrained"
+          width={35}
+          height={35}
+        />
+      </a>
+      <a
+        target="_blank"
+        href="https://www.linkedin.com/in/salmaan-saeed-6a5582197/"
+      >
+        <Image
+          class="ml-0.5 mr-0.5 float-left"
+          src={linkedin}
+          alt="my linkedin profile"
+          layout="constrained"
+          width={35}
+          height={35}
+        />
+      </a>
+    </div>
+  </div>
+  <div>
+    <Image
+      class="mx-auto max-w-full h-auto block mt-2"
+      src={salmaan}
+      alt="Salmaan Saeed"
+      layout="constrained"
+      width={234}
+      height={313}
+    />
   </div>
 </div>
-
-<Image
-  class="mx-auto max-w-full h-auto block mt-2"
-  src={salmaan}
-  alt="Salmaan Saeed"
-  layout="constrained"
-  width={234}
-  height={313}
-/>
 
 <hr class="h-px my-8 bg-gray-300 border-0" />
 
@@ -67,10 +70,10 @@ is to become a Desktop Support Technician. My long term goal is to become a
 Network Engineer.
 
 <Image
-  class="mx-auto max-w-full h-auto"
+  class="mx-auto h-auto w-full lg:w-[50%]"
   src={wan_network}
   alt="Salmaan Saeed WAN Network Cisco Packet Tracer"
   layout="constrained"
-  width={612}
-  height={754}
+  width={824}
+  height={469}
 />
