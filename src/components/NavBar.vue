@@ -38,7 +38,7 @@ document.body.addEventListener("click", function (event) {
           class="dropdown-content bg-cornflower-blue rounded-md shadow-sm"
           :style="{ display: nav_menu_display }"
         >
-          <a class="!text-gray-900" href="/PersonalWebsite"> Home </a>
+          <a class="!text-gray-900" href="/PersonalWebsite">Home</a>
           <a class="!text-gray-900" href="/PersonalWebsite/projects">
             Projects
           </a>
