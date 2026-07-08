@@ -9,7 +9,7 @@ type Props = MDXLayoutProps<{
 const { frontmatter } = Astro.props as Props;
 
 import "../styles/global.css";
-import NavBar from "../components/NavBar.vue";
+import NavBar from "../components/NavBar";
 
 const page_title = frontmatter.title || "Salmaan Saeed";
 ---

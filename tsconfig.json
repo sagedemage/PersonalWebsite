@@ -4,7 +4,8 @@
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "target": "es6",
-    "jsx": "preserve"
+    "jsx": "preserve",
+    "jsxImportSource": "solid-js"
   },
   "extends": "astro/tsconfigs/strict",
   "include": [".astro/types.d.ts", "**/*"],

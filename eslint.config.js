@@ -1,17 +1,15 @@
 import { defineConfig } from "eslint/config";
-import parser from "astro-eslint-parser";
+import * as astroParser from "astro-eslint-parser";
 import eslintPluginAstro from "eslint-plugin-astro";
 import stylistic from "@stylistic/eslint-plugin";
-import pluginVue from "eslint-plugin-vue";
+import pluginSolid from "eslint-plugin-solid";
 
 export default defineConfig([
   ...eslintPluginAstro.configs.recommended,
-  ...pluginVue.configs["flat/recommended"],
   {
     plugins: {
       "@stylistic": stylistic,
     },
-
     rules: {
       eqeqeq: "error",
       curly: "error",
@@ -27,6 +25,8 @@ export default defineConfig([
           vars: "all",
           args: "after-used",
           ignoreRestSiblings: false,
+          varsIgnorePattern: "^_",
+          argsIgnorePattern: "^_",
         },
       ],
       "prefer-const": "error",
@@ -36,7 +36,7 @@ export default defineConfig([
     files: ["**/*.astro"],
 
     languageOptions: {
-      parser: parser,
+      parser: astroParser,
       sourceType: "module",
       ecmaVersion: 2022,
 
@@ -46,5 +46,9 @@ export default defineConfig([
         extraFileExtensions: [".astro"],
       },
     },
+  },
+  {
+    files: ["**/*.{js,jsx}"],
+    ...pluginSolid.configs["flat/recommended"],
   },
 ]);
