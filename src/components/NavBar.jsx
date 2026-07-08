@@ -6,16 +6,16 @@ function NavBar() {
 
   const open_and_close_nav_menu = () => {
     if (nav_menu_display() === "none") {
-      setNavMenuDisplay((prev) => "block");
+      setNavMenuDisplay((_prev) => "block");
     } else if (nav_menu_display() === "block") {
-      setNavMenuDisplay((prev) => "none");
+      setNavMenuDisplay((_prev) => "none");
     }
   };
 
   let dropdown_button_element;
   document.body.addEventListener("click", function (event) {
     if (dropdown_button_element.contains(event.target) === false) {
-      setNavMenuDisplay((prev) => "none");
+      setNavMenuDisplay((_prev) => "none");
     }
   });
 
