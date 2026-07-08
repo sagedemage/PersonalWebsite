@@ -1,0 +1,38 @@
+.navbar_left {
+  float: left;
+}
+
+.navbar_right {
+  float: right;
+}
+
+.navbar {
+  width: 100%;
+  padding: 10px;
+}
+
+.dropdown_btn {
+  color: black;
+}
+
+.dropdown_content {
+  display: none;
+  position: absolute;
+  min-width: 160px;
+  z-index: 1;
+  padding: 10px;
+}
+
+.dropdown_content > a {
+  color: black;
+  /* top/bottom and right/left*/
+  padding: 3px 8px;
+  text-decoration: none;
+  display: block;
+  font-size: 14px;
+  border-radius: 4px;
+}
+
+.dropdown_content > a:hover {
+  background-color: rgba(22, 22, 22, 0.1);
+}

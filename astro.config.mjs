@@ -3,11 +3,11 @@ import tailwindcss from "@tailwindcss/vite";
 
 import mdx from "@astrojs/mdx";
 
-import vue from "@astrojs/vue";
+import solidJs from "@astrojs/solid-js";
 
 // https://astro.build/config
 export default defineConfig({
-  integrations: [mdx(), vue()],
+  integrations: [mdx(), solidJs()],
   site: "https://sagedemage.github.io",
   base: "/PersonalWebsite",
   vite: {
