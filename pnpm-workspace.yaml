@@ -5,3 +5,4 @@ allowBuilds:
 packages:
   - 'packages/*'
 trustPolicy: 'off'
+minimumReleaseAge: 0
