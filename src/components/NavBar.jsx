@@ -27,7 +27,7 @@ function NavBar() {
             <button
               id="dropdown-button"
               ref={dropdown_button_element}
-              class="dropdown-btn px-[14px] py-[8px] btn rounded-full hover:bg-gray-200 bg-transparent border-transparent shadow-none hover:shadow-sm shadow-white"
+              class={`${styles.dropdown_btn} px-[14px] py-[8px] btn rounded-full hover:bg-gray-200 bg-transparent border-transparent shadow-none hover:shadow-sm shadow-white`}
               aria-label="Dropdown Button"
               onClick={open_and_close_nav_menu}
             >
