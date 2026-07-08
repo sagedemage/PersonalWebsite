@@ -2,7 +2,7 @@ import { defineConfig } from "eslint/config";
 import * as astroParser from "astro-eslint-parser";
 import eslintPluginAstro from "eslint-plugin-astro";
 import stylistic from "@stylistic/eslint-plugin";
-import pluginSolid from 'eslint-plugin-solid';
+import pluginSolid from "eslint-plugin-solid";
 
 export default defineConfig([
   ...eslintPluginAstro.configs.recommended,
@@ -26,7 +26,7 @@ export default defineConfig([
           args: "after-used",
           ignoreRestSiblings: false,
           varsIgnorePattern: "^_",
-          argsIgnorePattern: "^_"
+          argsIgnorePattern: "^_",
         },
       ],
       "prefer-const": "error",
@@ -50,5 +50,5 @@ export default defineConfig([
   {
     files: ["**/*.{js,jsx}"],
     ...pluginSolid.configs["flat/recommended"],
-  }
+  },
 ]);
