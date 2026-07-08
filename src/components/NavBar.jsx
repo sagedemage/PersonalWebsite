@@ -1,25 +1,25 @@
-import "../styles/navbar.css"
+import "../styles/navbar.css";
 import { createSignal } from "solid-js";
 
 function NavBar() {
-  const [nav_menu_display, setNavMenuDisplay] = createSignal("none");  
+  const [nav_menu_display, setNavMenuDisplay] = createSignal("none");
 
   const open_and_close_nav_menu = () => {
     if (nav_menu_display() === "none") {
-      setNavMenuDisplay((prev) => "block")
+      setNavMenuDisplay((prev) => "block");
     } else if (nav_menu_display() === "block") {
-      setNavMenuDisplay((prev) => "none")
+      setNavMenuDisplay((prev) => "none");
     }
   };
 
   let dropdown_button_element;
   document.body.addEventListener("click", function (event) {
     if (dropdown_button_element.contains(event.target) === false) {
-      setNavMenuDisplay((prev) => "none")
+      setNavMenuDisplay((prev) => "none");
     }
   });
 
-  return(
+  return (
     <>
       <div class="navbar bg-base-100 shadow-sm bg-cornflower-blue fixed">
         <div class="navbar-left">
@@ -36,9 +36,11 @@ function NavBar() {
             <div
               id="dropdown-menu"
               class={"dropdown-content bg-cornflower-blue rounded-md shadow-sm"}
-              style={{display: nav_menu_display()}}
+              style={{ display: nav_menu_display() }}
             >
-              <a class="!text-gray-900" href="/PersonalWebsite">Home</a>
+              <a class="!text-gray-900" href="/PersonalWebsite">
+                Home
+              </a>
               <a class="!text-gray-900" href="/PersonalWebsite/projects">
                 Projects
               </a>
