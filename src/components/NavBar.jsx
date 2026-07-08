@@ -1,4 +1,4 @@
-import styles from "../styles/styles.module.css"
+import "../styles/navbar.css"
 import { createSignal } from "solid-js";
 
 function NavBar() {
@@ -21,21 +21,21 @@ function NavBar() {
 
   return(
     <>
-      <div class={`${styles.navbar} bg-base-100 shadow-sm bg-cornflower-blue fixed`}>
-        <div class={styles.navbar_left}>
+      <div class="navbar bg-base-100 shadow-sm bg-cornflower-blue fixed">
+        <div class="navbar-left">
           <div class="dropdown inline-block">
             <button
               id="dropdown-button"
               ref={dropdown_button_element}
-              class={`${styles.dropdown_btn} px-[14px] py-[8px] btn rounded-full hover:bg-gray-200 bg-transparent border-transparent shadow-none hover:shadow-sm shadow-white`}
+              class="dropdown-btn px-[14px] py-[8px] btn rounded-full hover:bg-gray-200 bg-transparent border-transparent shadow-none hover:shadow-sm shadow-white"
               aria-label="Dropdown Button"
               onClick={open_and_close_nav_menu}
             >
-              <i class={`${styles.dropdown_btn} fa fa-bars`} />
+              <i class="dropdown-btn fa fa-bars" />
             </button>
             <div
               id="dropdown-menu"
-              class={`${styles.dropdown_content} bg-cornflower-blue rounded-md shadow-sm`}
+              class={"dropdown-content bg-cornflower-blue rounded-md shadow-sm"}
               style={{display: nav_menu_display()}}
             >
               <a class="!text-gray-900" href="/PersonalWebsite">Home</a>
@@ -52,7 +52,7 @@ function NavBar() {
           </a>
         </div>
         <div class="navbar-center" />
-        <div class={styles.navbar_right} />
+        <div class="navbar-right" />
       </div>
     </>
   );

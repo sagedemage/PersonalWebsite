@@ -1,8 +1,8 @@
-.navbar_left {
+.navbar-left {
   float: left;
 }
 
-.navbar_right {
+.navbar-right {
   float: right;
 }
 
@@ -11,11 +11,11 @@
   padding: 10px;
 }
 
-.dropdown_btn {
+.dropdown-btn {
   color: black;
 }
 
-.dropdown_content {
+.dropdown-content {
   display: none;
   position: absolute;
   min-width: 160px;
@@ -23,7 +23,7 @@
   padding: 10px;
 }
 
-.dropdown_content > a {
+.dropdown-content > a {
   color: black;
   /* top/bottom and right/left*/
   padding: 3px 8px;
@@ -33,6 +33,6 @@
   border-radius: 4px;
 }
 
-.dropdown_content > a:hover {
+.dropdown-content > a:hover {
   background-color: rgba(22, 22, 22, 0.1);
 }
