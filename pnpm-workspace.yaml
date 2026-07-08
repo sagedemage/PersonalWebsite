@@ -4,3 +4,4 @@ allowBuilds:
   sharp: true
 packages:
   - 'packages/*'
+minimumReleaseAge: 1440
