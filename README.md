@@ -28,14 +28,6 @@ Build web app
 pnpm build
 ```
 
-## Run lighthouse locally
-
-### lighthouse-ci
-Run lighthouse-ci for the website
-```
-pnpm lhci autorun --config lighthouserc.cjs
-```
-
 ## Dev Toolbar
 To disable the dev toolbar for a specific project on your PC:
 ```
