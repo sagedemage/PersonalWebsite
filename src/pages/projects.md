@@ -1,14 +1,12 @@
 ---
 title: "Projects"
-description: "Projects Page"
-layout: ../layouts/Layout.astro
+description: "The projects page to show the projects I have done."
+layout: ../layouts/MyLayout.astro
 ---
 
-<h1>{frontmatter.title}</h1>
-**Cisco Packet Tracer Tutorials**
-
-<span class="md:float-right">Sep 10, 2025 - Current</span>
-
+# Projects
+**Cisco Packet Tracer Tutorials**\
+Sep 10, 2025 - Current\
 Documentation: [Cisco Packet Tracer Tutorials](https://sagedemage.github.io/cisco_packet_tracer_tutorials/)
 
 Tasks:
@@ -18,10 +16,8 @@ Tasks:
 - Configured and verified VLANs and interswitch connectivity for the networks
 - Configured IPv4 and IPv6 addressing for the network appliances and end devices
 
-**Setup Linux Servers with Ansible and VMware**
-
-<span class="md:float-right">June 26, 2025 - June 27, 2025</span>
-
+**Setup Linux Servers with Ansible and VMware**\
+June 26, 2025 - June 27, 2025\
 GitHub Repository: [setup_linux_servers_ansible_vmware](https://github.com/sagedemage/setup_linux_servers_ansible_vmware)
 
 Tasks:
@@ -30,10 +26,8 @@ Tasks:
 - Studied the networking architecture of VMware to help me setup SSH for Ansible
 - Setup SSH for Ansible to connect to the virtual machines of Linux servers
 
-**WAN Network Simulation - GNS3**
-
-<span class="md:float-right">Jun 10, 2025 - Jun 11, 2025</span>
-
+**WAN Network Simulation - GNS3**\
+Jun 10, 2025 - Jun 11, 2025\
 Documentation: [WAN Network Tutorial - GNS3](https://sagedemage.github.io/gns3_tutorials/wan_network_tutorial_gns3.html)
 
 Tasks:
@@ -43,10 +37,8 @@ Tasks:
 - Setup the IP addresses for the PCs to enable the communication between them
 - Verified the connectivity of the WAN network by pinging PCs to each other
 
-**Wave Data System**
-
-<span class="md:float-right">Aug 4, 2025 - Aug 23, 2025</span>
-
+**Wave Data System**\
+Aug 4, 2025 - Aug 23, 2025\
 GitHub Repository: [wave_data_system](https://github.com/sagedemage/wave_data_system)
 
 Tasks:
@@ -56,10 +48,8 @@ Tasks:
 - Programmed user authentication for the program with cookies
 - Wrote documentation to setup the hybrid cloud based system
 
-**Setup Kubernetes Cluster**
-
-<span class="md:float-right">June 2025 - July 2025</span>
-
+**Setup Kubernetes Cluster**\
+June 2025 - July 2025\
 GitHub Repository: [setup_kubernetes_cluster](https://github.com/sagedemage/setup_kubernetes_cluster)
 
 Tasks:
@@ -70,10 +60,8 @@ Tasks:
 - Harden the pods and networking of the cluster to ensure that it is safe and secure from cyber security threats
 - Utilized Docker for the containerization of applications like Nginx, MongoDB, and Prometheus
 
-**Setup Linux Servers Ansible**
-
-<span class="md:float-right">June 8, 2025 - June 17, 2025</span>
-
+**Setup Linux Servers Ansible**\
+June 8, 2025 - June 17, 2025\
 GitHub Repository: [setup_linux_servers_ansible](https://github.com/sagedemage/setup_linux_servers_ansible)
 
 Tasks:
@@ -82,10 +70,8 @@ Tasks:
 - Setup SSH for Ansible to connect to the virtual machines of Linux servers
 - Accessed the Apache and Nginx servers on my host computer via port forwarding
 
-**Setup LDAP Server (OpenLDAP)**
-
-<span class="md:float-right">Dec 2024 - Aug 2025</span>
-
+**Setup LDAP Server (OpenLDAP)**\
+Dec 2024 - Aug 2025\
 Documentation: [Setup a LDAP Server (OpenLDAP)](https://sagedemage.github.io/setup_ldap_server/)
 
 Tasks:
@@ -95,10 +81,8 @@ Tasks:
 - Utilized a virtual machine as a LDAP server via VirtualBox
 - Wrote documentation to setup the LDAP server
 
-**Steam Game Review (Systems Integration Class)**
-
-<span class="md:float-right">Sep 2023 - Dec 2023</span>
-
+**Steam Game Review (Systems Integration Class)**\
+Sep 2023 - Dec 2023\
 GitHub Repository: [steam_game_review](https://github.com/sagedemage/steam_game_review)
 
 Tasks:
