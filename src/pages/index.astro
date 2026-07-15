@@ -1,0 +1,90 @@
+---
+import MyLayout from "../layouts/MyLayout.astro";
+import { Image } from "astro:assets";
+import linkedin from "../assets/icons/linkedin.png";
+import github from "../assets/icons/github.png";
+import salmaan from "../assets/images/salmaan_saeed.png";
+import logical_topology from "../assets/images/cisco_packet_tracer_logical_topology/cisco_packet_tracer_logical_topology.png";
+---
+
+<MyLayout title="Home Page" description="The home page for Salmaan Saeed.">
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-4 lg:max-w-[50%] mx-auto">
+    <div class="text-center">
+      <p class="text-2xl font-bold mt-0">Salmaan Saeed</p>
+      <p class="text-lg mb-2 mt-2">Alumni of NJIT</p>
+      <p class="text-lg mb-2 mt-2">Contact & Profiles:</p>
+      <div class="flex item-center justify-center">
+        <a target="_blank" href="https://github.com/sagedemage">
+          <Image
+            class="ml-0.5 mr-0.5 float-left"
+            src={github}
+            alt="my github profile"
+            layout="constrained"
+            width={35}
+            height={35}
+          />
+        </a>
+        <a
+          target="_blank"
+          href="https://www.linkedin.com/in/salmaan-saeed-6a5582197/"
+        >
+          <Image
+            class="ml-0.5 mr-0.5 float-left"
+            src={linkedin}
+            alt="my linkedin profile"
+            layout="constrained"
+            width={35}
+            height={35}
+          />
+        </a>
+      </div>
+    </div>
+    <div>
+      <Image
+        class="mx-auto max-w-full h-auto block mt-2"
+        src={salmaan}
+        alt="Salmaan Saeed"
+        layout="constrained"
+        width={234}
+        height={313}
+      />
+    </div>
+  </div>
+
+  <hr class="h-px my-8 bg-gray-300 border-0" />
+
+  <p>
+    Hi, my name is Salmaan Saeed. I'm an alumni of **New Jersey Institute of
+    Technology**. I have a Bachelor of Science in **Information Technology**. I
+    have the CompTIA Network+ certification to prove that I am knowledgeable in
+    computer networking and IP addressing.
+  </p>
+
+  <br />
+
+  <p>
+    I have an extensive knowledge and experience in troubleshooting networking
+    issues with IT infrastructure. I am knowledgeable with the routing protocols
+    and applications protocols used in network systems. I am familiar with the
+    CompTIA troubleshooting methodology to diagnose and solve networking issues.
+    I have experience setting up the automation of Linux servers on virtual
+    machines via Ansible. This project required me to understand the networking
+    archiecture of VMware in order to access the virtual machines via SSH.
+  </p>
+
+  <br />
+
+  <p>
+    I am interested in computer networking because I find it fascinating how
+    computers and routers communicate with each other in network systems.
+  </p>
+
+  <Image
+    class="mx-auto h-auto w-full lg:w-[50%]"
+    src={logical_topology}
+    alt="Cisco Packet Tracer Logical Topology"
+    layout="constrained"
+    width={824}
+    height={469}
+  />
+</MyLayout>
