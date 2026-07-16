@@ -7,7 +7,7 @@ layout: ../layouts/MyLayout.astro
 # Projects
 
 **Cisco Packet Tracer Tutorials**\
-Sep 10, 2025 - Current\
+Sep 2025 - Current\
 Documentation: [Cisco Packet Tracer Tutorials](https://sagedemage.github.io/cisco_packet_tracer_tutorials/)
 
 Tasks:
@@ -18,7 +18,7 @@ Tasks:
 - Configured IPv4 and IPv6 addressing for the network appliances and end devices
 
 **Setup Linux Servers with Ansible and VMware**\
-June 26, 2025 - June 27, 2025\
+June 2026 - July 2026\
 GitHub Repository: [setup_linux_servers_ansible_vmware](https://github.com/sagedemage/setup_linux_servers_ansible_vmware)
 
 Tasks:
