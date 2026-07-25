@@ -6,8 +6,19 @@ layout: ../layouts/MyLayout.astro
 
 # Projects
 
+**Hospital Network Simulation**\
+Jul 24, 2026 &ndash; Current\
+Documentation: [Hospital Network Simulation](https://sagedemage.github.io/hospital_network_simulation/)
+
+Tasks:
+
+- Wrote documentation to learn how to configure a hospital network in Packet Tracer
+- Configured the IPSec VPN between the HQ and branch networks
+- Configured dynamic routing via OSPF for the networks
+- Configured DHCP for the HQ and branch networks
+
 **Cisco Packet Tracer Tutorials**\
-Sep 2025 - Current\
+Sep 2025 &ndash; July 2026\
 Documentation: [Cisco Packet Tracer Tutorials](https://sagedemage.github.io/cisco_packet_tracer_tutorials/)
 
 Tasks:
@@ -18,7 +29,7 @@ Tasks:
 - Configured IPv4 and IPv6 addressing for the network appliances and end devices
 
 **Setup Linux Servers with Ansible and VMware**\
-June 2026 - July 2026\
+June 2026 &ndash; July 2026\
 GitHub Repository: [setup_linux_servers_ansible_vmware](https://github.com/sagedemage/setup_linux_servers_ansible_vmware)
 
 Tasks:
@@ -27,19 +38,19 @@ Tasks:
 - Studied the networking architecture of VMware to help me setup SSH for Ansible
 - Setup SSH for Ansible to connect to the virtual machines of Linux servers
 
-**WAN Network Simulation - GNS3**\
-Jun 10, 2025 - Jun 11, 2025\
-Documentation: [WAN Network Tutorial - GNS3](https://sagedemage.github.io/gns3_tutorials/wan_network_tutorial_gns3.html)
+**GNS3 Tutorials**\
+June 2026 &ndash; July 2026\
+Documentation: [GNS3 Tutorials](https://sagedemage.github.io/gns3_tutorials/)
 
 Tasks:
 
-- Designed a WAN network where PCs can communicate with each other in different LANs
-- Configured the IP addressing and routing for the routers to handle the forwarding of packets
+- Wrote documentation to learn how to configure networks in Packet Tracer
+- Configured static and dynamic routing via OSPF for the networks
 - Setup the IP addresses for the PCs to enable the communication between them
-- Verified the connectivity of the WAN network by pinging PCs to each other
+- Verified the connectivity of the network by pinging PCs to each other
 
 **Wave Data System**\
-Aug 4, 2025 - Aug 23, 2025\
+Aug 4, 2025 &ndash; Aug 23, 2025\
 GitHub Repository: [wave_data_system](https://github.com/sagedemage/wave_data_system)
 
 Tasks:
@@ -50,19 +61,18 @@ Tasks:
 - Wrote documentation to setup the hybrid cloud based system
 
 **Setup Kubernetes Cluster**\
-June 2025 - July 2025\
+June 2025 &ndash; July 2025\
 GitHub Repository: [setup_kubernetes_cluster](https://github.com/sagedemage/setup_kubernetes_cluster)
 
 Tasks:
 
-- Automated the deployment, management, scaling, and networking of containers via container orchestration
+- Automated the networking and management of containers via container orchestration
 - Monitored the resources of the Kubernetes cluster with Prometheus and Grafana
 - Developed technical documentation for setting up the Kubernetes cluster
-- Harden the pods and networking of the cluster to ensure that it is safe and secure from cyber security threats
-- Utilized Docker for the containerization of applications like Nginx, MongoDB, and Prometheus
+- Harden the pods and networking of the cluster to secure it from cyber security threats
 
 **Setup Linux Servers Ansible**\
-June 8, 2025 - June 17, 2025\
+June 2025 &ndash; Sep 2025\
 GitHub Repository: [setup_linux_servers_ansible](https://github.com/sagedemage/setup_linux_servers_ansible)
 
 Tasks:
@@ -72,7 +82,7 @@ Tasks:
 - Accessed the Apache and Nginx servers on my host computer via port forwarding
 
 **Setup LDAP Server (OpenLDAP)**\
-Dec 2024 - Aug 2025\
+Dec 2024 &ndash; Aug 2025\
 Documentation: [Setup a LDAP Server (OpenLDAP)](https://sagedemage.github.io/setup_ldap_server/)
 
 Tasks:
@@ -83,12 +93,12 @@ Tasks:
 - Wrote documentation to setup the LDAP server
 
 **Steam Game Review (Systems Integration Class)**\
-Sep 2023 - Dec 2023\
+Sep 2023 &ndash; Dec 2023\
 GitHub Repository: [steam_game_review](https://github.com/sagedemage/steam_game_review)
 
 Tasks:
 
-- Produced documentation on the project to aid my team members with development and configuration
-- Coordinated with my team members to prepare for the demonstration of the system to my professor
+- Produced documentation on the project to aid my team members with development
+- Coordinated with my team members to prepare for the demonstration to my professor
 - Assisted my team to connect the virtual machines in a network
-- Upgraded the website to HTTPS to improve the security of user authentication and secure users' data
+- Upgraded the website to HTTPS to improve the security of the web application
