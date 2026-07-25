@@ -7,7 +7,7 @@ layout: ../layouts/MyLayout.astro
 # Projects
 
 **Hospital Network Simulation**\
-Jul 24, 2026 - Current\
+Jul 24, 2026 &ndash; Current\
 Documentation: [Hospital Network Simulation](https://sagedemage.github.io/hospital_network_simulation/)
 
 Tasks:
@@ -18,7 +18,7 @@ Tasks:
 - Configured DHCP for the HQ and branch networks
 
 **Cisco Packet Tracer Tutorials**\
-Sep 2025 - July 2026\
+Sep 2025 &ndash; July 2026\
 Documentation: [Cisco Packet Tracer Tutorials](https://sagedemage.github.io/cisco_packet_tracer_tutorials/)
 
 Tasks:
@@ -29,7 +29,7 @@ Tasks:
 - Configured IPv4 and IPv6 addressing for the network appliances and end devices
 
 **Setup Linux Servers with Ansible and VMware**\
-June 2026 - July 2026\
+June 2026 &ndash; July 2026\
 GitHub Repository: [setup_linux_servers_ansible_vmware](https://github.com/sagedemage/setup_linux_servers_ansible_vmware)
 
 Tasks:
@@ -39,7 +39,7 @@ Tasks:
 - Setup SSH for Ansible to connect to the virtual machines of Linux servers
 
 **GNS3 Tutorials**\
-June 2026 - July 2026\
+June 2026 &ndash; July 2026\
 Documentation: [GNS3 Tutorials](https://sagedemage.github.io/gns3_tutorials/)
 
 Tasks:
@@ -50,7 +50,7 @@ Tasks:
 - Verified the connectivity of the network by pinging PCs to each other
 
 **Wave Data System**\
-Aug 4, 2025 - Aug 23, 2025\
+Aug 4, 2025 &ndash; Aug 23, 2025\
 GitHub Repository: [wave_data_system](https://github.com/sagedemage/wave_data_system)
 
 Tasks:
@@ -61,7 +61,7 @@ Tasks:
 - Wrote documentation to setup the hybrid cloud based system
 
 **Setup Kubernetes Cluster**\
-June 2025 - July 2025\
+June 2025 &ndash; July 2025\
 GitHub Repository: [setup_kubernetes_cluster](https://github.com/sagedemage/setup_kubernetes_cluster)
 
 Tasks:
@@ -72,7 +72,7 @@ Tasks:
 - Harden the pods and networking of the cluster to secure it from cyber security threats
 
 **Setup Linux Servers Ansible**\
-June 2025 - Sep 2025\
+June 2025 &ndash; Sep 2025\
 GitHub Repository: [setup_linux_servers_ansible](https://github.com/sagedemage/setup_linux_servers_ansible)
 
 Tasks:
@@ -82,7 +82,7 @@ Tasks:
 - Accessed the Apache and Nginx servers on my host computer via port forwarding
 
 **Setup LDAP Server (OpenLDAP)**\
-Dec 2024 - Aug 2025\
+Dec 2024 &ndash; Aug 2025\
 Documentation: [Setup a LDAP Server (OpenLDAP)](https://sagedemage.github.io/setup_ldap_server/)
 
 Tasks:
@@ -93,7 +93,7 @@ Tasks:
 - Wrote documentation to setup the LDAP server
 
 **Steam Game Review (Systems Integration Class)**\
-Sep 2023 - Dec 2023\
+Sep 2023 &ndash; Dec 2023\
 GitHub Repository: [steam_game_review](https://github.com/sagedemage/steam_game_review)
 
 Tasks:
